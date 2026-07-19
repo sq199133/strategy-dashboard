@@ -1,0 +1,25 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+.env
+.venv
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+D:\QClaw_Trading\temp\
+D:\QClaw_Trading\__pycache__\
+
+# Charts / Reports (生成文件，脚本可重建)
+D:\QClaw_Trading\charts\
+D:\QClaw_Trading\backtest_results\
+D:\QClaw_Trading\backtest_output\
+
+# Logs
+*.log
