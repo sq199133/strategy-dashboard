@@ -1,0 +1,52 @@
+{
+  "_comment": "RSRS策略引擎输出接口规范 v1.0",
+  "_usage": "其他Agent通过读取 signals/latest.json 获取每日信号",
+  "_spec_version": "1.0",
+  "_last_updated": "2026-07-18",
+
+  "// 顶层字段": {
+    "date": "信号生成日期 (YYYY-MM-DD)",
+    "rsrs": {
+      "zscore": "RSRS Z-Score (float, 带3位小数)",
+      "beta": "RSRS Beta斜率 (float, 带3位小数)",
+      "signal": "信号编码: 1=买入, 0=卖出, -1=观望",
+      "signal_text": "信号文字: 买入/卖出/观望",
+      "params": {
+        "n": "RSRS回归窗口 (int, 默认18)",
+        "m": "Z-score标准化窗口 (int, 默认900)",
+        "buy_thr": "买入阈值 (float, 默认0.7)",
+        "sell_thr": "卖出阈值 (float, 默认-1.0)"
+      }
+    },
+    "momentum": {
+      "c63_top": [
+        {
+          "code": "ETF代码 (str, 6位)",
+          "name": "ETF名称 (str)",
+          "score": "C63复合动量得分 (float)"
+        }
+      ],
+      "c63_all": "所有ETF的C63动量得分 {code: score}"
+    },
+    "valuation": {
+      "scores": "估值分位 {ETF名称: 分位数(float, 0~1)}",
+      "cheapest": {
+        "name": "最便宜ETF名称",
+        "score": "最便宜ETF分位 (0最便宜 / 1最贵)"
+      }
+    },
+    "portfolio": {
+      "market_active": "大盘择时是否激活 (bool)",
+      "holdings": [
+        {
+          "code": "持仓ETF代码",
+          "name": "持仓ETF名称",
+          "weight": "权重 (float)"
+        }
+      ],
+      "vol_scale": "波动率缩放因子 (float, 0.1~1.0)",
+      "total_position": "总仓位比例 (float)"
+    },
+    "advice": "综合策略建议 (str)"
+  }
+}
