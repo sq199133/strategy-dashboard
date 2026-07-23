@@ -1,0 +1,71 @@
+{
+  "is_results": [
+    [
+      "Strict Rotation (not in TOP3 → sell)",
+      {
+        "ann_ret": 17.82123251810097,
+        "total_ret": 164.157310225456,
+        "max_dd": -26.35096585548321,
+        "sharpe": 0.9554834554243353,
+        "win_rate": 57.32899022801303,
+        "n_buys": 523,
+        "n_sells": 520,
+        "n_weeks": 308
+      }
+    ],
+    [
+      "Keep-Qualified (still qual → keep)",
+      {
+        "ann_ret": 9.338647389500654,
+        "total_ret": 69.6913051353367,
+        "max_dd": -30.988058491720572,
+        "sharpe": 0.5285063660504057,
+        "win_rate": 56.67752442996743,
+        "n_buys": 96,
+        "n_sells": 93,
+        "n_weeks": 308
+      }
+    ]
+  ],
+  "oos_results": [
+    [
+      "Strict Rotation (not in TOP3 → sell)",
+      {
+        "ann_ret": 30.383911869522827,
+        "total_ret": 147.98227449092641,
+        "max_dd": -24.59646312629795,
+        "sharpe": 1.069435146918009,
+        "win_rate": 57.6271186440678,
+        "n_buys": 430,
+        "n_sells": 427,
+        "n_weeks": 178
+      }
+    ],
+    [
+      "Keep-Qualified (still qual → keep)",
+      {
+        "ann_ret": -3.607479027046645,
+        "total_ret": -11.818167296283377,
+        "max_dd": -27.883736860250096,
+        "sharpe": -0.2378099426556555,
+        "win_rate": 51.41242937853108,
+        "n_buys": 76,
+        "n_sells": 73,
+        "n_weeks": 178
+      }
+    ]
+  ],
+  "params": {
+    "LB": 3,
+    "MA_S": 5,
+    "MA_L": 21,
+    "MAX_DEV": 15.0,
+    "TOP_N": 3,
+    "VOL_RATIO": 1.5,
+    "SCORE_W1": 0.4,
+    "SCORE_W3": 0.4,
+    "SCORE_W8": 0.2,
+    "C_BONUS": 0.02,
+    "ATR_FILTER": 0.85
+  }
+}

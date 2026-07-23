@@ -1,0 +1,74 @@
+{
+  "config": {
+    "window": 756,
+    "threshold": 0,
+    "stopPct": 0.05
+  },
+  "pool": {
+    "total": 87,
+    "qualifying": 4,
+    "periodDays": 1539,
+    "periodYears": 6.11
+  },
+  "strategy": {
+    "sharpe": 0.46267759598631253,
+    "ann": 6.83828824269932,
+    "total": 49.77502866608676,
+    "maxDD": 22.78169281953331,
+    "activeDays": 958
+  },
+  "buyHold": {
+    "sharpe": -0.20374314001350743,
+    "ann": -15.786472184514523,
+    "total": -64.98159470833342,
+    "maxDD": 97.67264087329788,
+    "activeDays": 1537
+  },
+  "excessAnn": 22.6,
+  "topETFs": [
+    {
+      "code": "sz159901",
+      "name": "深证100ETF易方达",
+      "category": "宽基指数",
+      "years": 15.41,
+      "sharpe": 0.662,
+      "ann": 23.2,
+      "total": 2386.3,
+      "maxDD": 35.7,
+      "trades": 1513
+    },
+    {
+      "code": "sz159949",
+      "name": "创业板50ETF华安",
+      "category": "宽基指数",
+      "years": 6.11,
+      "sharpe": 0.649,
+      "ann": 18.1,
+      "total": 176.8,
+      "maxDD": 24.9,
+      "trades": 647
+    },
+    {
+      "code": "sh510050",
+      "name": "上证50ETF华夏",
+      "category": "宽基指数",
+      "years": 16.69,
+      "sharpe": 0.403,
+      "ann": 225.6,
+      "total": 36037718980.2,
+      "maxDD": 96.1,
+      "trades": 1924
+    },
+    {
+      "code": "sh510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "category": "宽基指数",
+      "years": 10.12,
+      "sharpe": 0.195,
+      "ann": 6,
+      "total": 81.1,
+      "maxDD": 31.4,
+      "trades": 805
+    }
+  ]
+}

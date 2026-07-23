@@ -1,0 +1,16 @@
+{
+  "factor_name": "量能趋势6-1m",
+  "param_label": "6-1m",
+  "top_k": 5,
+  "total_return_pct": -0.1,
+  "annual_return_pct": -0.0,
+  "sharpe": 0.356,
+  "max_drawdown_pct": -36.7,
+  "calmar": -0.0,
+  "win_rate_pct": 47.7,
+  "total_trades": 256,
+  "avg_holding_days": 39.6,
+  "n_months": 67,
+  "start_date": "2021-01-04",
+  "end_date": "2026-07-13"
+}

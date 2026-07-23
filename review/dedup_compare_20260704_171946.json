@@ -1,0 +1,55 @@
+{
+  "with_dedup": {
+    "ann_return": 0.0793,
+    "total_return": 0.3906,
+    "dd_max": -0.1186,
+    "sharpe": 0.6937,
+    "n_trades": 414,
+    "win_rate": 0.4976,
+    "yearly": {
+      "2021": -0.0309,
+      "2022": -0.0365,
+      "2023": 0.092,
+      "2024": 0.0334,
+      "2025": 0.3394,
+      "2026": -0.0147
+    },
+    "final_value": 1.3906,
+    "n_rebalance_dates": 252
+  },
+  "without_dedup": {
+    "ann_return": 0.0717,
+    "total_return": 0.353,
+    "dd_max": -0.1663,
+    "sharpe": 0.596,
+    "n_trades": 446,
+    "win_rate": 0.4888,
+    "yearly": {
+      "2021": -0.003,
+      "2022": -0.0957,
+      "2023": 0.0558,
+      "2024": 0.0113,
+      "2025": 0.4564,
+      "2026": -0.0349
+    },
+    "final_value": 1.353,
+    "n_rebalance_dates": 252
+  },
+  "config": {
+    "MA_S": 5,
+    "MA_L": 21,
+    "ATR_RATIO": 0.85,
+    "DEV_LIMIT": 0.15,
+    "VOL_RATIO_LIMIT": 1.5,
+    "SCORE_W": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "C_BONUS": 0.02,
+    "B1_BONUS": 0.0,
+    "COST_STOP": 0.92,
+    "HIGH_STOP": 0.9
+  },
+  "timestamp": "2026-07-04 17:19:46"
+}

@@ -1,0 +1,15 @@
+
+=== 510050 SH50 ===
+Keys: ['records', 'update']
+  records: len=2058, first={'date': '2018-01-02', 'open': 2.465, 'close': 2.508, 'high': 2.51, 'low': 2.463, 'vol': 4776970, 'a, last={'date': '2026-07-09', 'open': 3.014, 'high': 3.094, 'low': 3.012, 'close': 3.089, 'vol': 677928223.
+  update: 2026-07-09
+
+=== 510300 HS300 ===
+Keys: ['records', 'update']
+  records: len=2072, first={'date': '2018-01-02', 'open': 3.428, 'close': 3.478, 'high': 3.48, 'low': 3.426, 'vol': 1688766, 'a, last={'date': '2026-07-17', 'open': 4.72, 'high': 4.73, 'low': 4.589, 'close': 4.546, 'vol': 5521900, 'am
+  update: 2026-07-17
+
+=== 510500 ZZ500 ===
+Keys: ['records', 'update']
+  records: len=2072, first={'date': '2018-01-02', 'open': 5.531, 'close': 5.589, 'high': 5.592, 'low': 5.52, 'vol': 525743, 'am, last={'date': '2026-07-17', 'open': 7.915, 'high': 7.928, 'low': 7.505, 'close': 7.485, 'vol': 1308800, '
+  update: 2026-07-17

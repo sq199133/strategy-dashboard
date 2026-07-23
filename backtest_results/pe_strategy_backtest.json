@@ -1,0 +1,71 @@
+[
+  {
+    "strategy": {
+      "total_return": "56.11%",
+      "annual_return": "5.73%",
+      "volatility": "17.57%",
+      "sharpe": "0.21",
+      "max_drawdown": "-27.63%",
+      "trades": 33
+    },
+    "period": "2018-05 to 2026-04",
+    "months": 96,
+    "benchmark": {
+      "total_return": "49.86%",
+      "annual_return": "5.19%",
+      "volatility": "21.29%",
+      "sharpe": "0.15",
+      "max_drawdown": "-38.91%"
+    },
+    "excess_return": "0.54%",
+    "current_pe": 32.68,
+    "current_percentile": "65.3%",
+    "current_position": "26%"
+  },
+  {
+    "strategy": {
+      "total_return": "58.16%",
+      "annual_return": "5.90%",
+      "volatility": "18.79%",
+      "sharpe": "0.21",
+      "max_drawdown": "-25.02%",
+      "trades": 33
+    },
+    "period": "2018-05 to 2026-04",
+    "months": 96,
+    "benchmark": {
+      "total_return": "64.26%",
+      "annual_return": "6.40%",
+      "volatility": "23.41%",
+      "sharpe": "0.19",
+      "max_drawdown": "-34.82%"
+    },
+    "excess_return": "-0.50%",
+    "current_pe": 32.68,
+    "current_percentile": "65.3%",
+    "current_position": "26%"
+  },
+  {
+    "strategy": {
+      "total_return": "69.50%",
+      "annual_return": "6.82%",
+      "volatility": "20.87%",
+      "sharpe": "0.23",
+      "max_drawdown": "-31.06%",
+      "trades": 33
+    },
+    "period": "2018-05 to 2026-04",
+    "months": 96,
+    "benchmark": {
+      "total_return": "69.00%",
+      "annual_return": "6.78%",
+      "volatility": "25.74%",
+      "sharpe": "0.19",
+      "max_drawdown": "-42.27%"
+    },
+    "excess_return": "0.04%",
+    "current_pe": 32.68,
+    "current_percentile": "65.3%",
+    "current_position": "26%"
+  }
+]

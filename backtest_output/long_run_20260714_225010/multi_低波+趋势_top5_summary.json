@@ -1,0 +1,17 @@
+{
+  "factor_name": "Multi_低波+趋势",
+  "param_label": "低波+趋势",
+  "top_k": 5,
+  "total_return_pct": 91.9,
+  "annual_return_pct": 5.9,
+  "sharpe": 3.467,
+  "max_drawdown_pct": -12.9,
+  "calmar": 0.45,
+  "win_rate_pct": 63.5,
+  "total_trades": 181,
+  "avg_holding_days": 115.5,
+  "start_date": "2015-02-02",
+  "end_date": "2026-07-14",
+  "avg_candidates_2015_2017": 0,
+  "avg_candidates_2018_2026": 0
+}

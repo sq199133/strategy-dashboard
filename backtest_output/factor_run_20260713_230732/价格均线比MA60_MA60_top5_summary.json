@@ -1,0 +1,16 @@
+{
+  "factor_name": "价格均线比MA60",
+  "param_label": "MA60",
+  "top_k": 5,
+  "total_return_pct": -21.0,
+  "annual_return_pct": -4.2,
+  "sharpe": -0.221,
+  "max_drawdown_pct": -35.8,
+  "calmar": -0.12,
+  "win_rate_pct": 39.5,
+  "total_trades": 258,
+  "avg_holding_days": 39.2,
+  "n_months": 67,
+  "start_date": "2021-01-04",
+  "end_date": "2026-07-13"
+}

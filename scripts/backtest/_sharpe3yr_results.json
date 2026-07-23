@@ -1,0 +1,34 @@
+[
+  {
+    "code": "sz159949",
+    "name": "创业板50ETF华安",
+    "category": "宽基指数",
+    "years": 6.11,
+    "n": 2295,
+    "sharpe": 0.006,
+    "annRet": 0.2,
+    "totalRet": 1.1,
+    "maxDD": 12.6,
+    "winRate": 0.25,
+    "trades": 8,
+    "activeDays": 43,
+    "buys": 5,
+    "stops": 3
+  },
+  {
+    "code": "sz159901",
+    "name": "深证100ETF易方达",
+    "category": "宽基指数",
+    "years": 15.42,
+    "n": 4640,
+    "sharpe": -0.018,
+    "annRet": -0.4,
+    "totalRet": -6.4,
+    "maxDD": 9.3,
+    "winRate": 0.22,
+    "trades": 9,
+    "activeDays": 54,
+    "buys": 7,
+    "stops": 2
+  }
+]

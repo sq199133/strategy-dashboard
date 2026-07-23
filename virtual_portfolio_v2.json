@@ -1,0 +1,570 @@
+{
+  "portfolio_name": "ETF虚拟盘 v2.1 - 信号驱动型",
+  "init_date": "2026-05-14",
+  "init_time": "2026-05-17",
+  "initial_capital": 50000.0,
+  "currency": "CNY",
+  "total_strategies": 3,
+  "config": {
+    "stop_loss": 0.08,
+    "take_profit": 0.15,
+    "max_positions_per_strategy": 3,
+    "per_etf_capital": 5556.0,
+    "per_strategy_capital": 16667.0,
+    "min_annual_return": 10.0,
+    "min_win_rate": 45,
+    "backtest_filter": "年化>=10% 且 胜率>=45%，v4全量回测"
+  },
+  "strategies": {
+    "布林带突破": {
+      "name": "布林带突破",
+      "allocated_capital": 16667.0,
+      "current_cash": 6858.86,
+      "status": "1只持仓",
+      "candidates": [
+        {
+          "code": "159902",
+          "name": "中小100ETF华夏",
+          "category": "宽基",
+          "annual_return": 49.7,
+          "win_rate": 53
+        },
+        {
+          "code": "160723",
+          "name": "嘉实原油LOF",
+          "category": "商品",
+          "annual_return": 50.2,
+          "win_rate": 53
+        },
+        {
+          "code": "161128",
+          "name": "标普信息科技LOF",
+          "category": "科技",
+          "annual_return": 43.5,
+          "win_rate": 68
+        },
+        {
+          "code": "163208",
+          "name": "全球油气能源LOF",
+          "category": "商品",
+          "annual_return": 29.6,
+          "win_rate": 48
+        },
+        {
+          "code": "501018",
+          "name": "南方原油LOF",
+          "category": "商品",
+          "annual_return": 25.2,
+          "win_rate": 51
+        },
+        {
+          "code": "162719",
+          "name": "石油LOF",
+          "category": "商品",
+          "annual_return": 28.0,
+          "win_rate": 50
+        },
+        {
+          "code": "512770",
+          "name": "战略新兴ETF华夏",
+          "category": "QDII",
+          "annual_return": 31.5,
+          "win_rate": 50
+        },
+        {
+          "code": "161130",
+          "name": "纳斯达克100LOF",
+          "category": "QDII",
+          "annual_return": 21.0,
+          "win_rate": 69
+        },
+        {
+          "code": "159928",
+          "name": "消费ETF汇添富",
+          "category": "消费",
+          "annual_return": 17.4,
+          "win_rate": 54
+        },
+        {
+          "code": "159819",
+          "name": "人工智能ETF易方达",
+          "category": "科技",
+          "annual_return": 17.2,
+          "win_rate": 52
+        },
+        {
+          "code": "162415",
+          "name": "美国消费LOF",
+          "category": "消费",
+          "annual_return": 18.1,
+          "win_rate": 53
+        },
+        {
+          "code": "159996",
+          "name": "家电ETF国泰",
+          "category": "消费",
+          "annual_return": 13.7,
+          "win_rate": 59
+        },
+        {
+          "code": "512950",
+          "name": "央企改革ETF华夏",
+          "category": "主题",
+          "annual_return": 10.4,
+          "win_rate": 48
+        },
+        {
+          "code": "159985",
+          "name": "豆粕ETF华夏",
+          "category": "商品",
+          "annual_return": 11.5,
+          "win_rate": 50
+        },
+        {
+          "code": "159852",
+          "name": "软件ETF嘉实",
+          "category": "科技",
+          "annual_return": 11.8,
+          "win_rate": 50
+        },
+        {
+          "code": "563230",
+          "name": "卫星ETF富国",
+          "category": "主题",
+          "annual_return": 112.5,
+          "win_rate": 100
+        },
+        {
+          "code": "501225",
+          "name": "全球芯片LOF T+1",
+          "category": "科技",
+          "annual_return": 73.4,
+          "win_rate": 82
+        },
+        {
+          "code": "159363",
+          "name": "创业板人工智能ETF华宝",
+          "category": "科技",
+          "annual_return": 69.3,
+          "win_rate": 56
+        },
+        {
+          "code": "159206",
+          "name": "卫星ETF永赢",
+          "category": "主题",
+          "annual_return": 58.3,
+          "win_rate": 67
+        },
+        {
+          "code": "589600",
+          "name": "科创综指ETF富国",
+          "category": "科创",
+          "annual_return": 57.6,
+          "win_rate": 75
+        },
+        {
+          "code": "588230",
+          "name": "科创200ETF华泰柏瑞",
+          "category": "科创",
+          "annual_return": 48.1,
+          "win_rate": 80
+        },
+        {
+          "code": "588170",
+          "name": "科创半导体ETF华夏",
+          "category": "科技",
+          "annual_return": 44.1,
+          "win_rate": 57
+        },
+        {
+          "code": "588830",
+          "name": "科创新能源ETF鹏华",
+          "category": "新能源",
+          "annual_return": 43.4,
+          "win_rate": 62
+        },
+        {
+          "code": "588910",
+          "name": "科创价值ETF建信",
+          "category": "科创",
+          "annual_return": 42.8,
+          "win_rate": 60
+        },
+        {
+          "code": "513850",
+          "name": "美国50ETF",
+          "category": "QDII",
+          "annual_return": 37.9,
+          "win_rate": 83
+        }
+      ],
+      "positions": [
+        {
+          "code": "159996",
+          "name": "家电ETF国泰",
+          "shares": 3527,
+          "avg_cost": 1.567,
+          "buy_date": "2026-05-15",
+          "signal": "布林带突破"
+        },
+        {
+          "code": "501225",
+          "name": "全球芯片LOF T+1",
+          "shares": 1592,
+          "avg_cost": 3.472,
+          "buy_date": "2026-05-15",
+          "signal": "布林带突破"
+        }
+      ]
+    },
+    "趋势突破": {
+      "name": "趋势突破",
+      "allocated_capital": 16667.0,
+      "current_cash": 6868.28,
+      "status": "1只持仓",
+      "candidates": [
+        {
+          "code": "160723",
+          "name": "嘉实原油LOF",
+          "category": "商品",
+          "annual_return": 42.5,
+          "win_rate": 54
+        },
+        {
+          "code": "161129",
+          "name": "原油LOF易方达",
+          "category": "商品",
+          "annual_return": 39.9,
+          "win_rate": 51
+        },
+        {
+          "code": "159902",
+          "name": "中小100ETF华夏",
+          "category": "宽基",
+          "annual_return": 33.0,
+          "win_rate": 51
+        },
+        {
+          "code": "512770",
+          "name": "战略新兴ETF华夏",
+          "category": "QDII",
+          "annual_return": 32.7,
+          "win_rate": 58
+        },
+        {
+          "code": "161128",
+          "name": "标普信息科技LOF",
+          "category": "科技",
+          "annual_return": 29.0,
+          "win_rate": 57
+        },
+        {
+          "code": "161130",
+          "name": "纳斯达克100LOF",
+          "category": "QDII",
+          "annual_return": 19.9,
+          "win_rate": 58
+        },
+        {
+          "code": "512040",
+          "name": "价值100ETF富国",
+          "category": "主题",
+          "annual_return": 20.1,
+          "win_rate": 62
+        },
+        {
+          "code": "159928",
+          "name": "消费ETF汇添富",
+          "category": "消费",
+          "annual_return": 16.4,
+          "win_rate": 53
+        },
+        {
+          "code": "159852",
+          "name": "软件ETF嘉实",
+          "category": "科技",
+          "annual_return": 16.4,
+          "win_rate": 50
+        },
+        {
+          "code": "515580",
+          "name": "科技100ETF华泰柏瑞",
+          "category": "科技",
+          "annual_return": 14.3,
+          "win_rate": 50
+        },
+        {
+          "code": "162415",
+          "name": "美国消费LOF",
+          "category": "消费",
+          "annual_return": 12.7,
+          "win_rate": 54
+        },
+        {
+          "code": "160719",
+          "name": "嘉实黄金LOF",
+          "category": "商品",
+          "annual_return": 11.4,
+          "win_rate": 54
+        },
+        {
+          "code": "160216",
+          "name": "国泰商品LOF",
+          "category": "商品",
+          "annual_return": 11.8,
+          "win_rate": 47
+        },
+        {
+          "code": "162719",
+          "name": "石油LOF",
+          "category": "商品",
+          "annual_return": 11.1,
+          "win_rate": 46
+        },
+        {
+          "code": "159206",
+          "name": "卫星ETF永赢",
+          "category": "主题",
+          "annual_return": 117.0,
+          "win_rate": 83
+        },
+        {
+          "code": "561380",
+          "name": "电网设备ETF国泰",
+          "category": "电力",
+          "annual_return": 98.4,
+          "win_rate": 100
+        },
+        {
+          "code": "159363",
+          "name": "创业板人工智能ETF华宝",
+          "category": "科技",
+          "annual_return": 74.9,
+          "win_rate": 67
+        },
+        {
+          "code": "588170",
+          "name": "科创半导体ETF华夏",
+          "category": "科技",
+          "annual_return": 67.0,
+          "win_rate": 67
+        },
+        {
+          "code": "501225",
+          "name": "全球芯片LOF T+1",
+          "category": "科技",
+          "annual_return": 66.5,
+          "win_rate": 75
+        },
+        {
+          "code": "563230",
+          "name": "卫星ETF富国",
+          "category": "主题",
+          "annual_return": 65.5,
+          "win_rate": 60
+        },
+        {
+          "code": "588850",
+          "name": "科创机械ETF嘉实",
+          "category": "制造",
+          "annual_return": 55.7,
+          "win_rate": 75
+        },
+        {
+          "code": "517520",
+          "name": "黄金股ETF永赢",
+          "category": "黄金",
+          "annual_return": 48.3,
+          "win_rate": 62
+        },
+        {
+          "code": "159387",
+          "name": "创业板新能源ETF国泰",
+          "category": "新能源",
+          "annual_return": 41.2,
+          "win_rate": 60
+        },
+        {
+          "code": "588910",
+          "name": "科创价值ETF建信",
+          "category": "科创",
+          "annual_return": 39.7,
+          "win_rate": 60
+        }
+      ],
+      "positions": [
+        {
+          "code": "159902",
+          "name": "中小100ETF华夏",
+          "shares": 1094,
+          "avg_cost": 5.05,
+          "buy_date": "2026-05-15",
+          "signal": "趋势突破"
+        },
+        {
+          "code": "501225",
+          "name": "全球芯片LOF T+1",
+          "shares": 1592,
+          "avg_cost": 3.472,
+          "buy_date": "2026-05-15",
+          "signal": "趋势突破"
+        }
+      ]
+    },
+    "均线交叉": {
+      "name": "均线交叉",
+      "allocated_capital": 16667.0,
+      "current_cash": 16667.0,
+      "status": "空仓",
+      "candidates": [
+        {
+          "code": "160723",
+          "name": "嘉实原油LOF",
+          "category": "商品",
+          "annual_return": 34.7,
+          "win_rate": 51
+        },
+        {
+          "code": "560280",
+          "name": "工程机械ETF广发",
+          "category": "制造",
+          "annual_return": 38.1,
+          "win_rate": 50
+        },
+        {
+          "code": "159667",
+          "name": "工业母机ETF国泰",
+          "category": "制造",
+          "annual_return": 28.8,
+          "win_rate": 52
+        },
+        {
+          "code": "588220",
+          "name": "科创100ETF鹏华",
+          "category": "科创",
+          "annual_return": 28.6,
+          "win_rate": 50
+        },
+        {
+          "code": "563300",
+          "name": "中证2000ETF华泰柏瑞",
+          "category": "宽基",
+          "annual_return": 27.9,
+          "win_rate": 53
+        },
+        {
+          "code": "159687",
+          "name": "亚太精选ETF",
+          "category": "QDII",
+          "annual_return": 21.6,
+          "win_rate": 52
+        },
+        {
+          "code": "162719",
+          "name": "石油LOF",
+          "category": "商品",
+          "annual_return": 59.1,
+          "win_rate": 49
+        },
+        {
+          "code": "588170",
+          "name": "科创半导体ETF华夏",
+          "category": "科技",
+          "annual_return": 57.8,
+          "win_rate": 56
+        },
+        {
+          "code": "159363",
+          "name": "创业板人工智能ETF华宝",
+          "category": "科技",
+          "annual_return": 53.7,
+          "win_rate": 71
+        },
+        {
+          "code": "159206",
+          "name": "卫星ETF永赢",
+          "category": "主题",
+          "annual_return": 52.7,
+          "win_rate": 67
+        },
+        {
+          "code": "588850",
+          "name": "科创机械ETF嘉实",
+          "category": "制造",
+          "annual_return": 42.2,
+          "win_rate": 50
+        },
+        {
+          "code": "563230",
+          "name": "卫星ETF富国",
+          "category": "主题",
+          "annual_return": 40.8,
+          "win_rate": 67
+        },
+        {
+          "code": "561380",
+          "name": "电网设备ETF国泰",
+          "category": "电力",
+          "annual_return": 36.3,
+          "win_rate": 75
+        },
+        {
+          "code": "161128",
+          "name": "标普信息科技LOF",
+          "category": "科技",
+          "annual_return": 35.6,
+          "win_rate": 46
+        },
+        {
+          "code": "513850",
+          "name": "美国50ETF",
+          "category": "QDII",
+          "annual_return": 30.8,
+          "win_rate": 46
+        },
+        {
+          "code": "161130",
+          "name": "纳斯达克100LOF",
+          "category": "QDII",
+          "annual_return": 28.2,
+          "win_rate": 47
+        },
+        {
+          "code": "159869",
+          "name": "游戏ETF华夏",
+          "category": "游戏",
+          "annual_return": 25.5,
+          "win_rate": 46
+        },
+        {
+          "code": "161129",
+          "name": "原油LOF易方达",
+          "category": "商品",
+          "annual_return": 23.7,
+          "win_rate": 48
+        },
+        {
+          "code": "160216",
+          "name": "国泰商品LOF",
+          "category": "商品",
+          "annual_return": 23.4,
+          "win_rate": 45
+        },
+        {
+          "code": "159326",
+          "name": "电网设备ETF华夏",
+          "category": "电力",
+          "annual_return": 23.0,
+          "win_rate": 67
+        }
+      ],
+      "positions": []
+    }
+  },
+  "cash": 38881.58,
+  "total_value": 49493.58,
+  "total_return_pct": -1.01,
+  "status": "运行中",
+  "next_trading_day": "2026-05-18（周一）",
+  "notes": "信号驱动：没有买入信号就空仓。每策略最多同时持仓3只，每只ETF最大5,556元。候选池基于v4全量回测筛选（年化>=10%且胜率>=45%）。"
+}

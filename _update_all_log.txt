@@ -1,0 +1,30 @@
+﻿================================================================================
+ETF��ʷ���ݸ��½ű������˲ƾ�API��
+================================================================================
+ETF����: 195
+����Ŀ¼: D:/QClaw_Trading/data/history
+================================================================================
+��ʼ����...
+����: 0.3��/����
+================================================================================
+[1/195] 160723 ��ʵԭ��LOF: ���� - 'date'
+[2/195] 161126 ����ҽ�Ʊ���LOF: ���� - 'date'
+[3/195] 162415 ��������LOF: ���� - 'date'
+python : Traceback (most recent call last):
+所在位置 行:1 字符: 110
++ ... TF8; cd D:\QClaw_Trading; python _update_all_etf_sina.py 2>&1 | Tee-O ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "D:\QClaw_Trading\_update_all_etf_sina.py", line 99, in <module>
+    if item['date'] not in existing_dates:
+       ~~~~^^^^^^^^
+KeyError: 'date'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\QClaw_Trading\_update_all_etf_sina.py", line 126, in <module>
+    print(f'[{i+1}/{len(pool["data"])}] {code} {name}: ���� - {str(e)[:50]}')
+UnicodeEncodeError: 'gbk' codec can't encode character '\xa0' in position 26: illegal multibyte sequence

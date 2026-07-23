@@ -1,0 +1,6 @@
+Position in pool: 6
+Code: 518880
+Name: 黄金ETF华夏
+Category: 商品/周期/资源
+Index: 上海黄金交易所Au99.99
+Scale: 120.5

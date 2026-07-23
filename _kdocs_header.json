@@ -1,0 +1,629 @@
+{
+  "code": 0,
+  "message": "成功",
+  "data": {
+    "detail": {
+      "rangeData": [
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "ETF代码",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 0,
+          "colTo": 0,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 0,
+          "originRow": 0,
+          "originalCellValue": "ETF代码",
+          "rowFrom": 0,
+          "rowTo": 0,
+          "understandableType": {
+            "type": "string",
+            "value": "ETF代码"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "基金名称",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 1,
+          "colTo": 1,
+          "fonts": {
+            "color": "#FF000000",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 1,
+          "originRow": 0,
+          "originalCellValue": "基金名称",
+          "rowFrom": 0,
+          "rowTo": 0,
+          "understandableType": {
+            "type": "string",
+            "value": "基金名称"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "操作日期",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 2,
+          "colTo": 2,
+          "fonts": {
+            "color": "#FF000000",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 2,
+          "originRow": 0,
+          "originalCellValue": "操作日期",
+          "rowFrom": 0,
+          "rowTo": 0,
+          "understandableType": {
+            "type": "string",
+            "value": "操作日期"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "买卖操作",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 3,
+          "colTo": 3,
+          "fonts": {
+            "color": "#FF000000",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 3,
+          "originRow": 0,
+          "originalCellValue": "买卖操作",
+          "rowFrom": 0,
+          "rowTo": 0,
+          "understandableType": {
+            "type": "string",
+            "value": "买卖操作"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "对应价格",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 4,
+          "colTo": 4,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 4,
+          "originRow": 0,
+          "originalCellValue": "对应价格",
+          "rowFrom": 0,
+          "rowTo": 0,
+          "understandableType": {
+            "type": "string",
+            "value": "对应价格"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "份数",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 5,
+          "colTo": 5,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 5,
+          "originRow": 0,
+          "originalCellValue": "份数",
+          "rowFrom": 0,
+          "rowTo": 0,
+          "understandableType": {
+            "type": "string",
+            "value": "份数"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "总金额",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 6,
+          "colTo": 6,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 6,
+          "originRow": 0,
+          "originalCellValue": "总金额",
+          "rowFrom": 0,
+          "rowTo": 0,
+          "understandableType": {
+            "type": "string",
+            "value": "总金额"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "费用",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 7,
+          "colTo": 7,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 7,
+          "originRow": 0,
+          "originalCellValue": "费用",
+          "rowFrom": 0,
+          "rowTo": 0,
+          "understandableType": {
+            "type": "string",
+            "value": "费用"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "159259",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 0,
+          "colTo": 0,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 0,
+          "originRow": 1,
+          "originalCellValue": "159259",
+          "rowFrom": 1,
+          "rowTo": 1,
+          "understandableType": {
+            "type": "double",
+            "value": 159259
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "2026/4/27",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 2,
+          "colTo": 2,
+          "fonts": {
+            "color": "#FF000000",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "yyyy/m/d",
+          "originCol": 2,
+          "originRow": 1,
+          "originalCellValue": "46139",
+          "rowFrom": 1,
+          "rowTo": 1,
+          "understandableType": {
+            "type": "date",
+            "value": "2026-4-27"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "买入",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 3,
+          "colTo": 3,
+          "fonts": {
+            "color": "#FF000000",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 3,
+          "originRow": 1,
+          "originalCellValue": "买入",
+          "rowFrom": 1,
+          "rowTo": 1,
+          "understandableType": {
+            "type": "string",
+            "value": "买入"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "1.311",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 4,
+          "colTo": 4,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 4,
+          "originRow": 1,
+          "originalCellValue": "1.311",
+          "rowFrom": 1,
+          "rowTo": 1,
+          "understandableType": {
+            "type": "double",
+            "value": 1.311
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "11400",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 5,
+          "colTo": 5,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 5,
+          "originRow": 1,
+          "originalCellValue": "11400",
+          "rowFrom": 1,
+          "rowTo": 1,
+          "understandableType": {
+            "type": "double",
+            "value": 11400
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "14945.4",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 6,
+          "colTo": 6,
+          "fmlaText": "=F2*E2",
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 6,
+          "originRow": 1,
+          "originalCellValue": "14945.4",
+          "rowFrom": 1,
+          "rowTo": 1,
+          "understandableType": {
+            "type": "double",
+            "value": 14945.4
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "0.75",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 7,
+          "colTo": 7,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 7,
+          "originRow": 1,
+          "originalCellValue": "0.75",
+          "rowFrom": 1,
+          "rowTo": 1,
+          "understandableType": {
+            "type": "double",
+            "value": 0.75
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "159819",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 0,
+          "colTo": 0,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 0,
+          "originRow": 2,
+          "originalCellValue": "159819",
+          "rowFrom": 2,
+          "rowTo": 2,
+          "understandableType": {
+            "type": "double",
+            "value": 159819
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "2026/4/27",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 2,
+          "colTo": 2,
+          "fonts": {
+            "color": "#FF000000",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "yyyy/m/d",
+          "originCol": 2,
+          "originRow": 2,
+          "originalCellValue": "46139",
+          "rowFrom": 2,
+          "rowTo": 2,
+          "understandableType": {
+            "type": "date",
+            "value": "2026-4-27"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "买入",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 3,
+          "colTo": 3,
+          "fonts": {
+            "color": "#FF000000",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 3,
+          "originRow": 2,
+          "originalCellValue": "买入",
+          "rowFrom": 2,
+          "rowTo": 2,
+          "understandableType": {
+            "type": "string",
+            "value": "买入"
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "1.755",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 4,
+          "colTo": 4,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 4,
+          "originRow": 2,
+          "originalCellValue": "1.755",
+          "rowFrom": 2,
+          "rowTo": 2,
+          "understandableType": {
+            "type": "double",
+            "value": 1.755
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "8500",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 5,
+          "colTo": 5,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 5,
+          "originRow": 2,
+          "originalCellValue": "8500",
+          "rowFrom": 2,
+          "rowTo": 2,
+          "understandableType": {
+            "type": "double",
+            "value": 8500
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "14917.5",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 6,
+          "colTo": 6,
+          "fmlaText": "=F3*E3",
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 6,
+          "originRow": 2,
+          "originalCellValue": "14917.5",
+          "rowFrom": 2,
+          "rowTo": 2,
+          "understandableType": {
+            "type": "double",
+            "value": 14917.5
+          }
+        },
+        {
+          "alignment": {
+            "horizontal": "haCenter",
+            "vertical": "vaCenter"
+          },
+          "cellText": "0.75",
+          "cellValueType": "basic",
+          "cell_background_color": "#FFFFFFFF",
+          "colFrom": 7,
+          "colTo": 7,
+          "fonts": {
+            "color": "#FF181818",
+            "font_east_asia": "微软雅黑",
+            "size": 11
+          },
+          "hasBorder": true,
+          "isCellPic": false,
+          "numFormat": "G/通用格式",
+          "originCol": 7,
+          "originRow": 2,
+          "originalCellValue": "0.75",
+          "rowFrom": 2,
+          "rowTo": 2,
+          "understandableType": {
+            "type": "double",
+            "value": 0.75
+          }
+        }
+      ]
+    },
+    "result": "ok"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "factor_name": "短期反转1m",
+  "param_label": "1m",
+  "top_k": 10,
+  "total_return_pct": 0.0,
+  "annual_return_pct": 0.0,
+  "sharpe": null,
+  "max_drawdown_pct": 0.0,
+  "calmar": null,
+  "win_rate_pct": 0.0,
+  "total_trades": 0,
+  "avg_holding_days": 0,
+  "n_months": 165,
+  "start_date": "2014-02-07",
+  "end_date": "2026-07-14",
+  "avg_candidates_2014_2017": 0.0,
+  "avg_candidates_2018_2026": 0.0
+}

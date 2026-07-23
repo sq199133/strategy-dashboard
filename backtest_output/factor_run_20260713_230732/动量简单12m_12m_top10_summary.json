@@ -1,0 +1,16 @@
+{
+  "factor_name": "动量简单12m",
+  "param_label": "12m",
+  "top_k": 10,
+  "total_return_pct": -3.8,
+  "annual_return_pct": -0.7,
+  "sharpe": 0.139,
+  "max_drawdown_pct": -24.9,
+  "calmar": -0.03,
+  "win_rate_pct": 49.8,
+  "total_trades": 219,
+  "avg_holding_days": 92.4,
+  "n_months": 67,
+  "start_date": "2021-01-04",
+  "end_date": "2026-07-13"
+}

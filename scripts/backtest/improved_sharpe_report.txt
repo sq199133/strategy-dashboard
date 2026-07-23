@@ -1,0 +1,36 @@
+=== Improved Sharpe Strategy Analysis ===
+
+Date: 2026-04-27
+ETF Pool: 91 ETFs
+Tested Indices: 47 (Skipped: 24 due to insufficient data)
+
+=== Strategy Summary (All ETFs) ===
+反向信号: AvgSharpe=8.583, Sharpe>=1=20
+MA20趋势: AvgSharpe=0.000, Sharpe>=1=0
+MA20+夏普: AvgSharpe=0.000, Sharpe>=1=0
+MACD金叉: AvgSharpe=-7.843, Sharpe>=1=0
+MACD+夏普: AvgSharpe=-7.466, Sharpe>=1=0
+综合策略: AvgSharpe=-0.050, Sharpe>=1=0
+多窗口共振: AvgSharpe=-4.030, Sharpe>=1=11
+
+=== Strategy Summary (Trades>5 only) ===
+反向信号 (6 ETFs): AvgSharpe=25.466, Sharpe>=1=6
+MA20趋势: No credible data
+MA20+夏普: No credible data
+MACD金叉 (47 ETFs): AvgSharpe=-7.843, Sharpe>=1=0
+MACD+夏普 (47 ETFs): AvgSharpe=-7.466, Sharpe>=1=0
+综合策略: No credible data
+多窗口共振 (32 ETFs): AvgSharpe=-4.280, Sharpe>=1=5
+
+=== Top ETFs (Sharpe>=1.0, Trades>5) ===
+159121(港股通汽车ETF易方达)[反向信号]: Sharpe=28.63, Ann=5.0%, DD=0.0%, Trades=6
+513330(恒生互联网ETF华夏)[反向信号]: Sharpe=28.63, Ann=5.0%, DD=0.0%, Trades=6
+513530(港股通红利ETF华泰柏瑞)[反向信号]: Sharpe=28.63, Ann=5.0%, DD=0.0%, Trades=6
+513600(恒生指数ETF南方)[反向信号]: Sharpe=28.63, Ann=5.0%, DD=0.0%, Trades=6
+513730(东南亚科技ETF华泰柏瑞)[反向信号]: Sharpe=28.63, Ann=5.0%, DD=0.0%, Trades=6
+159915(创业板ETF易方达)[多窗口共振]: Sharpe=12.23, Ann=9.3%, DD=8.6%, Trades=9
+515800(中证800ETF汇添富)[多窗口共振]: Sharpe=10.55, Ann=2.4%, DD=21.4%, Trades=10
+159850(恒生国企ETF华夏)[反向信号]: Sharpe=9.64, Ann=-0.2%, DD=25.0%, Trades=6
+159263(价值ETF易方达)[多窗口共振]: Sharpe=8.51, Ann=4.2%, DD=13.2%, Trades=12
+512980(传媒ETF广发)[多窗口共振]: Sharpe=6.37, Ann=6.2%, DD=2.7%, Trades=10
+159328(家电ETF易方达)[多窗口共振]: Sharpe=5.41, Ann=2.5%, DD=20.8%, Trades=7

@@ -1,0 +1,2977 @@
+{
+  "reverse": [
+    {
+      "code": "159782",
+      "name": "双创50ETF银华",
+      "indexCode": "sz399673",
+      "sharpe": 0,
+      "annReturn": 0.07480430593463239,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.4515923159872876,
+      "bhReturn": 0.09552209573987369,
+      "bhDD": 0.7492509169809372,
+      "years": 11.849418206707734,
+      "excess": -0.020717789805241305,
+      "beat": false
+    },
+    {
+      "code": "159901",
+      "name": "深证100ETF易方达",
+      "indexCode": "sz399330",
+      "sharpe": 18.56378602319434,
+      "annReturn": 0.029252106030975833,
+      "maxDD": 0,
+      "trades": 4,
+      "bhSharpe": 0.49165166990589704,
+      "bhReturn": 0.09858181176359904,
+      "bhDD": 0.7156007112014223,
+      "years": 20.246406570841888,
+      "excess": -0.0693297057326232,
+      "beat": false
+    },
+    {
+      "code": "159915",
+      "name": "创业板ETF易方达",
+      "indexCode": "sz399006",
+      "sharpe": 0,
+      "annReturn": 0.04478062391823956,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.43101204109477737,
+      "bhReturn": 0.0854032298134304,
+      "bhDD": 0.6973997112185323,
+      "years": 15.893223819301848,
+      "excess": -0.040622605895190844,
+      "beat": false
+    },
+    {
+      "code": "510050",
+      "name": "上证50ETF华夏",
+      "indexCode": "sh000016",
+      "sharpe": 11.33389055047003,
+      "annReturn": 0.015612935184922128,
+      "maxDD": 0.034881223897396396,
+      "trades": 4,
+      "bhSharpe": 0.32424727825533906,
+      "bhReturn": 0.049079039552131665,
+      "bhDD": 0.7240602473038973,
+      "years": 22.308008213552363,
+      "excess": -0.03346610436720954,
+      "beat": false
+    },
+    {
+      "code": "510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "indexCode": "sh000300",
+      "sharpe": 15.446020567068212,
+      "annReturn": 0.024036491741863175,
+      "maxDD": 0.021575507855447554,
+      "trades": 4,
+      "bhSharpe": 0.4320232684306784,
+      "bhReturn": 0.07688761811869682,
+      "bhDD": 0.7230381814469474,
+      "years": 21.04312114989733,
+      "excess": -0.052851126376833646,
+      "beat": false
+    },
+    {
+      "code": "510500",
+      "name": "中证500ETF南方",
+      "indexCode": "sh000905",
+      "sharpe": 27.43366242303392,
+      "annReturn": 0.044536235298634486,
+      "maxDD": 0,
+      "trades": 3,
+      "bhSharpe": 0.41025277897686113,
+      "bhReturn": 0.0766645361017233,
+      "bhDD": 0.7241725577674141,
+      "years": 19.27173169062286,
+      "excess": -0.032128300803088816,
+      "beat": false
+    },
+    {
+      "code": "512100",
+      "name": "中证1000ETF南方",
+      "indexCode": "sh000852",
+      "sharpe": 25.150955259162696,
+      "annReturn": 0.059850034877840796,
+      "maxDD": 0,
+      "trades": 3,
+      "bhSharpe": 0.24191671456512062,
+      "bhReturn": 0.027749108952341617,
+      "bhDD": 0.7234875392667367,
+      "years": 11.51813826146475,
+      "excess": 0.03210092592549918,
+      "beat": true
+    },
+    {
+      "code": "515800",
+      "name": "中证800ETF汇添富",
+      "indexCode": "sh000906",
+      "sharpe": 17.971130342131588,
+      "annReturn": 0.03318159102998841,
+      "maxDD": 0.03802271146226477,
+      "trades": 4,
+      "bhSharpe": 0.3163179957932135,
+      "bhReturn": 0.04742779159119914,
+      "bhDD": 0.7175622193063868,
+      "years": 19.27173169062286,
+      "excess": -0.014246200561210731,
+      "beat": false
+    },
+    {
+      "code": "588000",
+      "name": "科创50ETF华夏",
+      "indexCode": "sh000688",
+      "sharpe": 0,
+      "annReturn": 0.06939377890186993,
+      "maxDD": 0,
+      "trades": 1,
+      "bhSharpe": 0.35085223590254333,
+      "bhReturn": 0.06104571611982457,
+      "bhDD": 0.6265685468322439,
+      "years": 6.313483915126626,
+      "excess": 0.008348062782045362,
+      "beat": true
+    },
+    {
+      "code": "159259",
+      "name": "成长ETF易方达",
+      "indexCode": "sz399377",
+      "sharpe": 24.86616124003298,
+      "annReturn": 0.046790379197532594,
+      "maxDD": 0,
+      "trades": 3,
+      "bhSharpe": 0.28492859459444714,
+      "bhReturn": 0.03875421036301807,
+      "bhDD": 0.6022207574283653,
+      "years": 15.266255989048597,
+      "excess": 0.008036168834514523,
+      "beat": true
+    },
+    {
+      "code": "159263",
+      "name": "价值ETF易方达",
+      "indexCode": "sz399378",
+      "sharpe": 21.324730491124047,
+      "annReturn": 0.03387151292799384,
+      "maxDD": 0,
+      "trades": 3,
+      "bhSharpe": 0.3925772508093995,
+      "bhReturn": 0.0610858485454,
+      "bhDD": 0.44914891249930466,
+      "years": 15.266255989048597,
+      "excess": -0.02721433561740616,
+      "beat": false
+    },
+    {
+      "code": "159332",
+      "name": "央企红利ETF富国",
+      "indexCode": "sh000813",
+      "sharpe": 0,
+      "annReturn": 0.07286696135071491,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.27398314617140096,
+      "bhReturn": 0.0346783396379613,
+      "bhDD": 0.6242951328802006,
+      "years": 14.017796030116358,
+      "excess": 0.03818862171275361,
+      "beat": true
+    },
+    {
+      "code": "510880",
+      "name": "红利ETF华泰柏瑞",
+      "indexCode": "sh000922",
+      "sharpe": 22.47967016388433,
+      "annReturn": 0.05108117660617961,
+      "maxDD": 0,
+      "trades": 4,
+      "bhSharpe": 0.30130356799537605,
+      "bhReturn": 0.04203512425071598,
+      "bhDD": 0.46508539143226985,
+      "years": 17.730321697467488,
+      "excess": 0.00904605235546363,
+      "beat": true
+    },
+    {
+      "code": "159103",
+      "name": "金融科技ETF汇添富",
+      "indexCode": "sz399998",
+      "sharpe": 0,
+      "annReturn": 0.04950340633021155,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.31490957857202656,
+      "bhReturn": 0.048831158843257505,
+      "bhDD": 0.5111263134060153,
+      "years": 10.507871321013004,
+      "excess": 0.0006722474869540473,
+      "beat": true
+    },
+    {
+      "code": "159647",
+      "name": "中药ETF鹏华",
+      "indexCode": "sz399394",
+      "sharpe": 0,
+      "annReturn": -0.021393168493662573,
+      "maxDD": 0.2529281915898083,
+      "trades": 2,
+      "bhSharpe": 0.2978382684848158,
+      "bhReturn": 0.04287502083611727,
+      "bhDD": 0.6450317661746287,
+      "years": 13.483915126625599,
+      "excess": -0.06426818932977985,
+      "beat": false
+    },
+    {
+      "code": "159837",
+      "name": "生物科技ETF易方达",
+      "indexCode": "sz399441",
+      "sharpe": 0,
+      "annReturn": -0.01769100700120907,
+      "maxDD": 0.3333845459220147,
+      "trades": 2,
+      "bhSharpe": 0.18367244109808117,
+      "bhReturn": 0.010306684966610469,
+      "bhDD": 0.7545962342322347,
+      "years": 11.255304585900069,
+      "excess": -0.027997691967819538,
+      "beat": false
+    },
+    {
+      "code": "512010",
+      "name": "医药ETF易方达",
+      "indexCode": "sh000933",
+      "sharpe": 4.4100547402779116,
+      "annReturn": 0.005903507773955763,
+      "maxDD": 0.2696483843020862,
+      "trades": 4,
+      "bhSharpe": 0.27001037092025376,
+      "bhReturn": 0.035565116899557214,
+      "bhDD": 0.6219191280212989,
+      "years": 16.739219712525667,
+      "excess": -0.02966160912560145,
+      "beat": false
+    },
+    {
+      "code": "512170",
+      "name": "医疗ETF华宝",
+      "indexCode": "sz399989",
+      "sharpe": 0,
+      "annReturn": 0.02213952188984858,
+      "maxDD": 0.2983215627569009,
+      "trades": 2,
+      "bhSharpe": 0.06395847996200703,
+      "bhReturn": -0.022676951177184823,
+      "bhDD": 0.7279466402552253,
+      "years": 10.598220396988363,
+      "excess": 0.0448164730670334,
+      "beat": true
+    },
+    {
+      "code": "515120",
+      "name": "创新药ETF广发",
+      "indexCode": "sz399992",
+      "sharpe": 0,
+      "annReturn": 0.07702166592734638,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.17622890028751298,
+      "bhReturn": 0.013432301478953246,
+      "bhDD": 0.5997945957431738,
+      "years": 10.598220396988363,
+      "excess": 0.06358936444839314,
+      "beat": true
+    },
+    {
+      "code": "159842",
+      "name": "券商ETF银华",
+      "indexCode": "sh000819",
+      "sharpe": 27.099492682119006,
+      "annReturn": 0.06828614863586457,
+      "maxDD": 0.036592406438905045,
+      "trades": 3,
+      "bhSharpe": 0.3012898911310357,
+      "bhReturn": 0.04446389867550926,
+      "bhDD": 0.6060822359158389,
+      "years": 13.957563312799453,
+      "excess": 0.023822249960355313,
+      "beat": true
+    },
+    {
+      "code": "510230",
+      "name": "金融ETF国泰",
+      "indexCode": "sh000934",
+      "sharpe": 10.769767050220796,
+      "annReturn": 0.026157668402746692,
+      "maxDD": 0.030491515110540206,
+      "trades": 3,
+      "bhSharpe": 0.12845242077799748,
+      "bhReturn": 0.0021340707960990635,
+      "bhDD": 0.4674291276484894,
+      "years": 16.739219712525667,
+      "excess": 0.02402359760664763,
+      "beat": true
+    },
+    {
+      "code": "512070",
+      "name": "证券保险ETF易方达",
+      "indexCode": "sz399967",
+      "sharpe": 0,
+      "annReturn": 0.06919793722698264,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.4001557967690218,
+      "bhReturn": 0.07689299567752106,
+      "bhDD": 0.7139695990717051,
+      "years": 12.054757015742641,
+      "excess": -0.007695058450538417,
+      "beat": false
+    },
+    {
+      "code": "512800",
+      "name": "银行ETF华宝",
+      "indexCode": "sh000803",
+      "sharpe": 5.181135009887919,
+      "annReturn": 0.001377322460782704,
+      "maxDD": 0.10576845733201179,
+      "trades": 3,
+      "bhSharpe": 0.4348621523033204,
+      "bhReturn": 0.0686367858940089,
+      "bhDD": 0.4273759370818555,
+      "years": 11.107460643394935,
+      "excess": -0.0672594634332262,
+      "beat": false
+    },
+    {
+      "code": "159306",
+      "name": "汽车零部件ETF平安",
+      "indexCode": "sz399932",
+      "sharpe": 0,
+      "annReturn": -0.002149133856824803,
+      "maxDD": 0.2621571073939097,
+      "trades": 2,
+      "bhSharpe": 0.33500955132914817,
+      "bhReturn": 0.051330283473565164,
+      "bhDD": 0.5869295972843076,
+      "years": 15.279945242984258,
+      "excess": -0.05347941733038997,
+      "beat": false
+    },
+    {
+      "code": "159328",
+      "name": "家电ETF易方达",
+      "indexCode": "sz399996",
+      "sharpe": 0,
+      "annReturn": 0.0847880942439121,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.2999053911731041,
+      "bhReturn": 0.044029552800429306,
+      "bhDD": 0.5774022676096855,
+      "years": 10.507871321013004,
+      "excess": 0.04075854144348279,
+      "beat": true
+    },
+    {
+      "code": "159736",
+      "name": "食品饮料ETF天弘",
+      "indexCode": "sz399397",
+      "sharpe": 18.586327658087118,
+      "annReturn": 0.02881583941564214,
+      "maxDD": 0,
+      "trades": 3,
+      "bhSharpe": 0.32122264023495384,
+      "bhReturn": 0.04948720211908242,
+      "bhDD": 0.7096279711349153,
+      "years": 13.453798767967145,
+      "excess": -0.020671362703440277,
+      "beat": false
+    },
+    {
+      "code": "512690",
+      "name": "酒ETF鹏华",
+      "indexCode": "sz399997",
+      "sharpe": 0,
+      "annReturn": -0.04006135115809972,
+      "maxDD": 0.349246149608324,
+      "trades": 1,
+      "bhSharpe": 0.5125046096244669,
+      "bhReturn": 0.11412658187762115,
+      "bhDD": 0.6434128572497381,
+      "years": 10.507871321013004,
+      "excess": -0.15418793303572087,
+      "beat": false
+    },
+    {
+      "code": "159147",
+      "name": "电池ETF南方",
+      "indexCode": "sz399938",
+      "sharpe": 0,
+      "annReturn": 0.045186208346488455,
+      "maxDD": 0,
+      "trades": 1,
+      "bhSharpe": 0.4901559733231722,
+      "bhReturn": 0.09998431067768365,
+      "bhDD": 0.49725655959539683,
+      "years": 5.3963039014373715,
+      "excess": -0.0547981023311952,
+      "beat": false
+    },
+    {
+      "code": "515030",
+      "name": "新能源车ETF华夏",
+      "indexCode": "sz399976",
+      "sharpe": 0,
+      "annReturn": 0.1309207287733627,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.4462329039448994,
+      "bhReturn": 0.09300027745894424,
+      "bhDD": 0.6783811860065044,
+      "years": 10.598220396988363,
+      "excess": 0.03792045131441846,
+      "beat": true
+    },
+    {
+      "code": "515790",
+      "name": "光伏ETF华泰柏瑞",
+      "indexCode": "sz399808",
+      "sharpe": 0,
+      "annReturn": 0.10474484061742029,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.37506107060098126,
+      "bhReturn": 0.06740934696781253,
+      "bhDD": 0.6889269540784692,
+      "years": 10.598220396988363,
+      "excess": 0.037335493649607754,
+      "beat": true
+    },
+    {
+      "code": "512200",
+      "name": "房地产ETF南方",
+      "indexCode": "sz399393",
+      "sharpe": 0,
+      "annReturn": -0.05947674495977684,
+      "maxDD": 0.5676719664175381,
+      "trades": 1,
+      "bhSharpe": 0.09607374819172486,
+      "bhReturn": -0.012453636698418258,
+      "bhDD": 0.773258782243631,
+      "years": 13.675564681724847,
+      "excess": -0.04702310826135858,
+      "beat": false
+    },
+    {
+      "code": "512140",
+      "name": "电力ETF华安",
+      "indexCode": "sz399811",
+      "sharpe": 0,
+      "annReturn": 0.10636023347442691,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.5014884831181485,
+      "bhReturn": 0.1092698795242073,
+      "bhDD": 0.5260716804432217,
+      "years": 10.598220396988363,
+      "excess": -0.00290964604978039,
+      "beat": false
+    },
+    {
+      "code": "159865",
+      "name": "畜牧养殖ETF国泰",
+      "indexCode": "sz399926",
+      "sharpe": 0,
+      "annReturn": 0.031059213159548182,
+      "maxDD": 0,
+      "trades": 1,
+      "bhSharpe": 0.2843317227615906,
+      "bhReturn": 0.03925125604216628,
+      "bhDD": 0.4941202538149309,
+      "years": 7.186858316221766,
+      "excess": -0.0081920428826181,
+      "beat": false
+    },
+    {
+      "code": "512980",
+      "name": "传媒ETF广发",
+      "indexCode": "sz399973",
+      "sharpe": 0,
+      "annReturn": 0.06148857359930626,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.25465926160953767,
+      "bhReturn": 0.026786501760517112,
+      "bhDD": 0.717279616389091,
+      "years": 11.45242984257358,
+      "excess": 0.03470207183878915,
+      "beat": true
+    },
+    {
+      "code": "516010",
+      "name": "游戏ETF国泰",
+      "indexCode": "sz399975",
+      "sharpe": 0,
+      "annReturn": 0.05626966280072043,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.09008319394819071,
+      "bhReturn": -0.01685126686476235,
+      "bhDD": 0.5900562933150605,
+      "years": 10.50239561943874,
+      "excess": 0.07312092966548278,
+      "beat": true
+    },
+    {
+      "code": "159105",
+      "name": "恒生生物科技ETF易方达",
+      "indexCode": "hkHSTECH",
+      "sharpe": 0,
+      "annReturn": 0.07418556633171391,
+      "maxDD": 0,
+      "trades": 1,
+      "bhSharpe": 0.04700681872550267,
+      "bhReturn": -0.054792085814744595,
+      "bhDD": 0.7439987501393303,
+      "years": 5.7412731006160165,
+      "excess": 0.1289776521464585,
+      "beat": true
+    },
+    {
+      "code": "159121",
+      "name": "港股通汽车ETF易方达",
+      "indexCode": "hkHSI",
+      "sharpe": 28.63042942544529,
+      "annReturn": 0.050254677585221064,
+      "maxDD": 0,
+      "trades": 6,
+      "bhSharpe": 0.3730120054868472,
+      "bhReturn": 0.06269950473025876,
+      "bhDD": 0.6518185915642536,
+      "years": 37.30595482546201,
+      "excess": -0.012444827145037696,
+      "beat": false
+    },
+    {
+      "code": "159217",
+      "name": "港股通创新药ETF工银",
+      "indexCode": "hkHSTECH",
+      "sharpe": 0,
+      "annReturn": 0.07418556633171391,
+      "maxDD": 0,
+      "trades": 1,
+      "bhSharpe": 0.04700681872550267,
+      "bhReturn": -0.054792085814744595,
+      "bhDD": 0.7439987501393303,
+      "years": 5.7412731006160165,
+      "excess": 0.1289776521464585,
+      "beat": true
+    },
+    {
+      "code": "159605",
+      "name": "中概互联ETF广发",
+      "indexCode": "sz399998",
+      "sharpe": 0,
+      "annReturn": 0.04950340633021155,
+      "maxDD": 0,
+      "trades": 2,
+      "bhSharpe": 0.31490957857202656,
+      "bhReturn": 0.048831158843257505,
+      "bhDD": 0.5111263134060153,
+      "years": 10.507871321013004,
+      "excess": 0.0006722474869540473,
+      "beat": true
+    },
+    {
+      "code": "159850",
+      "name": "恒生国企ETF华夏",
+      "indexCode": "hkHSCEI",
+      "sharpe": 9.641785367165804,
+      "annReturn": -0.002378288939694384,
+      "maxDD": 0.25044051187409544,
+      "trades": 6,
+      "bhSharpe": 0.2725692654358713,
+      "bhReturn": 0.07148566835138781,
+      "bhDD": 0.8654964209897483,
+      "years": 32.77481177275838,
+      "excess": -0.0738639572910822,
+      "beat": false
+    },
+    {
+      "code": "513040",
+      "name": "港股通互联网ETF易方达",
+      "indexCode": "hkHSTECH",
+      "sharpe": 0,
+      "annReturn": 0.07418556633171391,
+      "maxDD": 0,
+      "trades": 1,
+      "bhSharpe": 0.04700681872550267,
+      "bhReturn": -0.054792085814744595,
+      "bhDD": 0.7439987501393303,
+      "years": 5.7412731006160165,
+      "excess": 0.1289776521464585,
+      "beat": true
+    },
+    {
+      "code": "513060",
+      "name": "恒生医疗ETF博时",
+      "indexCode": "hkHSTECH",
+      "sharpe": 0,
+      "annReturn": 0.07418556633171391,
+      "maxDD": 0,
+      "trades": 1,
+      "bhSharpe": 0.04700681872550267,
+      "bhReturn": -0.054792085814744595,
+      "bhDD": 0.7439987501393303,
+      "years": 5.7412731006160165,
+      "excess": 0.1289776521464585,
+      "beat": true
+    },
+    {
+      "code": "513180",
+      "name": "恒生科技ETF华夏",
+      "indexCode": "hkHSTECH",
+      "sharpe": 0,
+      "annReturn": 0.07418556633171391,
+      "maxDD": 0,
+      "trades": 1,
+      "bhSharpe": 0.04700681872550267,
+      "bhReturn": -0.054792085814744595,
+      "bhDD": 0.7439987501393303,
+      "years": 5.7412731006160165,
+      "excess": 0.1289776521464585,
+      "beat": true
+    },
+    {
+      "code": "513330",
+      "name": "恒生互联网ETF华夏",
+      "indexCode": "hkHSI",
+      "sharpe": 28.63042942544529,
+      "annReturn": 0.050254677585221064,
+      "maxDD": 0,
+      "trades": 6,
+      "bhSharpe": 0.3730120054868472,
+      "bhReturn": 0.06269950473025876,
+      "bhDD": 0.6518185915642536,
+      "years": 37.30595482546201,
+      "excess": -0.012444827145037696,
+      "beat": false
+    },
+    {
+      "code": "513530",
+      "name": "港股通红利ETF华泰柏瑞",
+      "indexCode": "hkHSI",
+      "sharpe": 28.63042942544529,
+      "annReturn": 0.050254677585221064,
+      "maxDD": 0,
+      "trades": 6,
+      "bhSharpe": 0.3730120054868472,
+      "bhReturn": 0.06269950473025876,
+      "bhDD": 0.6518185915642536,
+      "years": 37.30595482546201,
+      "excess": -0.012444827145037696,
+      "beat": false
+    },
+    {
+      "code": "513600",
+      "name": "恒生指数ETF南方",
+      "indexCode": "hkHSI",
+      "sharpe": 28.63042942544529,
+      "annReturn": 0.050254677585221064,
+      "maxDD": 0,
+      "trades": 6,
+      "bhSharpe": 0.3730120054868472,
+      "bhReturn": 0.06269950473025876,
+      "bhDD": 0.6518185915642536,
+      "years": 37.30595482546201,
+      "excess": -0.012444827145037696,
+      "beat": false
+    },
+    {
+      "code": "513730",
+      "name": "东南亚科技ETF华泰柏瑞",
+      "indexCode": "hkHSI",
+      "sharpe": 28.63042942544529,
+      "annReturn": 0.050254677585221064,
+      "maxDD": 0,
+      "trades": 6,
+      "bhSharpe": 0.3730120054868472,
+      "bhReturn": 0.06269950473025876,
+      "bhDD": 0.6518185915642536,
+      "years": 37.30595482546201,
+      "excess": -0.012444827145037696,
+      "beat": false
+    }
+  ],
+  "ma20_only": [
+    {
+      "code": "159782",
+      "name": "双创50ETF银华",
+      "sharpe": 0,
+      "annReturn": 0.008750981416085324,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159901",
+      "name": "深证100ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.0036057844023318353,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159915",
+      "name": "创业板ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.005763816861835247,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510050",
+      "name": "上证50ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.0003520659073468213,
+      "maxDD": 0.007674393805446655,
+      "trades": 2
+    },
+    {
+      "code": "510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.0017657250489955256,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510500",
+      "name": "中证500ETF南方",
+      "sharpe": 0,
+      "annReturn": 0.0019422655897087804,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512100",
+      "name": "中证1000ETF南方",
+      "sharpe": 0,
+      "annReturn": 0.003727734709288333,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "515800",
+      "name": "中证800ETF汇添富",
+      "sharpe": 0,
+      "annReturn": 0.001932123003504982,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "588000",
+      "name": "科创50ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.011471032324448238,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159259",
+      "name": "成长ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.000838401218651974,
+      "maxDD": 0.008430860837231213,
+      "trades": 2
+    },
+    {
+      "code": "159263",
+      "name": "价值ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.002580534891230446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159332",
+      "name": "央企红利ETF富国",
+      "sharpe": 0,
+      "annReturn": 0.0017391205716810187,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510880",
+      "name": "红利ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": -0.00015683220301754286,
+      "maxDD": 0.006834062544140762,
+      "trades": 2
+    },
+    {
+      "code": "159103",
+      "name": "金融科技ETF汇添富",
+      "sharpe": 0,
+      "annReturn": 0.0000051629785466911216,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159647",
+      "name": "中药ETF鹏华",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "159837",
+      "name": "生物科技ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "512010",
+      "name": "医药ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "512170",
+      "name": "医疗ETF华宝",
+      "sharpe": 0,
+      "annReturn": -0.004219704061850016,
+      "maxDD": 0.04382657489936703,
+      "trades": 2
+    },
+    {
+      "code": "515120",
+      "name": "创新药ETF广发",
+      "sharpe": 0,
+      "annReturn": 0.0019516008085234127,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159842",
+      "name": "券商ETF银华",
+      "sharpe": 0,
+      "annReturn": 0.00013002922076532641,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510230",
+      "name": "金融ETF国泰",
+      "sharpe": 0,
+      "annReturn": -0.000338125299234715,
+      "maxDD": 0.005644918013460454,
+      "trades": 1
+    },
+    {
+      "code": "512070",
+      "name": "证券保险ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.003466994674663715,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512800",
+      "name": "银行ETF华宝",
+      "sharpe": 0,
+      "annReturn": -0.000285932960803148,
+      "maxDD": 0.0031714036968197856,
+      "trades": 1
+    },
+    {
+      "code": "159306",
+      "name": "汽车零部件ETF平安",
+      "sharpe": 0,
+      "annReturn": -0.000974566321361281,
+      "maxDD": 0.014788146295613758,
+      "trades": 1
+    },
+    {
+      "code": "159328",
+      "name": "家电ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.006408874297433087,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159736",
+      "name": "食品饮料ETF天弘",
+      "sharpe": 0,
+      "annReturn": -0.002743393020516627,
+      "maxDD": 0.0362851033245557,
+      "trades": 2
+    },
+    {
+      "code": "512690",
+      "name": "酒ETF鹏华",
+      "sharpe": 0,
+      "annReturn": 0.0003705191007614683,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159147",
+      "name": "电池ETF南方",
+      "sharpe": 0,
+      "annReturn": 0.004105310240624549,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "515030",
+      "name": "新能源车ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.007863966063233141,
+      "maxDD": 0.013026476431605927,
+      "trades": 2
+    },
+    {
+      "code": "515790",
+      "name": "光伏ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.0034325756212709724,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512200",
+      "name": "房地产ETF南方",
+      "sharpe": 0,
+      "annReturn": -0.00032285074816829074,
+      "maxDD": 0.012547129207196361,
+      "trades": 2
+    },
+    {
+      "code": "512140",
+      "name": "电力ETF华安",
+      "sharpe": 0,
+      "annReturn": 0.011998035614738223,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159865",
+      "name": "畜牧养殖ETF国泰",
+      "sharpe": 0,
+      "annReturn": 0.0005994653618808243,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512980",
+      "name": "传媒ETF广发",
+      "sharpe": 0,
+      "annReturn": 0.00194424416778749,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "516010",
+      "name": "游戏ETF国泰",
+      "sharpe": 0,
+      "annReturn": -0.0010845790412058465,
+      "maxDD": 0.011332161499946758,
+      "trades": 1
+    },
+    {
+      "code": "159105",
+      "name": "恒生生物科技ETF易方达",
+      "sharpe": 0,
+      "annReturn": -0.003963871740364389,
+      "maxDD": 0.022544872930161497,
+      "trades": 2
+    },
+    {
+      "code": "159121",
+      "name": "港股通汽车ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159217",
+      "name": "港股通创新药ETF工银",
+      "sharpe": 0,
+      "annReturn": -0.003963871740364389,
+      "maxDD": 0.022544872930161497,
+      "trades": 2
+    },
+    {
+      "code": "159605",
+      "name": "中概互联ETF广发",
+      "sharpe": 0,
+      "annReturn": 0.0000051629785466911216,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159850",
+      "name": "恒生国企ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.00034379406518225686,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513040",
+      "name": "港股通互联网ETF易方达",
+      "sharpe": 0,
+      "annReturn": -0.003963871740364389,
+      "maxDD": 0.022544872930161497,
+      "trades": 2
+    },
+    {
+      "code": "513060",
+      "name": "恒生医疗ETF博时",
+      "sharpe": 0,
+      "annReturn": -0.003963871740364389,
+      "maxDD": 0.022544872930161497,
+      "trades": 2
+    },
+    {
+      "code": "513180",
+      "name": "恒生科技ETF华夏",
+      "sharpe": 0,
+      "annReturn": -0.003963871740364389,
+      "maxDD": 0.022544872930161497,
+      "trades": 2
+    },
+    {
+      "code": "513330",
+      "name": "恒生互联网ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513530",
+      "name": "港股通红利ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513600",
+      "name": "恒生指数ETF南方",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513730",
+      "name": "东南亚科技ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    }
+  ],
+  "ma20_sharpe": [
+    {
+      "code": "159782",
+      "name": "双创50ETF银华",
+      "sharpe": 0,
+      "annReturn": 0.008750981416085324,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159901",
+      "name": "深证100ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.0036057844023318353,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159915",
+      "name": "创业板ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.005763816861835247,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510050",
+      "name": "上证50ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.0003520659073468213,
+      "maxDD": 0.007674393805446655,
+      "trades": 2
+    },
+    {
+      "code": "510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.0017657250489955256,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510500",
+      "name": "中证500ETF南方",
+      "sharpe": 0,
+      "annReturn": 0.0019422655897087804,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512100",
+      "name": "中证1000ETF南方",
+      "sharpe": 0,
+      "annReturn": 0.003727734709288333,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "515800",
+      "name": "中证800ETF汇添富",
+      "sharpe": 0,
+      "annReturn": 0.001932123003504982,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "588000",
+      "name": "科创50ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.011471032324448238,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159259",
+      "name": "成长ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.000838401218651974,
+      "maxDD": 0.008430860837231213,
+      "trades": 2
+    },
+    {
+      "code": "159263",
+      "name": "价值ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.002580534891230446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159332",
+      "name": "央企红利ETF富国",
+      "sharpe": 0,
+      "annReturn": 0.0017391205716810187,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510880",
+      "name": "红利ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": -0.00015683220301754286,
+      "maxDD": 0.006834062544140762,
+      "trades": 2
+    },
+    {
+      "code": "159103",
+      "name": "金融科技ETF汇添富",
+      "sharpe": 0,
+      "annReturn": 0.0000051629785466911216,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159647",
+      "name": "中药ETF鹏华",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "159837",
+      "name": "生物科技ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "512010",
+      "name": "医药ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "512170",
+      "name": "医疗ETF华宝",
+      "sharpe": 0,
+      "annReturn": -0.001313109694482284,
+      "maxDD": 0.013829255968299092,
+      "trades": 1
+    },
+    {
+      "code": "515120",
+      "name": "创新药ETF广发",
+      "sharpe": 0,
+      "annReturn": 0.0019516008085234127,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159842",
+      "name": "券商ETF银华",
+      "sharpe": 0,
+      "annReturn": 0.00013002922076532641,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510230",
+      "name": "金融ETF国泰",
+      "sharpe": 0,
+      "annReturn": -0.000338125299234715,
+      "maxDD": 0.005644918013460454,
+      "trades": 1
+    },
+    {
+      "code": "512070",
+      "name": "证券保险ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.003466994674663715,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512800",
+      "name": "银行ETF华宝",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "159306",
+      "name": "汽车零部件ETF平安",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "159328",
+      "name": "家电ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.006408874297433087,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159736",
+      "name": "食品饮料ETF天弘",
+      "sharpe": 0,
+      "annReturn": -0.002743393020516627,
+      "maxDD": 0.0362851033245557,
+      "trades": 2
+    },
+    {
+      "code": "512690",
+      "name": "酒ETF鹏华",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "159147",
+      "name": "电池ETF南方",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "515030",
+      "name": "新能源车ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.007863966063233141,
+      "maxDD": 0.013026476431605927,
+      "trades": 2
+    },
+    {
+      "code": "515790",
+      "name": "光伏ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.0034325756212709724,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512200",
+      "name": "房地产ETF南方",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "512140",
+      "name": "电力ETF华安",
+      "sharpe": 0,
+      "annReturn": 0.011998035614738223,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159865",
+      "name": "畜牧养殖ETF国泰",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "512980",
+      "name": "传媒ETF广发",
+      "sharpe": 0,
+      "annReturn": 0.00194424416778749,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "516010",
+      "name": "游戏ETF国泰",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "159105",
+      "name": "恒生生物科技ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "159121",
+      "name": "港股通汽车ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159217",
+      "name": "港股通创新药ETF工银",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "159605",
+      "name": "中概互联ETF广发",
+      "sharpe": 0,
+      "annReturn": 0.0000051629785466911216,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159850",
+      "name": "恒生国企ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.00034379406518225686,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513040",
+      "name": "港股通互联网ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "513060",
+      "name": "恒生医疗ETF博时",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "513180",
+      "name": "恒生科技ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "513330",
+      "name": "恒生互联网ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513530",
+      "name": "港股通红利ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513600",
+      "name": "恒生指数ETF南方",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513730",
+      "name": "东南亚科技ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    }
+  ],
+  "macd_only": [
+    {
+      "code": "159782",
+      "name": "双创50ETF银华",
+      "sharpe": -8.467642558297625,
+      "annReturn": -0.2751633863346439,
+      "maxDD": 0.9809855200985244,
+      "trades": 107
+    },
+    {
+      "code": "159901",
+      "name": "深证100ETF易方达",
+      "sharpe": -7.181630682081767,
+      "annReturn": -0.23330621865329237,
+      "maxDD": 0.9962425544064442,
+      "trades": 202
+    },
+    {
+      "code": "159915",
+      "name": "创业板ETF易方达",
+      "sharpe": -6.409650536875642,
+      "annReturn": -0.23994356550549512,
+      "maxDD": 0.9883987158322964,
+      "trades": 145
+    },
+    {
+      "code": "510050",
+      "name": "上证50ETF华夏",
+      "sharpe": -9.319094093460702,
+      "annReturn": -0.23246805459406295,
+      "maxDD": 0.997292363744943,
+      "trades": 204
+    },
+    {
+      "code": "510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "sharpe": -7.863616045378382,
+      "annReturn": -0.2131319846175328,
+      "maxDD": 0.9936488870294179,
+      "trades": 191
+    },
+    {
+      "code": "510500",
+      "name": "中证500ETF南方",
+      "sharpe": -8.013637137439465,
+      "annReturn": -0.2790945069971391,
+      "maxDD": 0.9983058970488702,
+      "trades": 184
+    },
+    {
+      "code": "512100",
+      "name": "中证1000ETF南方",
+      "sharpe": -7.361088524655757,
+      "annReturn": -0.2672450386318531,
+      "maxDD": 0.9748136658566073,
+      "trades": 111
+    },
+    {
+      "code": "515800",
+      "name": "中证800ETF汇添富",
+      "sharpe": -8.81838189013583,
+      "annReturn": -0.24549177445615233,
+      "maxDD": 0.9958547181015446,
+      "trades": 184
+    },
+    {
+      "code": "588000",
+      "name": "科创50ETF华夏",
+      "sharpe": -8.491781517020616,
+      "annReturn": -0.2662102238626569,
+      "maxDD": 0.8815943450689191,
+      "trades": 47
+    },
+    {
+      "code": "159259",
+      "name": "成长ETF易方达",
+      "sharpe": -8.842942616488429,
+      "annReturn": -0.23353970797858392,
+      "maxDD": 0.9827579228232425,
+      "trades": 135
+    },
+    {
+      "code": "159263",
+      "name": "价值ETF易方达",
+      "sharpe": -7.666806893806369,
+      "annReturn": -0.1930908356070854,
+      "maxDD": 0.9621939570165645,
+      "trades": 138
+    },
+    {
+      "code": "159332",
+      "name": "央企红利ETF富国",
+      "sharpe": -7.552355243361424,
+      "annReturn": -0.261013423398051,
+      "maxDD": 0.9860928168704843,
+      "trades": 120
+    },
+    {
+      "code": "510880",
+      "name": "红利ETF华泰柏瑞",
+      "sharpe": -7.790800021632675,
+      "annReturn": -0.2104819905067783,
+      "maxDD": 0.9848575562440604,
+      "trades": 165
+    },
+    {
+      "code": "159103",
+      "name": "金融科技ETF汇添富",
+      "sharpe": -5.972711829611367,
+      "annReturn": -0.2409250720632533,
+      "maxDD": 0.9447863477358597,
+      "trades": 105
+    },
+    {
+      "code": "159647",
+      "name": "中药ETF鹏华",
+      "sharpe": -8.041359995236517,
+      "annReturn": -0.23897799719371948,
+      "maxDD": 0.976360044064874,
+      "trades": 129
+    },
+    {
+      "code": "159837",
+      "name": "生物科技ETF易方达",
+      "sharpe": -8.89058337275635,
+      "annReturn": -0.3098421145056367,
+      "maxDD": 0.9865359403519494,
+      "trades": 115
+    },
+    {
+      "code": "512010",
+      "name": "医药ETF易方达",
+      "sharpe": -7.379927135078573,
+      "annReturn": -0.23734744464157642,
+      "maxDD": 0.9896147023247269,
+      "trades": 163
+    },
+    {
+      "code": "512170",
+      "name": "医疗ETF华宝",
+      "sharpe": -7.83603007986564,
+      "annReturn": -0.29660771791144647,
+      "maxDD": 0.9759803610885206,
+      "trades": 92
+    },
+    {
+      "code": "515120",
+      "name": "创新药ETF广发",
+      "sharpe": -8.824140650967616,
+      "annReturn": -0.23400714688260427,
+      "maxDD": 0.9419111289301239,
+      "trades": 92
+    },
+    {
+      "code": "159842",
+      "name": "券商ETF银华",
+      "sharpe": -8.026504206098318,
+      "annReturn": -0.2889095257345813,
+      "maxDD": 0.9920179674207023,
+      "trades": 132
+    },
+    {
+      "code": "510230",
+      "name": "金融ETF国泰",
+      "sharpe": -8.843428853952028,
+      "annReturn": -0.21735193457291402,
+      "maxDD": 0.9834656727936067,
+      "trades": 150
+    },
+    {
+      "code": "512070",
+      "name": "证券保险ETF易方达",
+      "sharpe": -8.348955471408832,
+      "annReturn": -0.29888173867328205,
+      "maxDD": 0.989197790528987,
+      "trades": 115
+    },
+    {
+      "code": "512800",
+      "name": "银行ETF华宝",
+      "sharpe": -8.29508667200554,
+      "annReturn": -0.1836229302098279,
+      "maxDD": 0.8949658549308133,
+      "trades": 85
+    },
+    {
+      "code": "159306",
+      "name": "汽车零部件ETF平安",
+      "sharpe": -8.338273524771873,
+      "annReturn": -0.20861248990744952,
+      "maxDD": 0.9722092841058293,
+      "trades": 144
+    },
+    {
+      "code": "159328",
+      "name": "家电ETF易方达",
+      "sharpe": -8.884200853676319,
+      "annReturn": -0.25481339679425385,
+      "maxDD": 0.9545245020822682,
+      "trades": 95
+    },
+    {
+      "code": "159736",
+      "name": "食品饮料ETF天弘",
+      "sharpe": -8.019536757385737,
+      "annReturn": -0.23672969453078385,
+      "maxDD": 0.9758444952915015,
+      "trades": 128
+    },
+    {
+      "code": "512690",
+      "name": "酒ETF鹏华",
+      "sharpe": -10.808042417153,
+      "annReturn": -0.26422104874791064,
+      "maxDD": 0.9602077586790208,
+      "trades": 98
+    },
+    {
+      "code": "159147",
+      "name": "电池ETF南方",
+      "sharpe": -6.290130161891075,
+      "annReturn": -0.27184997901333785,
+      "maxDD": 0.8194897267491543,
+      "trades": 48
+    },
+    {
+      "code": "515030",
+      "name": "新能源车ETF华夏",
+      "sharpe": -6.345429566626707,
+      "annReturn": -0.2895206836661298,
+      "maxDD": 0.9751023960572067,
+      "trades": 101
+    },
+    {
+      "code": "515790",
+      "name": "光伏ETF华泰柏瑞",
+      "sharpe": -6.764697495991371,
+      "annReturn": -0.27187366720550166,
+      "maxDD": 0.9655363484378423,
+      "trades": 89
+    },
+    {
+      "code": "512200",
+      "name": "房地产ETF南方",
+      "sharpe": -7.450030346122287,
+      "annReturn": -0.2608157818110344,
+      "maxDD": 0.9842516576176568,
+      "trades": 127
+    },
+    {
+      "code": "512140",
+      "name": "电力ETF华安",
+      "sharpe": -9.988066905497718,
+      "annReturn": -0.28944026739109874,
+      "maxDD": 0.973255753191728,
+      "trades": 88
+    },
+    {
+      "code": "159865",
+      "name": "畜牧养殖ETF国泰",
+      "sharpe": -7.846138870608834,
+      "annReturn": -0.275009287310103,
+      "maxDD": 0.9048465191779294,
+      "trades": 62
+    },
+    {
+      "code": "512980",
+      "name": "传媒ETF广发",
+      "sharpe": -9.089362708294631,
+      "annReturn": -0.33996543025870607,
+      "maxDD": 0.9924839082201855,
+      "trades": 108
+    },
+    {
+      "code": "516010",
+      "name": "游戏ETF国泰",
+      "sharpe": -13.624802772784287,
+      "annReturn": -0.3064924250395342,
+      "maxDD": 0.9785880157786254,
+      "trades": 81
+    },
+    {
+      "code": "159105",
+      "name": "恒生生物科技ETF易方达",
+      "sharpe": -7.533495149719109,
+      "annReturn": -0.35301161467141196,
+      "maxDD": 0.9300119120701424,
+      "trades": 61
+    },
+    {
+      "code": "159121",
+      "name": "港股通汽车ETF易方达",
+      "sharpe": -5.957237967988573,
+      "annReturn": -0.20838213999581756,
+      "maxDD": 0.9998363081870214,
+      "trades": 351
+    },
+    {
+      "code": "159217",
+      "name": "港股通创新药ETF工银",
+      "sharpe": -7.533495149719109,
+      "annReturn": -0.35301161467141196,
+      "maxDD": 0.9300119120701424,
+      "trades": 61
+    },
+    {
+      "code": "159605",
+      "name": "中概互联ETF广发",
+      "sharpe": -5.972711829611367,
+      "annReturn": -0.2409250720632533,
+      "maxDD": 0.9447863477358597,
+      "trades": 105
+    },
+    {
+      "code": "159850",
+      "name": "恒生国企ETF华夏",
+      "sharpe": -7.50315244956299,
+      "annReturn": -0.28277944937248933,
+      "maxDD": 0.9999831446307391,
+      "trades": 308
+    },
+    {
+      "code": "513040",
+      "name": "港股通互联网ETF易方达",
+      "sharpe": -7.533495149719109,
+      "annReturn": -0.35301161467141196,
+      "maxDD": 0.9300119120701424,
+      "trades": 61
+    },
+    {
+      "code": "513060",
+      "name": "恒生医疗ETF博时",
+      "sharpe": -7.533495149719109,
+      "annReturn": -0.35301161467141196,
+      "maxDD": 0.9300119120701424,
+      "trades": 61
+    },
+    {
+      "code": "513180",
+      "name": "恒生科技ETF华夏",
+      "sharpe": -7.533495149719109,
+      "annReturn": -0.35301161467141196,
+      "maxDD": 0.9300119120701424,
+      "trades": 61
+    },
+    {
+      "code": "513330",
+      "name": "恒生互联网ETF华夏",
+      "sharpe": -5.957237967988573,
+      "annReturn": -0.20838213999581756,
+      "maxDD": 0.9998363081870214,
+      "trades": 351
+    },
+    {
+      "code": "513530",
+      "name": "港股通红利ETF华泰柏瑞",
+      "sharpe": -5.957237967988573,
+      "annReturn": -0.20838213999581756,
+      "maxDD": 0.9998363081870214,
+      "trades": 351
+    },
+    {
+      "code": "513600",
+      "name": "恒生指数ETF南方",
+      "sharpe": -5.957237967988573,
+      "annReturn": -0.20838213999581756,
+      "maxDD": 0.9998363081870214,
+      "trades": 351
+    },
+    {
+      "code": "513730",
+      "name": "东南亚科技ETF华泰柏瑞",
+      "sharpe": -5.957237967988573,
+      "annReturn": -0.20838213999581756,
+      "maxDD": 0.9998363081870214,
+      "trades": 351
+    }
+  ],
+  "macd_sharpe": [
+    {
+      "code": "159782",
+      "name": "双创50ETF银华",
+      "sharpe": -6.788061931519593,
+      "annReturn": -0.14637855875180394,
+      "maxDD": 0.8563931294175434,
+      "trades": 48
+    },
+    {
+      "code": "159901",
+      "name": "深证100ETF易方达",
+      "sharpe": -6.9930645463657655,
+      "annReturn": -0.14901323975953829,
+      "maxDD": 0.9681682948986423,
+      "trades": 119
+    },
+    {
+      "code": "159915",
+      "name": "创业板ETF易方达",
+      "sharpe": -3.9397890116978016,
+      "annReturn": -0.12380469346970158,
+      "maxDD": 0.905067070388664,
+      "trades": 77
+    },
+    {
+      "code": "510050",
+      "name": "上证50ETF华夏",
+      "sharpe": -7.35477490858909,
+      "annReturn": -0.13706118647810128,
+      "maxDD": 0.9642313997188705,
+      "trades": 103
+    },
+    {
+      "code": "510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "sharpe": -6.8531356338621805,
+      "annReturn": -0.13058746317800696,
+      "maxDD": 0.9531269799930184,
+      "trades": 110
+    },
+    {
+      "code": "510500",
+      "name": "中证500ETF南方",
+      "sharpe": -7.089872934272991,
+      "annReturn": -0.18211054485630407,
+      "maxDD": 0.9792282097299648,
+      "trades": 110
+    },
+    {
+      "code": "512100",
+      "name": "中证1000ETF南方",
+      "sharpe": -6.219294679099119,
+      "annReturn": -0.14143122147178344,
+      "maxDD": 0.8273318055968626,
+      "trades": 62
+    },
+    {
+      "code": "515800",
+      "name": "中证800ETF汇添富",
+      "sharpe": -7.593732032941074,
+      "annReturn": -0.1494231629104299,
+      "maxDD": 0.955796319684935,
+      "trades": 99
+    },
+    {
+      "code": "588000",
+      "name": "科创50ETF华夏",
+      "sharpe": -6.397087956710897,
+      "annReturn": -0.1177667906496992,
+      "maxDD": 0.5466415848399077,
+      "trades": 19
+    },
+    {
+      "code": "159259",
+      "name": "成长ETF易方达",
+      "sharpe": -7.854304939324612,
+      "annReturn": -0.15097833178596531,
+      "maxDD": 0.9212354211988097,
+      "trades": 78
+    },
+    {
+      "code": "159263",
+      "name": "价值ETF易方达",
+      "sharpe": -6.675548011221833,
+      "annReturn": -0.11418079466842546,
+      "maxDD": 0.8452119105765283,
+      "trades": 84
+    },
+    {
+      "code": "159332",
+      "name": "央企红利ETF富国",
+      "sharpe": -6.524625152296483,
+      "annReturn": -0.1476563088557028,
+      "maxDD": 0.8967867807797333,
+      "trades": 59
+    },
+    {
+      "code": "510880",
+      "name": "红利ETF华泰柏瑞",
+      "sharpe": -7.861658501722751,
+      "annReturn": -0.15489153060630756,
+      "maxDD": 0.951751932681494,
+      "trades": 105
+    },
+    {
+      "code": "159103",
+      "name": "金融科技ETF汇添富",
+      "sharpe": -8.871165465581278,
+      "annReturn": -0.20598834578199776,
+      "maxDD": 0.9130767318108218,
+      "trades": 57
+    },
+    {
+      "code": "159647",
+      "name": "中药ETF鹏华",
+      "sharpe": -7.254986582648248,
+      "annReturn": -0.14741358542845684,
+      "maxDD": 0.8835652609866402,
+      "trades": 78
+    },
+    {
+      "code": "159837",
+      "name": "生物科技ETF易方达",
+      "sharpe": -6.891929715686182,
+      "annReturn": -0.11243123034212688,
+      "maxDD": 0.7387851429416332,
+      "trades": 57
+    },
+    {
+      "code": "512010",
+      "name": "医药ETF易方达",
+      "sharpe": -6.643267945549025,
+      "annReturn": -0.1367349073120936,
+      "maxDD": 0.9233772453590857,
+      "trades": 97
+    },
+    {
+      "code": "512170",
+      "name": "医疗ETF华宝",
+      "sharpe": -4.729092860516218,
+      "annReturn": -0.13618851470361504,
+      "maxDD": 0.7880886222527511,
+      "trades": 42
+    },
+    {
+      "code": "515120",
+      "name": "创新药ETF广发",
+      "sharpe": -8.19265183552334,
+      "annReturn": -0.09202548403793775,
+      "maxDD": 0.6412867318634144,
+      "trades": 45
+    },
+    {
+      "code": "159842",
+      "name": "券商ETF银华",
+      "sharpe": -6.169874885520227,
+      "annReturn": -0.1861471051156014,
+      "maxDD": 0.953414199338686,
+      "trades": 79
+    },
+    {
+      "code": "510230",
+      "name": "金融ETF国泰",
+      "sharpe": -8.440666805423628,
+      "annReturn": -0.1359795608669403,
+      "maxDD": 0.913411231943234,
+      "trades": 79
+    },
+    {
+      "code": "512070",
+      "name": "证券保险ETF易方达",
+      "sharpe": -10.609641652580988,
+      "annReturn": -0.22518100392438434,
+      "maxDD": 0.9556777344381142,
+      "trades": 65
+    },
+    {
+      "code": "512800",
+      "name": "银行ETF华宝",
+      "sharpe": -8.528467244419112,
+      "annReturn": -0.14416983114045756,
+      "maxDD": 0.8249694122095158,
+      "trades": 53
+    },
+    {
+      "code": "159306",
+      "name": "汽车零部件ETF平安",
+      "sharpe": -7.250222203637738,
+      "annReturn": -0.112397896939884,
+      "maxDD": 0.8386083137711648,
+      "trades": 77
+    },
+    {
+      "code": "159328",
+      "name": "家电ETF易方达",
+      "sharpe": -7.374182760773172,
+      "annReturn": -0.12896405584758674,
+      "maxDD": 0.7656274135061568,
+      "trades": 42
+    },
+    {
+      "code": "159736",
+      "name": "食品饮料ETF天弘",
+      "sharpe": -7.905891460158659,
+      "annReturn": -0.15437511262840387,
+      "maxDD": 0.895223428172519,
+      "trades": 73
+    },
+    {
+      "code": "512690",
+      "name": "酒ETF鹏华",
+      "sharpe": -9.727101002087387,
+      "annReturn": -0.14291870759227043,
+      "maxDD": 0.8026142615936519,
+      "trades": 59
+    },
+    {
+      "code": "159147",
+      "name": "电池ETF南方",
+      "sharpe": -5.937354622149244,
+      "annReturn": -0.17394604580909045,
+      "maxDD": 0.6627402591977817,
+      "trades": 35
+    },
+    {
+      "code": "515030",
+      "name": "新能源车ETF华夏",
+      "sharpe": -5.377611377427884,
+      "annReturn": -0.13427390007459683,
+      "maxDD": 0.7913534215406566,
+      "trades": 45
+    },
+    {
+      "code": "515790",
+      "name": "光伏ETF华泰柏瑞",
+      "sharpe": -5.207889762826189,
+      "annReturn": -0.14812291925763565,
+      "maxDD": 0.8171397111707663,
+      "trades": 51
+    },
+    {
+      "code": "512200",
+      "name": "房地产ETF南方",
+      "sharpe": -5.753974633965341,
+      "annReturn": -0.1542166048825231,
+      "maxDD": 0.9015761646695444,
+      "trades": 57
+    },
+    {
+      "code": "512140",
+      "name": "电力ETF华安",
+      "sharpe": -8.831193155513182,
+      "annReturn": -0.174020250499747,
+      "maxDD": 0.8686711552118841,
+      "trades": 54
+    },
+    {
+      "code": "159865",
+      "name": "畜牧养殖ETF国泰",
+      "sharpe": -6.820140186301314,
+      "annReturn": -0.17368052613205742,
+      "maxDD": 0.7461633498643666,
+      "trades": 26
+    },
+    {
+      "code": "512980",
+      "name": "传媒ETF广发",
+      "sharpe": -8.594188334952092,
+      "annReturn": -0.19002970075890357,
+      "maxDD": 0.9105153134511961,
+      "trades": 62
+    },
+    {
+      "code": "516010",
+      "name": "游戏ETF国泰",
+      "sharpe": -14.083223047458455,
+      "annReturn": -0.1623686969164987,
+      "maxDD": 0.8444496103793421,
+      "trades": 37
+    },
+    {
+      "code": "159105",
+      "name": "恒生生物科技ETF易方达",
+      "sharpe": -9.419967990111783,
+      "annReturn": -0.13800207701065637,
+      "maxDD": 0.573691892441824,
+      "trades": 20
+    },
+    {
+      "code": "159121",
+      "name": "港股通汽车ETF易方达",
+      "sharpe": -6.076966656372168,
+      "annReturn": -0.12953820649032088,
+      "maxDD": 0.9943466543144466,
+      "trades": 244
+    },
+    {
+      "code": "159217",
+      "name": "港股通创新药ETF工银",
+      "sharpe": -9.419967990111783,
+      "annReturn": -0.13800207701065637,
+      "maxDD": 0.573691892441824,
+      "trades": 20
+    },
+    {
+      "code": "159605",
+      "name": "中概互联ETF广发",
+      "sharpe": -8.871165465581278,
+      "annReturn": -0.20598834578199776,
+      "maxDD": 0.9130767318108218,
+      "trades": 57
+    },
+    {
+      "code": "159850",
+      "name": "恒生国企ETF华夏",
+      "sharpe": -7.227937353736604,
+      "annReturn": -0.18390121641257262,
+      "maxDD": 0.9987646453938805,
+      "trades": 196
+    },
+    {
+      "code": "513040",
+      "name": "港股通互联网ETF易方达",
+      "sharpe": -9.419967990111783,
+      "annReturn": -0.13800207701065637,
+      "maxDD": 0.573691892441824,
+      "trades": 20
+    },
+    {
+      "code": "513060",
+      "name": "恒生医疗ETF博时",
+      "sharpe": -9.419967990111783,
+      "annReturn": -0.13800207701065637,
+      "maxDD": 0.573691892441824,
+      "trades": 20
+    },
+    {
+      "code": "513180",
+      "name": "恒生科技ETF华夏",
+      "sharpe": -9.419967990111783,
+      "annReturn": -0.13800207701065637,
+      "maxDD": 0.573691892441824,
+      "trades": 20
+    },
+    {
+      "code": "513330",
+      "name": "恒生互联网ETF华夏",
+      "sharpe": -6.076966656372168,
+      "annReturn": -0.12953820649032088,
+      "maxDD": 0.9943466543144466,
+      "trades": 244
+    },
+    {
+      "code": "513530",
+      "name": "港股通红利ETF华泰柏瑞",
+      "sharpe": -6.076966656372168,
+      "annReturn": -0.12953820649032088,
+      "maxDD": 0.9943466543144466,
+      "trades": 244
+    },
+    {
+      "code": "513600",
+      "name": "恒生指数ETF南方",
+      "sharpe": -6.076966656372168,
+      "annReturn": -0.12953820649032088,
+      "maxDD": 0.9943466543144466,
+      "trades": 244
+    },
+    {
+      "code": "513730",
+      "name": "东南亚科技ETF华泰柏瑞",
+      "sharpe": -6.076966656372168,
+      "annReturn": -0.12953820649032088,
+      "maxDD": 0.9943466543144466,
+      "trades": 244
+    }
+  ],
+  "combined": [
+    {
+      "code": "159782",
+      "name": "双创50ETF银华",
+      "sharpe": 0,
+      "annReturn": 0.00937808016838293,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159901",
+      "name": "深证100ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.0037733199219065483,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159915",
+      "name": "创业板ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.006225150781995259,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510050",
+      "name": "上证50ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.0003520659073468213,
+      "maxDD": 0.007674393805446655,
+      "trades": 2
+    },
+    {
+      "code": "510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.0017657250489955256,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510500",
+      "name": "中证500ETF南方",
+      "sharpe": 0,
+      "annReturn": 0.0019422655897087804,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512100",
+      "name": "中证1000ETF南方",
+      "sharpe": 0,
+      "annReturn": 0.003727734709288333,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "515800",
+      "name": "中证800ETF汇添富",
+      "sharpe": 0,
+      "annReturn": 0.001932123003504982,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "588000",
+      "name": "科创50ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.011471032324448238,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159259",
+      "name": "成长ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.000838401218651974,
+      "maxDD": 0.008430860837231213,
+      "trades": 2
+    },
+    {
+      "code": "159263",
+      "name": "价值ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.002580534891230446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159332",
+      "name": "央企红利ETF富国",
+      "sharpe": 0,
+      "annReturn": 0.0017391205716810187,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510880",
+      "name": "红利ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": -0.00015683220301754286,
+      "maxDD": 0.006834062544140762,
+      "trades": 2
+    },
+    {
+      "code": "159103",
+      "name": "金融科技ETF汇添富",
+      "sharpe": 0,
+      "annReturn": 0.0000051629785466911216,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159647",
+      "name": "中药ETF鹏华",
+      "sharpe": 0,
+      "annReturn": 0.0002676373095431561,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159837",
+      "name": "生物科技ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.0033708458803691776,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512010",
+      "name": "医药ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.0000450745932540908,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512170",
+      "name": "医疗ETF华宝",
+      "sharpe": 0,
+      "annReturn": -0.001313109694482284,
+      "maxDD": 0.013829255968299092,
+      "trades": 1
+    },
+    {
+      "code": "515120",
+      "name": "创新药ETF广发",
+      "sharpe": 0,
+      "annReturn": 0.0019516008085234127,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159842",
+      "name": "券商ETF银华",
+      "sharpe": 0,
+      "annReturn": 0.00013002922076532641,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "510230",
+      "name": "金融ETF国泰",
+      "sharpe": 0,
+      "annReturn": -0.000338125299234715,
+      "maxDD": 0.005644918013460454,
+      "trades": 1
+    },
+    {
+      "code": "512070",
+      "name": "证券保险ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.003466994674663715,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512800",
+      "name": "银行ETF华宝",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "159306",
+      "name": "汽车零部件ETF平安",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "159328",
+      "name": "家电ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.006408874297433087,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159736",
+      "name": "食品饮料ETF天弘",
+      "sharpe": 0,
+      "annReturn": -0.002743393020516627,
+      "maxDD": 0.0362851033245557,
+      "trades": 2
+    },
+    {
+      "code": "512690",
+      "name": "酒ETF鹏华",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "159147",
+      "name": "电池ETF南方",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "515030",
+      "name": "新能源车ETF华夏",
+      "sharpe": -2.342798596765954,
+      "annReturn": 0.005609547994520181,
+      "maxDD": 0.04099486426501964,
+      "trades": 3
+    },
+    {
+      "code": "515790",
+      "name": "光伏ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.0034325756212709724,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "512200",
+      "name": "房地产ETF南方",
+      "sharpe": 0,
+      "annReturn": -0.0002759886705684389,
+      "maxDD": 0.0037677061600964734,
+      "trades": 1
+    },
+    {
+      "code": "512140",
+      "name": "电力ETF华安",
+      "sharpe": 0,
+      "annReturn": 0.011998035614738223,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159865",
+      "name": "畜牧养殖ETF国泰",
+      "sharpe": 0,
+      "annReturn": 0,
+      "maxDD": 0,
+      "trades": 0
+    },
+    {
+      "code": "512980",
+      "name": "传媒ETF广发",
+      "sharpe": 0,
+      "annReturn": 0.00194424416778749,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "516010",
+      "name": "游戏ETF国泰",
+      "sharpe": 0,
+      "annReturn": -0.0015406052556325989,
+      "maxDD": 0.016062128099447404,
+      "trades": 1
+    },
+    {
+      "code": "159105",
+      "name": "恒生生物科技ETF易方达",
+      "sharpe": 0,
+      "annReturn": -0.006597284707959172,
+      "maxDD": 0.037289280608317266,
+      "trades": 1
+    },
+    {
+      "code": "159121",
+      "name": "港股通汽车ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159217",
+      "name": "港股通创新药ETF工银",
+      "sharpe": 0,
+      "annReturn": -0.006597284707959172,
+      "maxDD": 0.037289280608317266,
+      "trades": 1
+    },
+    {
+      "code": "159605",
+      "name": "中概互联ETF广发",
+      "sharpe": 0,
+      "annReturn": 0.0000051629785466911216,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "159850",
+      "name": "恒生国企ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.00034379406518225686,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513040",
+      "name": "港股通互联网ETF易方达",
+      "sharpe": 0,
+      "annReturn": -0.006597284707959172,
+      "maxDD": 0.037289280608317266,
+      "trades": 1
+    },
+    {
+      "code": "513060",
+      "name": "恒生医疗ETF博时",
+      "sharpe": 0,
+      "annReturn": -0.006597284707959172,
+      "maxDD": 0.037289280608317266,
+      "trades": 1
+    },
+    {
+      "code": "513180",
+      "name": "恒生科技ETF华夏",
+      "sharpe": 0,
+      "annReturn": -0.006597284707959172,
+      "maxDD": 0.037289280608317266,
+      "trades": 1
+    },
+    {
+      "code": "513330",
+      "name": "恒生互联网ETF华夏",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513530",
+      "name": "港股通红利ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513600",
+      "name": "恒生指数ETF南方",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    },
+    {
+      "code": "513730",
+      "name": "东南亚科技ETF华泰柏瑞",
+      "sharpe": 0,
+      "annReturn": 0.00008790635175004446,
+      "maxDD": 0,
+      "trades": 1
+    }
+  ],
+  "multi_window": [
+    {
+      "code": "159782",
+      "name": "双创50ETF银华",
+      "sharpe": 19.4543572524464,
+      "annReturn": 0.09165097106370768,
+      "maxDD": 0.08307975970258064,
+      "trades": 5
+    },
+    {
+      "code": "159901",
+      "name": "深证100ETF易方达",
+      "sharpe": -0.0839577728416018,
+      "annReturn": 0.026532541873107496,
+      "maxDD": 0.2190110862802498,
+      "trades": 11
+    },
+    {
+      "code": "159915",
+      "name": "创业板ETF易方达",
+      "sharpe": 12.23352541501227,
+      "annReturn": 0.0926018626653553,
+      "maxDD": 0.08558306276305669,
+      "trades": 9
+    },
+    {
+      "code": "510050",
+      "name": "上证50ETF华夏",
+      "sharpe": -4.627540296905672,
+      "annReturn": 0.010660141108715937,
+      "maxDD": 0.2438911311674099,
+      "trades": 13
+    },
+    {
+      "code": "510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "sharpe": -2.36803590131657,
+      "annReturn": 0.020336331687233367,
+      "maxDD": 0.21756030574183371,
+      "trades": 10
+    },
+    {
+      "code": "510500",
+      "name": "中证500ETF南方",
+      "sharpe": -5.758359590625808,
+      "annReturn": 0.023802564876666432,
+      "maxDD": 0.1908906051669944,
+      "trades": 17
+    },
+    {
+      "code": "512100",
+      "name": "中证1000ETF南方",
+      "sharpe": -7.5007586610608605,
+      "annReturn": 0.004619369097676351,
+      "maxDD": 0.22363708621712314,
+      "trades": 11
+    },
+    {
+      "code": "515800",
+      "name": "中证800ETF汇添富",
+      "sharpe": 10.5525456536041,
+      "annReturn": 0.023576030740272813,
+      "maxDD": 0.213740637025026,
+      "trades": 10
+    },
+    {
+      "code": "588000",
+      "name": "科创50ETF华夏",
+      "sharpe": 5.496035264676386,
+      "annReturn": 0.029818364762567162,
+      "maxDD": 0.16867714598169214,
+      "trades": 4
+    },
+    {
+      "code": "159259",
+      "name": "成长ETF易方达",
+      "sharpe": -8.995373717540769,
+      "annReturn": 0.0018959799284417045,
+      "maxDD": 0.39360521811739685,
+      "trades": 19
+    },
+    {
+      "code": "159263",
+      "name": "价值ETF易方达",
+      "sharpe": 8.511309413844113,
+      "annReturn": 0.042075920105439035,
+      "maxDD": 0.13235375548680095,
+      "trades": 12
+    },
+    {
+      "code": "159332",
+      "name": "央企红利ETF富国",
+      "sharpe": -6.196589050325938,
+      "annReturn": -0.0030927725790397265,
+      "maxDD": 0.47164235136997956,
+      "trades": 11
+    },
+    {
+      "code": "510880",
+      "name": "红利ETF华泰柏瑞",
+      "sharpe": -4.544852011715162,
+      "annReturn": -0.005242525149962263,
+      "maxDD": 0.4106323775603321,
+      "trades": 18
+    },
+    {
+      "code": "159103",
+      "name": "金融科技ETF汇添富",
+      "sharpe": -11.174568308417584,
+      "annReturn": -0.009889640720920467,
+      "maxDD": 0.30650548452280746,
+      "trades": 6
+    },
+    {
+      "code": "159647",
+      "name": "中药ETF鹏华",
+      "sharpe": -0.6331465965884946,
+      "annReturn": 0.026595547744175496,
+      "maxDD": 0.1244427243272509,
+      "trades": 8
+    },
+    {
+      "code": "159837",
+      "name": "生物科技ETF易方达",
+      "sharpe": 0,
+      "annReturn": 0.06289422578304382,
+      "maxDD": 0.014844507898156833,
+      "trades": 2
+    },
+    {
+      "code": "512010",
+      "name": "医药ETF易方达",
+      "sharpe": -3.500898656035427,
+      "annReturn": 0.051965928775898895,
+      "maxDD": 0.07128558188879516,
+      "trades": 11
+    },
+    {
+      "code": "512170",
+      "name": "医疗ETF华宝",
+      "sharpe": -0.9632133566382637,
+      "annReturn": 0.0480032133799988,
+      "maxDD": 0.07351048182388607,
+      "trades": 3
+    },
+    {
+      "code": "515120",
+      "name": "创新药ETF广发",
+      "sharpe": -11.21411845667094,
+      "annReturn": -0.03697042920650362,
+      "maxDD": 0.5078174103420773,
+      "trades": 14
+    },
+    {
+      "code": "159842",
+      "name": "券商ETF银华",
+      "sharpe": -7.475837618282358,
+      "annReturn": -0.017670482508338914,
+      "maxDD": 0.6743414499265931,
+      "trades": 19
+    },
+    {
+      "code": "510230",
+      "name": "金融ETF国泰",
+      "sharpe": -7.105773065094813,
+      "annReturn": -0.006292805295079695,
+      "maxDD": 0.3381221935969093,
+      "trades": 17
+    },
+    {
+      "code": "512070",
+      "name": "证券保险ETF易方达",
+      "sharpe": -0.505062349972356,
+      "annReturn": 0.034341333283499864,
+      "maxDD": 0.27770282103415994,
+      "trades": 11
+    },
+    {
+      "code": "512800",
+      "name": "银行ETF华宝",
+      "sharpe": -17.756226164360555,
+      "annReturn": -0.035209867615127566,
+      "maxDD": 0.328434268355812,
+      "trades": 10
+    },
+    {
+      "code": "159306",
+      "name": "汽车零部件ETF平安",
+      "sharpe": 15.005100373919312,
+      "annReturn": 0.059644667463528034,
+      "maxDD": 0.01125804862922512,
+      "trades": 4
+    },
+    {
+      "code": "159328",
+      "name": "家电ETF易方达",
+      "sharpe": 5.41216152501708,
+      "annReturn": 0.025451081502312567,
+      "maxDD": 0.20803234158340406,
+      "trades": 7
+    },
+    {
+      "code": "159736",
+      "name": "食品饮料ETF天弘",
+      "sharpe": -7.08811792752461,
+      "annReturn": -0.026955277267074473,
+      "maxDD": 0.3892463122092703,
+      "trades": 10
+    },
+    {
+      "code": "512690",
+      "name": "酒ETF鹏华",
+      "sharpe": -82.69523146132977,
+      "annReturn": 0.05942285008370751,
+      "maxDD": 0.25832269885274883,
+      "trades": 3
+    },
+    {
+      "code": "159147",
+      "name": "电池ETF南方",
+      "sharpe": 5.1036434224144385,
+      "annReturn": 0.10322251372272251,
+      "maxDD": 0.04160876318155804,
+      "trades": 5
+    },
+    {
+      "code": "515030",
+      "name": "新能源车ETF华夏",
+      "sharpe": 6.925039001578638,
+      "annReturn": 0.09313292175160792,
+      "maxDD": 0.1213925992596886,
+      "trades": 5
+    },
+    {
+      "code": "515790",
+      "name": "光伏ETF华泰柏瑞",
+      "sharpe": -5.267305229477633,
+      "annReturn": 0.07984460061342635,
+      "maxDD": 0.12129464696643044,
+      "trades": 9
+    },
+    {
+      "code": "512200",
+      "name": "房地产ETF南方",
+      "sharpe": -10.977767343857218,
+      "annReturn": -0.023435297108586384,
+      "maxDD": 0.3519162332131784,
+      "trades": 11
+    },
+    {
+      "code": "512140",
+      "name": "电力ETF华安",
+      "sharpe": 3.0616579634026424,
+      "annReturn": 0.08533317633433835,
+      "maxDD": 0.2291172737830179,
+      "trades": 5
+    },
+    {
+      "code": "159865",
+      "name": "畜牧养殖ETF国泰",
+      "sharpe": -6.003872263179171,
+      "annReturn": 0.03821865979863781,
+      "maxDD": 0.009510045453524452,
+      "trades": 3
+    },
+    {
+      "code": "512980",
+      "name": "传媒ETF广发",
+      "sharpe": 6.365294870460524,
+      "annReturn": 0.06157486056211403,
+      "maxDD": 0.02679339411663516,
+      "trades": 10
+    },
+    {
+      "code": "516010",
+      "name": "游戏ETF国泰",
+      "sharpe": -8.337510428642723,
+      "annReturn": -0.023286674016612774,
+      "maxDD": 0.2866100770178129,
+      "trades": 14
+    },
+    {
+      "code": "159105",
+      "name": "恒生生物科技ETF易方达",
+      "sharpe": -3.5626911134595702,
+      "annReturn": -0.0034690357654716397,
+      "maxDD": 0.1282228839613253,
+      "trades": 3
+    },
+    {
+      "code": "159121",
+      "name": "港股通汽车ETF易方达",
+      "sharpe": -6.276583981922786,
+      "annReturn": 0.03919284274733115,
+      "maxDD": 0.1622780745322373,
+      "trades": 31
+    },
+    {
+      "code": "159217",
+      "name": "港股通创新药ETF工银",
+      "sharpe": -3.5626911134595702,
+      "annReturn": -0.0034690357654716397,
+      "maxDD": 0.1282228839613253,
+      "trades": 3
+    },
+    {
+      "code": "159605",
+      "name": "中概互联ETF广发",
+      "sharpe": -11.174568308417584,
+      "annReturn": -0.009889640720920467,
+      "maxDD": 0.30650548452280746,
+      "trades": 6
+    },
+    {
+      "code": "159850",
+      "name": "恒生国企ETF华夏",
+      "sharpe": -6.3768340737868945,
+      "annReturn": 0.021862231194843096,
+      "maxDD": 0.539311027945549,
+      "trades": 34
+    },
+    {
+      "code": "513040",
+      "name": "港股通互联网ETF易方达",
+      "sharpe": -3.5626911134595702,
+      "annReturn": -0.0034690357654716397,
+      "maxDD": 0.1282228839613253,
+      "trades": 3
+    },
+    {
+      "code": "513060",
+      "name": "恒生医疗ETF博时",
+      "sharpe": -3.5626911134595702,
+      "annReturn": -0.0034690357654716397,
+      "maxDD": 0.1282228839613253,
+      "trades": 3
+    },
+    {
+      "code": "513180",
+      "name": "恒生科技ETF华夏",
+      "sharpe": -3.5626911134595702,
+      "annReturn": -0.0034690357654716397,
+      "maxDD": 0.1282228839613253,
+      "trades": 3
+    },
+    {
+      "code": "513330",
+      "name": "恒生互联网ETF华夏",
+      "sharpe": -6.276583981922786,
+      "annReturn": 0.03919284274733115,
+      "maxDD": 0.1622780745322373,
+      "trades": 31
+    },
+    {
+      "code": "513530",
+      "name": "港股通红利ETF华泰柏瑞",
+      "sharpe": -6.276583981922786,
+      "annReturn": 0.03919284274733115,
+      "maxDD": 0.1622780745322373,
+      "trades": 31
+    },
+    {
+      "code": "513600",
+      "name": "恒生指数ETF南方",
+      "sharpe": -6.276583981922786,
+      "annReturn": 0.03919284274733115,
+      "maxDD": 0.1622780745322373,
+      "trades": 31
+    },
+    {
+      "code": "513730",
+      "name": "东南亚科技ETF华泰柏瑞",
+      "sharpe": -6.276583981922786,
+      "annReturn": 0.03919284274733115,
+      "maxDD": 0.1622780745322373,
+      "trades": 31
+    }
+  ]
+}

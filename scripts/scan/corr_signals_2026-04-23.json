@@ -1,0 +1,80 @@
+{
+  "date": "2026-04-23",
+  "poolSize": 60,
+  "twoStarCount": 44,
+  "maxCorr": 0.7,
+  "recommended": [
+    {
+      "code": "159100",
+      "name": "巴西",
+      "market": "SZ",
+      "category": "跨境QDII",
+      "price": "1.2740",
+      "ma20": "1.2544",
+      "macdHist": "0.0015",
+      "stars": 2
+    },
+    {
+      "code": "159206",
+      "name": "卫星ETF",
+      "market": "SZ",
+      "category": "高端制造",
+      "price": "1.8670",
+      "ma20": "1.7054",
+      "macdHist": "0.0312",
+      "stars": 2
+    },
+    {
+      "code": "159259",
+      "name": "成长ETF",
+      "market": "SZ",
+      "category": "策略指数",
+      "price": "1.2950",
+      "ma20": "1.1770",
+      "macdHist": "0.0159",
+      "stars": 2
+    },
+    {
+      "code": "159326",
+      "name": "电网设备",
+      "market": "SZ",
+      "category": "新能源",
+      "price": "2.0170",
+      "ma20": "1.8950",
+      "macdHist": "0.0179",
+      "stars": 2
+    },
+    {
+      "code": "159525",
+      "name": "红利低波",
+      "market": "SZ",
+      "category": "策略指数",
+      "price": "1.1210",
+      "ma20": "1.1100",
+      "macdHist": "0.0012",
+      "stars": 2
+    }
+  ],
+  "naiveTop": [
+    {
+      "code": "159100",
+      "name": "巴西"
+    },
+    {
+      "code": "159206",
+      "name": "卫星ETF"
+    },
+    {
+      "code": "159259",
+      "name": "成长ETF"
+    },
+    {
+      "code": "159326",
+      "name": "电网设备"
+    },
+    {
+      "code": "159338",
+      "name": "中证A500"
+    }
+  ]
+}

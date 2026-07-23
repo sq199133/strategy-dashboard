@@ -1,0 +1,15 @@
+{
+  "factor_name": "Multi_动量+价格均线",
+  "param_label": "动量+价格均线",
+  "top_k": 20,
+  "total_return_pct": -14.8,
+  "annual_return_pct": -2.9,
+  "sharpe": -0.568,
+  "max_drawdown_pct": -31.6,
+  "calmar": -0.09,
+  "win_rate_pct": 40.5,
+  "total_trades": 491,
+  "avg_holding_days": 82.4,
+  "start_date": "2021-01-04",
+  "end_date": "2026-07-13"
+}

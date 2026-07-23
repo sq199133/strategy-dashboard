@@ -1,0 +1,69 @@
+{
+  "review_date": "2026-05-15",
+  "day": "五",
+  "is_trading_day": true,
+  "generated_at": "2026-05-17 22:55:48",
+  "strategies": {
+    "布林带突破": {
+      "cash": 11139.26,
+      "positions": [
+        {
+          "code": "159996",
+          "name": "家电ETF国泰",
+          "shares": 3620,
+          "avg_cost": 1.527,
+          "buy_date": "2026-04-30",
+          "signal": "布林带突破",
+          "current_price": 1.527,
+          "last_date": "2026-04-30"
+        }
+      ],
+      "position_count": 1,
+      "strategy_return_pct": 0.0
+    },
+    "趋势突破": {
+      "cash": 11140.32,
+      "positions": [
+        {
+          "code": "159902",
+          "name": "中小100ETF华夏",
+          "shares": 1106,
+          "avg_cost": 4.997,
+          "buy_date": "2026-04-30",
+          "signal": "趋势突破",
+          "current_price": 4.997,
+          "last_date": "2026-04-30"
+        }
+      ],
+      "position_count": 1,
+      "strategy_return_pct": 0.0
+    },
+    "均线交叉": {
+      "cash": 16667.0,
+      "positions": [],
+      "position_count": 0,
+      "strategy_return_pct": 0.0
+    }
+  },
+  "orders": [
+    {
+      "strategy": "布林带突破",
+      "action": "BUY",
+      "code": "159996",
+      "name": "家电ETF国泰",
+      "shares": 3620,
+      "price": 1.527,
+      "cost": 5527.74
+    },
+    {
+      "strategy": "趋势突破",
+      "action": "BUY",
+      "code": "159902",
+      "name": "中小100ETF华夏",
+      "shares": 1106,
+      "price": 4.997,
+      "cost": 5526.68
+    }
+  ],
+  "messages": []
+}

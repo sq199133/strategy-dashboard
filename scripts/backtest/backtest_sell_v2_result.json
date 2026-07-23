@@ -1,0 +1,50 @@
+[
+  {
+    "rule": "none",
+    "totalReturn": "8.63",
+    "annualized": "1.05",
+    "maxDrawdown": "16.20",
+    "trades": 16,
+    "finalCash": "108632.00"
+  },
+  {
+    "rule": "deathX",
+    "totalReturn": "4.91",
+    "annualized": "0.60",
+    "maxDrawdown": "14.48",
+    "trades": 18,
+    "finalCash": "104908.72"
+  },
+  {
+    "rule": "green1",
+    "totalReturn": "4.91",
+    "annualized": "0.60",
+    "maxDrawdown": "14.48",
+    "trades": 18,
+    "finalCash": "104908.72"
+  },
+  {
+    "rule": "green2",
+    "totalReturn": "8.70",
+    "annualized": "1.05",
+    "maxDrawdown": "14.90",
+    "trades": 18,
+    "finalCash": "108703.31"
+  },
+  {
+    "rule": "green3",
+    "totalReturn": "4.29",
+    "annualized": "0.53",
+    "maxDrawdown": "17.30",
+    "trades": 18,
+    "finalCash": "104292.49"
+  },
+  {
+    "rule": "green4",
+    "totalReturn": "5.91",
+    "annualized": "0.72",
+    "maxDrawdown": "16.78",
+    "trades": 17,
+    "finalCash": "105913.71"
+  }
+]

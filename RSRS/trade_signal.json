@@ -1,0 +1,84 @@
+{
+  "date": "2026-06-16",
+  "rsrs": {
+    "beta": 0.938,
+    "zscore": 0.21,
+    "signal": "long"
+  },
+  "c63_rank": [
+    {
+      "code": "159949",
+      "name": "CYB50",
+      "score": 0.2782
+    },
+    {
+      "code": "159902",
+      "name": "ZZSM100",
+      "score": 0.0881
+    },
+    {
+      "code": "512100",
+      "name": "ZZ1000",
+      "score": 0.0733
+    },
+    {
+      "code": "510300",
+      "name": "HS300",
+      "score": 0.0555
+    },
+    {
+      "code": "512800",
+      "name": "BANK",
+      "score": 0.0023
+    },
+    {
+      "code": "510050",
+      "name": "SH50",
+      "score": -0.0149
+    },
+    {
+      "code": "512400",
+      "name": "METAL",
+      "score": -0.0604
+    },
+    {
+      "code": "510160",
+      "name": "INDUP",
+      "score": -0.0843
+    },
+    {
+      "code": "510810",
+      "name": "SHGQ",
+      "score": -0.0844
+    },
+    {
+      "code": "159905",
+      "name": "DIV",
+      "score": -0.0962
+    },
+    {
+      "code": "512200",
+      "name": "REALEST",
+      "score": -0.1405
+    },
+    {
+      "code": "518880",
+      "name": "GOLD",
+      "score": -0.1541
+    },
+    {
+      "code": "159928",
+      "name": "CONSUM",
+      "score": -0.1662
+    }
+  ],
+  "selected": [
+    {
+      "code": "159949",
+      "name": "CYB50",
+      "score": 0.2782
+    }
+  ],
+  "volatility_scale": 0.9,
+  "position_pct": 90.0
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2026-04-18",
+  "poolSize": 101,
+  "twoStarCount": 56,
+  "maxCorr": 0.7,
+  "recommended": [
+    {
+      "code": "510500",
+      "name": "中证500ETF南方",
+      "market": "SH",
+      "category": "A股宽基",
+      "price": "8.2900",
+      "ma20": "7.8692",
+      "macdHist": "0.0777",
+      "stars": 2
+    },
+    {
+      "code": "159150",
+      "name": "深证50E",
+      "market": "SZ",
+      "category": "A股宽基",
+      "price": "1.6220",
+      "ma20": "1.5139",
+      "macdHist": "0.0157",
+      "stars": 2
+    },
+    {
+      "code": "561910",
+      "name": "电池ETF招商",
+      "market": "SH",
+      "category": "新能源",
+      "price": "0.9060",
+      "ma20": "0.8490",
+      "macdHist": "0.0089",
+      "stars": 2
+    },
+    {
+      "code": "510660",
+      "name": "医药ETF华夏",
+      "market": "SH",
+      "category": "消费医药",
+      "price": "2.4030",
+      "ma20": "2.3672",
+      "macdHist": "0.0087",
+      "stars": 2
+    },
+    {
+      "code": "159253",
+      "name": "中证银行",
+      "market": "SZ",
+      "category": "金融地产",
+      "price": "0.9480",
+      "ma20": "0.9451",
+      "macdHist": "0.0001",
+      "stars": 2
+    }
+  ],
+  "naiveTop": [
+    {
+      "code": "510500",
+      "name": "中证500ETF南方"
+    },
+    {
+      "code": "588000",
+      "name": "科创50ETF华夏"
+    },
+    {
+      "code": "588080",
+      "name": "科创50ETF易方达"
+    },
+    {
+      "code": "159338",
+      "name": "中证A500"
+    },
+    {
+      "code": "512050",
+      "name": "A500ETF华夏"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "factor_name": "短期反转1m",
+  "param_label": "1m",
+  "top_k": 5,
+  "total_return_pct": 0.3,
+  "annual_return_pct": 0.1,
+  "sharpe": 0.54,
+  "max_drawdown_pct": -29.6,
+  "calmar": 0.0,
+  "win_rate_pct": 50.0,
+  "total_trades": 312,
+  "avg_holding_days": 32.4,
+  "n_months": 67,
+  "start_date": "2021-01-04",
+  "end_date": "2026-07-13"
+}

@@ -1,0 +1,22 @@
+{
+  "diagnosis": {
+    "correlation_pe_pct_fwd_3m": -0.0821,
+    "correlation_pe_abs_fwd_3m": 0.2403,
+    "low_pe_return_3m": "-2.97%",
+    "high_pe_return_3m": "-0.95%",
+    "conclusion": "市场整体PE与指数收益相关性弱，估值择时失效"
+  },
+  "root_causes": [
+    "数据源问题：使用市场整体PE而非指数PE",
+    "时间尺度问题：PE月度更新，信号滞后",
+    "结构性问题：2018-2026年市场结构性变化大"
+  ],
+  "recommendations": [
+    "获取特定指数的真实PE数据（乐咕乐股/中证指数公司）",
+    "尝试PB分位数替代PE",
+    "融合趋势因子（均线/动量）",
+    "使用动态分位数窗口（3年滚动）",
+    "只在极端估值时操作（PE分位<=10%或>=90%）"
+  ],
+  "expected_improvement": "使用指数真实PE后，相关性预计提升至-0.3到-0.5"
+}

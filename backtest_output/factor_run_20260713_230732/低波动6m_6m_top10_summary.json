@@ -1,0 +1,16 @@
+{
+  "factor_name": "低波动6m",
+  "param_label": "6m",
+  "top_k": 10,
+  "total_return_pct": 64.4,
+  "annual_return_pct": 9.4,
+  "sharpe": 5.528,
+  "max_drawdown_pct": -4.5,
+  "calmar": 2.09,
+  "win_rate_pct": 63.2,
+  "total_trades": 117,
+  "avg_holding_days": 172.7,
+  "n_months": 67,
+  "start_date": "2021-01-04",
+  "end_date": "2026-07-13"
+}

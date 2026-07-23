@@ -1,0 +1,1 @@
+DEF_SC_W1, DEF_SC_W3, DEF_SC_W8 = 0.40, 0.40, 0.20

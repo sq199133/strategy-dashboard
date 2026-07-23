@@ -1,0 +1,19 @@
+{
+  "nETFs": 2,
+  "commonDays": 1540,
+  "years": 6.11,
+  "strategy": {
+    "sharpe": -0.02,
+    "annRet": -0.5,
+    "totalRet": -2.7,
+    "maxDD": 11
+  },
+  "buyHold": {
+    "sharpe": -0.02,
+    "annRet": -0.9,
+    "totalRet": -5.4,
+    "maxDD": 20.8
+  },
+  "excessAnn": 0.4,
+  "sharpeImprovement": 0
+}

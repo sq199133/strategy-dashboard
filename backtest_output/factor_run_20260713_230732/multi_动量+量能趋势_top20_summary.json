@@ -1,0 +1,15 @@
+{
+  "factor_name": "Multi_动量+量能趋势",
+  "param_label": "动量+量能趋势",
+  "top_k": 20,
+  "total_return_pct": -7.9,
+  "annual_return_pct": -1.5,
+  "sharpe": -0.426,
+  "max_drawdown_pct": -21.0,
+  "calmar": -0.07,
+  "win_rate_pct": 44.2,
+  "total_trades": 371,
+  "avg_holding_days": 109.1,
+  "start_date": "2021-01-04",
+  "end_date": "2026-07-13"
+}

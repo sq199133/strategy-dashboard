@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-05-15T22:38:26.113994",
+  "checks": {
+    "recent_logs": [],
+    "gateway": {
+      "status": "error",
+      "output": "[WinError 2] 系统找不到指定的文件。"
+    },
+    "etf_pool": {
+      "status": "ok",
+      "count": 91
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "factor_name": "动量简单3m",
+  "param_label": "3m",
+  "top_k": 20,
+  "total_return_pct": -33.0,
+  "annual_return_pct": -7.0,
+  "sharpe": -1.474,
+  "max_drawdown_pct": -44.9,
+  "calmar": -0.16,
+  "win_rate_pct": 37.2,
+  "total_trades": 689,
+  "avg_holding_days": 58.6,
+  "n_months": 67,
+  "start_date": "2021-01-04",
+  "end_date": "2026-07-13"
+}

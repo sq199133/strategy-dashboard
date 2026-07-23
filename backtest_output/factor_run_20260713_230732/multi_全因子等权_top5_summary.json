@@ -1,0 +1,15 @@
+{
+  "factor_name": "Multi_全因子等权",
+  "param_label": "全因子等权",
+  "top_k": 5,
+  "total_return_pct": -2.0,
+  "annual_return_pct": -0.4,
+  "sharpe": 0.117,
+  "max_drawdown_pct": -19.4,
+  "calmar": -0.02,
+  "win_rate_pct": 43.1,
+  "total_trades": 137,
+  "avg_holding_days": 73.7,
+  "start_date": "2021-01-04",
+  "end_date": "2026-07-13"
+}

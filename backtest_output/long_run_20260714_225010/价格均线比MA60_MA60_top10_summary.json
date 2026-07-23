@@ -1,0 +1,18 @@
+{
+  "factor_name": "价格均线比MA60",
+  "param_label": "MA60",
+  "top_k": 10,
+  "total_return_pct": 101.6,
+  "annual_return_pct": 6.3,
+  "sharpe": 1.92,
+  "max_drawdown_pct": -27.3,
+  "calmar": 0.23,
+  "win_rate_pct": 49.5,
+  "total_trades": 762,
+  "avg_holding_days": 55.0,
+  "n_months": 139,
+  "start_date": "2015-02-02",
+  "end_date": "2026-07-14",
+  "avg_candidates_2015_2017": 0,
+  "avg_candidates_2018_2026": 0
+}

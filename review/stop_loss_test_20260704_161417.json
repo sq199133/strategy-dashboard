@@ -1,0 +1,176 @@
+{
+  "is_results": [
+    [
+      "Baseline -8%/-10%",
+      {
+        "ann_ret": 17.82123251810097,
+        "total_ret": 164.157310225456,
+        "max_dd": -26.35096585548321,
+        "sharpe": 0.9554834554243353,
+        "weekly_win_rate": 57.32899022801303,
+        "trade_win_rate": 48.07692307692308,
+        "n_buys": 523,
+        "n_sells": 520,
+        "n_stop_sells": 4,
+        "total_trades": 520,
+        "avg_loss_pct": -10.418863325085237,
+        "n_weeks": 308
+      }
+    ],
+    [
+      "Tight -6%/-8%",
+      {
+        "ann_ret": 17.789158397427805,
+        "total_ret": 163.73166262399695,
+        "max_dd": -26.35096585548321,
+        "sharpe": 0.9541164176098456,
+        "weekly_win_rate": 57.32899022801303,
+        "trade_win_rate": 47.900763358778626,
+        "n_buys": 527,
+        "n_sells": 524,
+        "n_stop_sells": 16,
+        "total_trades": 524,
+        "avg_loss_pct": -7.250068070575511,
+        "n_weeks": 308
+      }
+    ],
+    [
+      "Tight -5%/-7%",
+      {
+        "ann_ret": 17.789158397427805,
+        "total_ret": 163.73166262399695,
+        "max_dd": -26.35096585548321,
+        "sharpe": 0.9541164176098456,
+        "weekly_win_rate": 57.32899022801303,
+        "trade_win_rate": 47.900763358778626,
+        "n_buys": 527,
+        "n_sells": 524,
+        "n_stop_sells": 32,
+        "total_trades": 524,
+        "avg_loss_pct": -6.248900010442651,
+        "n_weeks": 308
+      }
+    ],
+    [
+      "Tight -4%/-6%",
+      {
+        "ann_ret": 17.766772150684808,
+        "total_ret": 163.43491828503565,
+        "max_dd": -26.34743910814966,
+        "sharpe": 0.9527028034368664,
+        "weekly_win_rate": 57.32899022801303,
+        "trade_win_rate": 47.72727272727273,
+        "n_buys": 531,
+        "n_sells": 528,
+        "n_stop_sells": 62,
+        "total_trades": 528,
+        "avg_loss_pct": -5.0208845281970484,
+        "n_weeks": 308
+      }
+    ],
+    [
+      "Tight -3%/-5%",
+      {
+        "ann_ret": 17.760811289849386,
+        "total_ret": 163.35594998039576,
+        "max_dd": -26.37860214071035,
+        "sharpe": 0.9524551596408775,
+        "weekly_win_rate": 57.32899022801303,
+        "trade_win_rate": 47.486033519553075,
+        "n_buys": 540,
+        "n_sells": 537,
+        "n_stop_sells": 104,
+        "total_trades": 537,
+        "avg_loss_pct": -4.059732471173385,
+        "n_weeks": 308
+      }
+    ]
+  ],
+  "oos_results": [
+    [
+      "Baseline -8%/-10%",
+      {
+        "ann_ret": 30.383911869522827,
+        "total_ret": 147.98227449092641,
+        "max_dd": -24.59646312629795,
+        "sharpe": 1.069435146918009,
+        "weekly_win_rate": 57.6271186440678,
+        "trade_win_rate": 51.05386416861827,
+        "n_buys": 430,
+        "n_sells": 427,
+        "n_stop_sells": 10,
+        "total_trades": 427,
+        "avg_loss_pct": -10.64824462509764,
+        "n_weeks": 178
+      }
+    ],
+    [
+      "Tight -6%/-8%",
+      {
+        "ann_ret": 30.383911869522827,
+        "total_ret": 147.98227449092641,
+        "max_dd": -24.59646312629795,
+        "sharpe": 1.069435146918009,
+        "weekly_win_rate": 57.6271186440678,
+        "trade_win_rate": 51.05386416861827,
+        "n_buys": 430,
+        "n_sells": 427,
+        "n_stop_sells": 30,
+        "total_trades": 427,
+        "avg_loss_pct": -7.846548968642035,
+        "n_weeks": 178
+      }
+    ],
+    [
+      "Tight -5%/-7%",
+      {
+        "ann_ret": 30.383911869522827,
+        "total_ret": 147.98227449092641,
+        "max_dd": -24.59646312629795,
+        "sharpe": 1.069435146918009,
+        "weekly_win_rate": 57.6271186440678,
+        "trade_win_rate": 51.05386416861827,
+        "n_buys": 430,
+        "n_sells": 427,
+        "n_stop_sells": 43,
+        "total_trades": 427,
+        "avg_loss_pct": -7.044360443002729,
+        "n_weeks": 178
+      }
+    ],
+    [
+      "Tight -4%/-6%",
+      {
+        "ann_ret": 30.383911869522827,
+        "total_ret": 147.98227449092641,
+        "max_dd": -24.59646312629795,
+        "sharpe": 1.069435146918009,
+        "weekly_win_rate": 57.6271186440678,
+        "trade_win_rate": 51.05386416861827,
+        "n_buys": 430,
+        "n_sells": 427,
+        "n_stop_sells": 63,
+        "total_trades": 427,
+        "avg_loss_pct": -6.076990498664131,
+        "n_weeks": 178
+      }
+    ],
+    [
+      "Tight -3%/-5%",
+      {
+        "ann_ret": 30.359836217655168,
+        "total_ret": 147.82556540192243,
+        "max_dd": -24.59646312629782,
+        "sharpe": 1.0688280455274997,
+        "weekly_win_rate": 57.6271186440678,
+        "trade_win_rate": 50.93457943925234,
+        "n_buys": 431,
+        "n_sells": 428,
+        "n_stop_sells": 86,
+        "total_trades": 428,
+        "avg_loss_pct": -5.365335927051719,
+        "n_weeks": 178
+      }
+    ]
+  ]
+}

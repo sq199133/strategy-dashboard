@@ -1,1 +1,385 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>策略测算看板</title><script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script><style>*{margin:0;padding:0;box-sizing:border-box}body{background:#0d1117;color:#c9d1d9;font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;padding:24px}.h{margin-bottom:24px}.h h1{font-size:24px;color:#f0f6fc}.h .d{color:#8b949e;font-size:13px}.g{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:24px}.c{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:18px}.c h3{font-size:12px;color:#8b949e;text-transform:uppercase;margin-bottom:6px}.c .v{font-size:24px;font-weight:700}.c .s{font-size:12px;margin-top:2px}.up{color:#f85149}.down{color:#3fb950}.fl{color:#8b949e}.w{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:20px;margin-bottom:24px}.w h2{font-size:14px;color:#f0f6fc;margin-bottom:14px}.ch{height:320px}.st{font-size:14px;font-weight:600;color:#f0f6fc;margin-bottom:14px}.sg{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:24px}.sc{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px}.sc .sn{font-size:11px;color:#8b949e;text-transform:uppercase}.sc .sv{font-size:24px;font-weight:700;margin-top:6px;color:#f0f6fc}.sc .si{font-size:12px;margin-top:2px}.sc .sd2{font-size:11px;margin-top:1px;margin-bottom:4px;border-bottom:1px solid #21262d;padding-bottom:4px}.sc .sd{font-size:11px;margin-top:4px;color:#c9d1d9;line-height:1.5}.note{color:#8b949e;font-size:12px;line-height:1.6;background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px}@media(max-width:768px){.g,.sg{grid-template-columns:repeat(2,1fr)}}</style></head><body><div class="h"><h1>策略测算看板</h1><div class="d">2026-07-23 · 总账户 ¥220,000</div></div><div class="g"><div class="c"><h3>持仓市值</h3><div class="v down">¥176,688.6</div><div class="s down">占本金 80.3%</div></div><div class="c"><h3>累计收益</h3><div class="v down">-1.69%</div><div class="s down">¥-3,714</div></div><div class="c"><h3>今日</h3><div class="v down">-1.07%</div><div class="s down">¥-2,323</div></div><div class="c"><h3>净值</h3><div class="v fl">0.9831</div><div class="s fl">31 个交易日</div></div></div><div class="w"><h2>账户净值走势</h2><div class="ch"><canvas id="nc"></canvas></div></div><div class="st">各策略持仓市值</div><div class="sg"><div class="sc"><div class="sn">RSRS择时</div><div class="sv">¥44,557</div><div class="si down">累计 -4.61%  ¥-3,551</div><div class="sd2 down">今日 -2.11%  ¥-1,581</div><div class="sd">科创50ETF: 23600份 @1.888</div></div><div class="sc"><div class="sn">周线动能</div><div class="sv">¥59,580</div><div class="si down">累计 -2.54%  ¥-1,654</div><div class="sd2 down">今日 -0.75%  ¥-480</div><div class="sd">中药ETF: 60000份 @0.993</div></div><div class="sc"><div class="sn">ADX动量</div><div class="sv">¥61,247</div><div class="si up">累计 +2.62%  ¥+1,324</div><div class="sd2 down">今日 -0.25%  ¥-128</div><div class="sd">恒生创新药ETF: 42800份 @1.431</div></div><div class="sc"><div class="sn">财神爷</div><div class="sv">¥11,305</div><div class="si up">累计 +1.08%  ¥+167</div><div class="sd2 down">今日 -0.85%  ¥-133</div><div class="sd">酒ETF: 26600份 @0.425</div></div></div><div class="st">策略说明</div><div class="sg"><div class="sc"><div class="sn">RSRS择时</div><div class="sd" style="border-top:none;padding-top:0">三层架构：Z-score择时 + C63复合动量轮动 + 波动率仓位管理。双月调仓。科创50ETF 1.888。</div></div><div class="sc"><div class="sn">周线动能</div><div class="sd" style="border-top:none;padding-top:0">周频板块轮动，ATR比(14/60)>0.90过滤，12天动量TOP1。中药ETF 0.993。</div></div><div class="sc"><div class="sn">ADX动量</div><div class="sd" style="border-top:none;padding-top:0">ADX>20趋势过滤+动量选标的，跨境ETF轮动。恒生创新药ETF 1.431。ADX=20.4强趋势。</div></div><div class="sc"><div class="sn">财神爷</div><div class="sd" style="border-top:none;padding-top:0">估值+动量综合评分选股，轻仓试探。酒ETF 0.425，止损0.394。</div></div></div><div class="note"><strong>2026-07-23</strong> 上指-4.44%，科创50 1.888(-3.43%)，中药ETF 0.993(-0.80%)。净值统一以市价计。</div><script>(function(){const nd=[{d:"2026-05-06",n:1,t:220000},{d:"2026-05-11",n:1.008,t:221762.83},{d:"2026-05-18",n:1.0053,t:221158.27},{d:"2026-05-25",n:1.011,t:222420.13},{d:"2026-05-29",n:1.0079,t:221736.67},{d:"2026-06-01",n:1.0129,t:222835.61},{d:"2026-06-03",n:1.0099,t:222180.25},{d:"2026-06-08",n:1.0026,t:220578.31},{d:"2026-06-22",n:1.0026,t:220578.31},{d:"2026-06-24",n:1,t:220000},{d:"2026-06-25",n:1.015,t:223292.8},{d:"2026-06-26",n:1.0101,t:222230.8},{d:"2026-06-29",n:1.0276,t:226070.08},{d:"2026-06-30",n:1.0328,t:227210.4},{d:"2026-07-01",n:1.027,t:225936},{d:"2026-07-02",n:1.0086,t:221900.4},{d:"2026-07-03",n:1.0068,t:221499.2},{d:"2026-07-06",n:1.0227,t:225000},{d:"2026-07-07",n:1.0094,t:222065.6},{d:"2026-07-08",n:1.0114,t:222514},{d:"2026-07-09",n:1.0371,t:228170.1},{d:"2026-07-10",n:1.0199,t:224385.2},{d:"2026-07-13",n:1.0024,t:220517.29},{d:"2026-07-14",n:1.0069,t:221520.2},{d:"2026-07-15",n:1.0118,t:222587.8},{d:"2026-07-16",n:0.9985,t:219665.4},{d:"2026-07-17",n:0.9649,t:212284.8},{d:"2026-07-20",n:0.9717,t:213767.28},{d:"2026-07-21",n:1.0014,t:220318.4},{d:"2026-07-22",n:0.9937,t:218608.32},{d:"2026-07-23",n:0.9831,t:216285.72}];const cp=[];for(var i=0;i<nd.length;i++)cp.push(nd[i]);new Chart(document.getElementById("nc"),{type:"line",data:{labels:cp.map(function(p){var x=p.d.split("-");return x[1]+"/"+x[2];}),datasets:[{label:"净值",data:cp.map(function(p){return p.n;}),borderColor:"#f0883e",backgroundColor:"rgba(240,136,62,0.06)",fill:true,tension:0.15,pointRadius:0,pointHoverRadius:4,borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{backgroundColor:"#1c2128",titleColor:"#f0f6fc",bodyColor:"#c9d1d9",borderColor:"#30363d",borderWidth:1,padding:10,callbacks:{title:function(items){return cp[items[0].dataIndex]?cp[items[0].dataIndex].d:""},label:function(ctx){var p=cp[ctx.dataIndex];return "净值: "+p.n.toFixed(4)+" | ¥"+p.t.toLocaleString()}}}},scales:{x:{grid:{display:false},ticks:{color:"#484f58",maxTicksLimit:20,font:{size:10}}},y:{grid:{color:"#21262d"},ticks:{color:"#8b949e",callback:function(v){return v.toFixed(3)},font:{size:10}}}}}});})();</script></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>量化策略综合看板</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;font-size:14px;padding:24px}
+.h{margin-bottom:20px;display:flex;justify-content:space-between;align-items:flex-start}
+.h h1{font-size:22px;font-weight:600;color:#f0f6fc}
+.h .d{color:#8b949e;font-size:13px;margin-top:4px}
+.h .tags{display:flex;gap:8px}
+.tag{display:inline-block;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600}
+.tag-warn{background:rgba(248,81,73,0.15);color:#f85149}
+.tag-info{background:rgba(139,148,158,0.15);color:#8b949e}
+.g{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:20px}
+.c{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px}
+.c h3{font-size:11px;color:#8b949e;font-weight:500;margin-bottom:6px;text-transform:uppercase}
+.c .v{font-size:22px;font-weight:700}
+.c .s{font-size:12px;margin-top:3px}
+.up{color:#f85149}.down{color:#3fb950}.fl{color:#8b949e}
+.w{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:20px;margin-bottom:20px}
+.w h2{font-size:14px;color:#f0f6fc;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.w h2::before{content:'';display:inline-block;width:8px;height:8px;border-radius:50%;background:#58a6ff}
+.ch{position:relative;height:280px}
+.panels{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:20px}
+.panel{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px}
+.panel-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.panel-title{font-size:14px;font-weight:600;color:#f0f6fc;display:flex;align-items:center;gap:8px}
+.panel-title::before{content:'';display:inline-block;width:8px;height:8px;border-radius:50%}
+.panel-title.rsrs::before{background:#f0883e}
+.panel-title.zx::before{background:#f85149}
+.panel-title.adx::before{background:#3fb950}
+.panel-title.cs::before{background:#a371f7}
+.panel-status{padding:2px 10px;border-radius:12px;font-size:11px;font-weight:600}
+.status-wait{background:rgba(139,148,158,0.15);color:#8b949e}
+.status-buy{background:rgba(248,81,73,0.15);color:#f85149}
+.status-full{background:rgba(248,81,73,0.15);color:#f85149}
+.status-light{background:rgba(163,113,247,0.15);color:#a371f7}
+.panel-meta{display:flex;gap:16px;margin-bottom:12px;font-size:12px;color:#8b949e}
+.panel-meta span{color:#f0f6fc;font-weight:600}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{background:#1c2128;color:#8b949e;font-size:11px;font-weight:500;padding:8px 10px;text-align:left;border-bottom:1px solid #30363d}
+td{padding:8px 10px;border-bottom:1px solid #21262d}
+tr:last-child td{border-bottom:none}
+.badge{display:inline-block;padding:1px 8px;border-radius:10px;font-size:10px;font-weight:600}
+.badge-red{background:rgba(248,81,73,0.15);color:#f85149}
+.badge-green{background:rgba(63,185,80,0.15);color:#3fb950}
+.pnl-row{display:flex;justify-content:space-between;margin-top:12px;padding-top:12px;border-top:1px solid #21262d;font-size:12px}
+.pnl-label{color:#8b949e}
+.pnl-value{font-weight:600}
+.pnl-formula{color:#8b949e;font-size:11px;margin-top:2px}
+.advice{background:#1c2128;border:1px solid #30363d;border-radius:8px;padding:12px;margin-top:12px;font-size:12px;line-height:1.6}
+.advice strong{color:#f0f6fc}
+.legend{display:flex;gap:16px;margin-bottom:12px;font-size:12px}
+.legend-item{display:flex;align-items:center;gap:6px}
+.legend-dot{width:10px;height:10px;border-radius:50%}
+.note{color:#8b949e;font-size:12px;line-height:1.6;background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px}
+@media(max-width:768px){.g{grid-template-columns:repeat(2,1fr)}.panels{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="h">
+  <div>
+    <h1>量化策略综合看板</h1>
+    <div class="d">2026-07-23 (周三) · 生成时间: 2026-07-23 21:15</div>
+  </div>
+  <div class="tags">
+    <span class="tag tag-warn">RSRS观望</span>
+    <span class="tag tag-info">4/4 策略全部持仓</span>
+  </div>
+</div>
+
+<div class="g">
+  <div class="c">
+    <h3>账户初始资金</h3>
+    <div class="v">220,000</div>
+    <div class="s">2026-06-24 启动</div>
+  </div>
+  <div class="c">
+    <h3>账户总估算资产</h3>
+    <div class="v down">~216,286</div>
+    <div class="s down">-3,714 (-1.69%)</div>
+  </div>
+  <div class="c">
+    <h3>今日整体收益</h3>
+    <div class="v down">-2,323</div>
+    <div class="s down">-1.07%</div>
+  </div>
+  <div class="c">
+    <h3>累计账户收益</h3>
+    <div class="v down">-3,714</div>
+    <div class="s down">-1.69%</div>
+  </div>
+  <div class="c">
+    <h3>账户净值</h3>
+    <div class="v fl">0.9831</div>
+    <div class="s fl">初始=1.000</div>
+  </div>
+</div>
+
+<div class="g" style="grid-template-columns:repeat(5,1fr);margin-bottom:16px">
+  <div class="c">
+    <h3>RSRS择时</h3>
+    <div class="v down">-¥1,581</div>
+    <div class="s down">科创50 -3.43% · 锁仓74%</div>
+  </div>
+  <div class="c">
+    <h3>周线动量</h3>
+    <div class="v down">-¥480</div>
+    <div class="s down">中药ETF -0.80% · 79%仓</div>
+  </div>
+  <div class="c">
+    <h3>跨境动量</h3>
+    <div class="v down">-¥128</div>
+    <div class="s down">恒生创新药 -0.21% · 满仓</div>
+  </div>
+  <div class="c">
+    <h3>财神爷</h3>
+    <div class="v down">-¥133</div>
+    <div class="s down">酒ETF -1.16% · 7.5%轻仓</div>
+  </div>
+  <div class="c">
+    <h3>当日合计</h3>
+    <div class="v down">-¥2,323</div>
+    <div class="s">含现金部分按比例估算</div>
+  </div>
+</div>
+
+<div class="w">
+  <div class="legend">
+    <div class="legend-item"><span class="legend-dot" style="background:#58a6ff"></span>账户总净值</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#f0883e"></span>RSRS择时</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#f85149"></span>周线动量</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#3fb950"></span>跨境动量</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#a371f7"></span>财神爷</div>
+  </div>
+  <div class="ch"><canvas id="nc"></canvas></div>
+  <div style="margin-top:12px;font-size:12px;color:#8b949e">
+    各策略启动时间不同：RSRS(06-24)、周线动量(07-20)、跨境(07-21)、财神爷(07-22)。仅RSRS有完整净值曲线。
+  </div>
+</div>
+
+<div class="panels">
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title rsrs">RSRS择时专家</div>
+      <span class="panel-status status-wait">观望</span>
+    </div>
+    <div class="panel-meta">
+      <div>RSRS Z: <span>-0.561</span></div>
+      <div>C63: <span>+28.0%</span></div>
+      <div>仓位: <span>74%</span></div>
+      <div>子账户: <span>~¥73,449</span></div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <tr><th>标的</th><th>建仓日</th><th>成本</th><th>现价</th><th>盈亏</th><th>仓位</th><th>持仓额</th></tr>
+        <tr>
+          <td><strong>588000</strong> 科创50</td>
+          <td>06-24</td>
+          <td>2.010</td>
+          <td>1.888</td>
+          <td><span class="badge badge-green">-3.43%</span></td>
+          <td>74%</td>
+          <td>¥44,557</td>
+        </tr>
+      </table>
+    </div>
+    <div class="pnl-row">
+      <div>
+        <div class="pnl-label">持仓净变动</div>
+        <div class="pnl-value down">-¥1,581</div>
+        <div class="pnl-formula">(23600×(1.888−2.016))</div>
+      </div>
+      <div style="text-align:right">
+        <div class="pnl-label">持仓收益率</div>
+        <div class="pnl-value down">-3.43%</div>
+        <div class="pnl-formula">锁仓期中</div>
+      </div>
+    </div>
+    <div class="advice">
+      <strong>操作建议：</strong>RSRS Z=-0.561灰色区域（需Z≤-1.0翻空或≥0.7翻多），持仓不动。锁仓至08-05剩13天。
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title zx">周线动量策略 v4.8</div>
+      <span class="panel-status status-buy">做多</span>
+    </div>
+    <div class="panel-meta">
+      <div>仓位: <span>79%</span></div>
+      <div>现金: <span>¥3,766(6%)</span></div>
+      <div>子账户: <span>~¥63,346</span></div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <tr><th>标的</th><th>建仓日</th><th>成本</th><th>现价</th><th>盈亏</th><th>仓位</th><th>持仓额</th></tr>
+        <tr>
+          <td><strong>560080</strong> 中药ETF</td>
+          <td>07-20</td>
+          <td>0.988</td>
+          <td>0.993</td>
+          <td><span class="badge badge-red">+0.51%</span></td>
+          <td>79%</td>
+          <td>¥59,580</td>
+        </tr>
+      </table>
+    </div>
+    <div class="pnl-row">
+      <div>
+        <div class="pnl-label">持仓净变动</div>
+        <div class="pnl-value down">-¥480</div>
+        <div class="pnl-formula">(60000×(0.993−1.001))</div>
+      </div>
+      <div style="text-align:right">
+        <div class="pnl-label">持仓收益率</div>
+        <div class="pnl-value down">-0.80%</div>
+        <div class="pnl-formula">防御属性凸显</div>
+      </div>
+    </div>
+    <div class="advice">
+      <strong>操作建议：</strong>持有560080不变。今日微跌-0.80%远优于大盘，防御性充分体现。周末复查信号。止损0.909。
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title adx">跨境动量先锋</div>
+      <span class="panel-status status-full">多头</span>
+    </div>
+    <div class="panel-meta">
+      <div>仓位: <span>100%</span></div>
+      <div>ADX: <span>20.4</span></div>
+      <div>子账户: <span>¥51,924</span></div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <tr><th>标的</th><th>建仓日</th><th>方向</th><th>成本</th><th>现价</th><th>盈亏</th><th>持仓额</th></tr>
+        <tr>
+          <td><strong>520500</strong> 恒生创新药ETF</td>
+          <td>07-21</td>
+          <td><span class="badge badge-red">多</span></td>
+          <td>1.400</td>
+          <td>1.431</td>
+          <td><span class="badge badge-red">+2.21%</span></td>
+          <td>¥61,247</td>
+        </tr>
+      </table>
+    </div>
+    <div class="pnl-row">
+      <div>
+        <div class="pnl-label">持仓净变动</div>
+        <div class="pnl-value down">-¥128</div>
+        <div class="pnl-formula">(42800×(1.431−1.434))</div>
+      </div>
+      <div style="text-align:right">
+        <div class="pnl-label">持仓收益率</div>
+        <div class="pnl-value down">-0.21%</div>
+        <div class="pnl-formula">A股大跌时逆势走强</div>
+      </div>
+    </div>
+    <div class="advice">
+      <strong>操作建议：</strong>持仓520500不变。A股大跌时港股创新药逆势走强。止损1.281安全。继续持有。
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-header">
+      <div class="panel-title cs">财神爷交易系统</div>
+      <span class="panel-status status-light">轻仓</span>
+    </div>
+    <div class="panel-meta">
+      <div>仓位: <span>7.5%</span></div>
+      <div>现金: <span>~14.3万</span></div>
+      <div>子账户: <span>~¥15,532</span></div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <tr><th>标的</th><th>建仓日</th><th>成本</th><th>现价</th><th>盈亏</th><th>持仓额</th></tr>
+        <tr>
+          <td><strong>512690</strong> 酒ETF</td>
+          <td>07-22</td>
+          <td>0.420</td>
+          <td>0.425</td>
+          <td><span class="badge badge-red">+1.19%</span></td>
+          <td>¥11,305</td>
+        </tr>
+      </table>
+    </div>
+    <div class="pnl-row">
+      <div>
+        <div class="pnl-label">持仓净变动</div>
+        <div class="pnl-value down">-¥133</div>
+        <div class="pnl-formula">(26600×(0.425−0.430))</div>
+      </div>
+      <div style="text-align:right">
+        <div class="pnl-label">账户累计</div>
+        <div class="pnl-value down">-¥19,449</div>
+        <div class="pnl-formula">含历史亏损</div>
+      </div>
+    </div>
+    <div class="advice">
+      <strong>交易回顾：</strong>开盘竞价0.415满足条件，按计划建仓酒ETF @0.420。收盘浮盈+1.19%。正确规避了电池ETF(今日大跌)。止损0.394。
+    </div>
+  </div>
+</div>
+
+<div class="note">
+  <strong>2026-07-23 综合观察：</strong><br>
+  (1) 大盘回落：创业板-3.23%，科创50-3.43%回吐涨幅。<br>
+  (2) 各策略风险敞口分化：RSRS的科创50被锁仓硬亏-3.43%，中药ETF仅-0.80%显防御，恒生创新药-0.21%相对抗跌。<br>
+  (3) RSRS锁仓机制的双刃剑：趋势市大赚+67%，急跌时硬扛。锁仓至08-05剩13天。<br>
+  (4) 数据来源：各策略每日复盘 + 金山文档 · 已修正数据 · sq199133.github.io/strategy-dashboard/
+</div>
+
+<script>
+(function() {
+  const nd = [
+    {d:"2026-06-24",n:1.000,t:220000},{d:"2026-06-25",n:1.015,t:223293},{d:"2026-06-26",n:1.010,t:222231},
+    {d:"2026-06-29",n:1.028,t:226070},{d:"2026-06-30",n:1.033,t:227210},{d:"2026-07-01",n:1.027,t:225936},
+    {d:"2026-07-02",n:1.009,t:221900},{d:"2026-07-03",n:1.007,t:221500},{d:"2026-07-06",n:1.024,t:225228},
+    {d:"2026-07-07",n:1.027,t:225863},{d:"2026-07-08",n:1.033,t:226312},{d:"2026-07-09",n:1.089,t:239511},
+    {d:"2026-07-10",n:1.052,t:231511},{d:"2026-07-13",n:1.019,t:224122},{d:"2026-07-14",n:1.026,t:225826},
+    {d:"2026-07-15",n:0.997,t:219337},{d:"2026-07-16",n:0.971,t:213767},{d:"2026-07-17",n:0.929,t:204535},
+    {d:"2026-07-20",n:0.932,t:204964},{d:"2026-07-21",n:0.993,t:218571},{d:"2026-07-22",n:0.974,t:214372},
+    {d:"2026-07-23",n:0.983,t:216286}
+  ];
+  const rsrs = [{d:"2026-06-24",n:1.0},{d:"2026-06-25",n:1.022},{d:"2026-06-26",n:1.032},{d:"2026-06-29",n:1.064},{d:"2026-06-30",n:1.094},{d:"2026-07-01",n:1.077},{d:"2026-07-02",n:1.025},{d:"2026-07-03",n:1.019},{d:"2026-07-06",n:1.024},{d:"2026-07-07",n:1.027},{d:"2026-07-08",n:1.033},{d:"2026-07-09",n:1.089},{d:"2026-07-10",n:1.052},{d:"2026-07-13",n:1.019},{d:"2026-07-14",n:1.027},{d:"2026-07-15",n:0.997},{d:"2026-07-16",n:0.971},{d:"2026-07-17",n:0.929},{d:"2026-07-20",n:0.932},{d:"2026-07-21",n:0.993},{d:"2026-07-22",n:0.974},{d:"2026-07-23",n:0.954}];
+  const zx = [{d:"2026-07-20",n:1.0},{d:"2026-07-21",n:1.0},{d:"2026-07-22",n:0.982},{d:"2026-07-23",n:0.975}];
+  const adx = [{d:"2026-07-21",n:1.0},{d:"2026-07-22",n:1.029},{d:"2026-07-23",n:1.026}];
+  const cs = [{d:"2026-07-22",n:1.0},{d:"2026-07-23",n:1.009}];
+  
+  const allDates = [...new Set([...nd.map(p=>p.d),...rsrs.map(p=>p.d),...zx.map(p=>p.d),...adx.map(p=>p.d),...cs.map(p=>p.d)])].sort();
+  
+  const makeSeries = (data, color) => {
+    let last = null;
+    return allDates.map(d => {
+      const p = data.find(x => x.d === d);
+      if (p) last = p.n;
+      return last;
+    });
+  };
+  
+  new Chart(document.getElementById('nc'), {
+    type: 'line',
+    data: {
+      labels: allDates.map(d => { const x = d.split('-'); return x[1]+'/'+x[2]; }),
+      datasets: [
+        {label:'账户总净值',data:makeSeries(nd,'#58a6ff'),borderColor:'#58a6ff',backgroundColor:'rgba(88,166,255,0.06)',fill:true,tension:0.15,pointRadius:0,pointHoverRadius:4,borderWidth:2},
+        {label:'RSRS择时',data:makeSeries(rsrs,'#f0883e'),borderColor:'#f0883e',tension:0.15,pointRadius:0,borderWidth:1.5},
+        {label:'周线动量',data:makeSeries(zx,'#f85149'),borderColor:'#f85149',tension:0.15,pointRadius:0,borderWidth:1.5},
+        {label:'跨境动量',data:makeSeries(adx,'#3fb950'),borderColor:'#3fb950',tension:0.15,pointRadius:0,borderWidth:1.5},
+        {label:'财神爷',data:makeSeries(cs,'#a371f7'),borderColor:'#a371f7',tension:0.15,pointRadius:0,borderWidth:1.5}
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: {mode: 'index', intersect: false},
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1c2128',
+          titleColor: '#f0f6fc',
+          bodyColor: '#c9d1d9',
+          borderColor: '#30363d',
+          borderWidth: 1,
+          padding: 10
+        }
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: '#484f58', maxTicksLimit: 20, font: { size: 10 } } },
+        y: { grid: { color: '#21262d' }, ticks: { color: '#8b949e', callback: v => v.toFixed(3), font: { size: 10 } } }
+      }
+    }
+  });
+})();
+</script>
+</body>
+</html>

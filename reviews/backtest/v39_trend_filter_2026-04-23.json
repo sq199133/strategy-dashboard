@@ -1,0 +1,572 @@
+{
+  "v37": {
+    "stats": {
+      "finalV": 1115883.9999999998,
+      "totalRet": 0.11588399999999976,
+      "cagr": 0.014882260675540326,
+      "sharpe": -0.2632918515501834,
+      "maxDD": 11.795622838008772,
+      "years": 7.422313483915127,
+      "cashRatio": 0.86
+    },
+    "trades": [
+      {
+        "type": "BUY",
+        "date": "2019-04-02",
+        "price": 3971.29,
+        "shares": 200,
+        "stars": 5,
+        "value": 794258
+      },
+      {
+        "type": "SELL",
+        "date": "2019-04-25",
+        "price": 3941.82,
+        "shares": 200,
+        "pnl": "-0.74%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2019-11-01",
+        "price": 3952.39,
+        "shares": 200,
+        "stars": 5,
+        "value": 790478
+      },
+      {
+        "type": "SELL",
+        "date": "2019-11-11",
+        "price": 3902.98,
+        "shares": 200,
+        "pnl": "-1.25%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2020-06-02",
+        "price": 3983.57,
+        "shares": 200,
+        "stars": 4,
+        "value": 796714
+      },
+      {
+        "type": "SELL",
+        "date": "2020-07-24",
+        "price": 4505.59,
+        "shares": 200,
+        "pnl": "13.10%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2020-09-01",
+        "price": 4842.12,
+        "shares": 200,
+        "stars": 5,
+        "value": 968424
+      },
+      {
+        "type": "SELL",
+        "date": "2020-09-07",
+        "price": 4669.37,
+        "shares": 200,
+        "pnl": "-3.57%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2020-11-04",
+        "price": 4813.66,
+        "shares": 200,
+        "stars": 5,
+        "value": 962732
+      },
+      {
+        "type": "SELL",
+        "date": "2020-12-09",
+        "price": 4942.7,
+        "shares": 200,
+        "pnl": "2.68%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2020-12-28",
+        "price": 5064.41,
+        "shares": 200,
+        "stars": 5,
+        "value": 1012882
+      },
+      {
+        "type": "SELL",
+        "date": "2021-01-28",
+        "price": 5377.14,
+        "shares": 200,
+        "pnl": "6.18%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2021-02-10",
+        "price": 5807.72,
+        "shares": 100,
+        "stars": 5,
+        "value": 580772
+      },
+      {
+        "type": "SELL",
+        "date": "2021-02-24",
+        "price": 5437.57,
+        "shares": 100,
+        "pnl": "-6.37%",
+        "reason": "硬性止损-5%"
+      },
+      {
+        "type": "BUY",
+        "date": "2023-01-05",
+        "price": 3968.58,
+        "shares": 200,
+        "stars": 4,
+        "value": 793716
+      },
+      {
+        "type": "SELL",
+        "date": "2023-02-08",
+        "price": 4076.14,
+        "shares": 200,
+        "pnl": "2.71%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2024-04-29",
+        "price": 3623.91,
+        "shares": 300,
+        "stars": 4,
+        "value": 1087173
+      },
+      {
+        "type": "SELL",
+        "date": "2024-05-24",
+        "price": 3601.48,
+        "shares": 300,
+        "pnl": "-0.62%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2024-11-11",
+        "price": 4131.13,
+        "shares": 200,
+        "stars": 5,
+        "value": 826226
+      },
+      {
+        "type": "SELL",
+        "date": "2024-11-15",
+        "price": 3968.83,
+        "shares": 200,
+        "pnl": "-3.93%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2024-12-25",
+        "price": 3985.63,
+        "shares": 200,
+        "stars": 4,
+        "value": 797126
+      },
+      {
+        "type": "SELL",
+        "date": "2024-12-31",
+        "price": 3934.91,
+        "shares": 200,
+        "pnl": "-1.27%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2025-03-14",
+        "price": 4006.56,
+        "shares": 200,
+        "stars": 5,
+        "value": 801312
+      },
+      {
+        "type": "SELL",
+        "date": "2025-03-21",
+        "price": 3914.7,
+        "shares": 200,
+        "pnl": "-2.29%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2025-06-25",
+        "price": 3960.07,
+        "shares": 200,
+        "stars": 5,
+        "value": 792014
+      },
+      {
+        "type": "SELL",
+        "date": "2025-08-01",
+        "price": 4054.93,
+        "shares": 200,
+        "pnl": "2.40%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2025-08-14",
+        "price": 4173.31,
+        "shares": 200,
+        "stars": 5,
+        "value": 834662.0000000001
+      },
+      {
+        "type": "SELL",
+        "date": "2025-10-14",
+        "price": 4539.06,
+        "shares": 200,
+        "pnl": "8.76%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2025-10-27",
+        "price": 4716.02,
+        "shares": 200,
+        "stars": 5,
+        "value": 943204.0000000001
+      },
+      {
+        "type": "SELL",
+        "date": "2025-11-04",
+        "price": 4618.7,
+        "shares": 200,
+        "pnl": "-2.06%",
+        "reason": "跌破MA20"
+      },
+      {
+        "type": "BUY",
+        "date": "2026-02-25",
+        "price": 4735.89,
+        "shares": 200,
+        "stars": 5,
+        "value": 947178.0000000001
+      },
+      {
+        "type": "SELL",
+        "date": "2026-03-03",
+        "price": 4655.9,
+        "shares": 200,
+        "pnl": "-1.69%",
+        "reason": "跌破MA20"
+      }
+    ]
+  },
+  "v39": {
+    "stats": {
+      "finalV": 1093175.9999999993,
+      "totalRet": 0.0931759999999993,
+      "cagr": 0.012074942225983376,
+      "sharpe": -0.2898261959866737,
+      "maxDD": 14.903249385122432,
+      "years": 7.422313483915127,
+      "cashRatio": 0.8416666666666667
+    },
+    "trades": [
+      {
+        "type": "BUY",
+        "date": "2019-04-02",
+        "price": 3971.29,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 794258
+      },
+      {
+        "type": "SELL",
+        "date": "2019-04-30",
+        "price": 3913.21,
+        "shares": 200,
+        "pnl": "-1.46%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2019-11-01",
+        "price": 3952.39,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 790478
+      },
+      {
+        "type": "SELL",
+        "date": "2019-11-11",
+        "price": 3902.98,
+        "shares": 200,
+        "pnl": "-1.25%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2020-06-02",
+        "price": 3983.57,
+        "shares": 200,
+        "trend": "🟡中性",
+        "stars": 4,
+        "value": 796714
+      },
+      {
+        "type": "SELL",
+        "date": "2020-08-12",
+        "price": 4647.64,
+        "shares": 200,
+        "pnl": "16.67%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2020-09-01",
+        "price": 4842.12,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 968424
+      },
+      {
+        "type": "SELL",
+        "date": "2020-09-07",
+        "price": 4669.37,
+        "shares": 200,
+        "pnl": "-3.57%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2020-11-04",
+        "price": 4813.66,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 962732
+      },
+      {
+        "type": "SELL",
+        "date": "2020-12-09",
+        "price": 4942.7,
+        "shares": 200,
+        "pnl": "2.68%",
+        "reason": "MA20跌破+MACD死叉",
+        "trend": "🟢强多头"
+      },
+      {
+        "type": "BUY",
+        "date": "2020-12-28",
+        "price": 5064.41,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 1012882
+      },
+      {
+        "type": "SELL",
+        "date": "2021-02-04",
+        "price": 5473.95,
+        "shares": 200,
+        "pnl": "8.09%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2021-02-10",
+        "price": 5807.72,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 1161544
+      },
+      {
+        "type": "SELL",
+        "date": "2021-02-24",
+        "price": 5437.57,
+        "shares": 200,
+        "pnl": "-6.37%",
+        "reason": "硬性止损-5%",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2023-01-05",
+        "price": 3968.58,
+        "shares": 200,
+        "trend": "🟡中性",
+        "stars": 4,
+        "value": 793716
+      },
+      {
+        "type": "SELL",
+        "date": "2023-02-08",
+        "price": 4076.14,
+        "shares": 200,
+        "pnl": "2.71%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2024-04-29",
+        "price": 3623.91,
+        "shares": 300,
+        "trend": "🟡中性",
+        "stars": 4,
+        "value": 1087173
+      },
+      {
+        "type": "SELL",
+        "date": "2024-05-30",
+        "price": 3594.31,
+        "shares": 300,
+        "pnl": "-0.82%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2024-11-11",
+        "price": 4131.13,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 826226
+      },
+      {
+        "type": "SELL",
+        "date": "2024-11-22",
+        "price": 3865.7,
+        "shares": 200,
+        "pnl": "-6.43%",
+        "reason": "硬性止损-5%",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2024-12-25",
+        "price": 3985.63,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 4,
+        "value": 797126
+      },
+      {
+        "type": "SELL",
+        "date": "2024-12-31",
+        "price": 3934.91,
+        "shares": 200,
+        "pnl": "-1.27%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2025-03-14",
+        "price": 4006.56,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 801312
+      },
+      {
+        "type": "SELL",
+        "date": "2025-03-21",
+        "price": 3914.7,
+        "shares": 200,
+        "pnl": "-2.29%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2025-06-25",
+        "price": 3960.07,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 792014
+      },
+      {
+        "type": "SELL",
+        "date": "2025-08-01",
+        "price": 4054.93,
+        "shares": 200,
+        "pnl": "2.40%",
+        "reason": "MA20跌破+MACD死叉",
+        "trend": "🟢强多头"
+      },
+      {
+        "type": "BUY",
+        "date": "2025-08-14",
+        "price": 4173.31,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 834662.0000000001
+      },
+      {
+        "type": "SELL",
+        "date": "2025-10-17",
+        "price": 4514.23,
+        "shares": 200,
+        "pnl": "8.17%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2025-10-27",
+        "price": 4716.02,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 943204.0000000001
+      },
+      {
+        "type": "SELL",
+        "date": "2025-11-04",
+        "price": 4618.7,
+        "shares": 200,
+        "pnl": "-2.06%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      },
+      {
+        "type": "BUY",
+        "date": "2026-02-25",
+        "price": 4735.89,
+        "shares": 200,
+        "trend": "🟢强多头",
+        "stars": 5,
+        "value": 947178.0000000001
+      },
+      {
+        "type": "SELL",
+        "date": "2026-03-03",
+        "price": 4655.9,
+        "shares": 200,
+        "pnl": "-1.69%",
+        "reason": "跌破MA20",
+        "trend": "🟡中性"
+      }
+    ]
+  }
+}

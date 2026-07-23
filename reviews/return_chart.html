@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<title>1号策略 v3.7 收益率对比</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>body{font-family:"Microsoft YaHei",sans-serif;background:#1a1a2e;color:#eee;margin:20px;padding:20px}
+.chart-box{background:#16213e;border-radius:12px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.3)}
+h1{text-align:center;font-size:22px;margin-bottom:4px}
+.subtitle{text-align:center;color:#888;font-size:13px;margin-bottom:20px}
+canvas{max-height:420px}</style></head><body>
+<div class="chart-box">
+<h1>1号策略 v3.7 · 收益率对比</h1>
+<p class="subtitle">起始资金 ¥100,000 | 建仓日 2026-04-17 | 截至最新交易日</p>
+<canvas id="chart"></canvas>
+</div>
+<script>
+var ctx=document.getElementById("chart").getContext("2d");
+new Chart(ctx,{type:"line",data:{labels:["2026-04-17","2026-04-20","2026-04-21"],datasets:[
+{label:"1号策略组合",data:[0,-0.033668993944568903,0.27194187416761384],borderColor:"#F39C12",backgroundColor:"rgba(243,156,18,0.1)",borderWidth:3,pointRadius:5,pointBackgroundColor:"#F39C12",tension:0.3},
+{label:"沪深300",data:[0,0.6084163200223314,0.8317349275800634],borderColor:"#E74C3C",backgroundColor:"transparent",borderWidth:2,borderDash:[5,3],pointRadius:3,tension:0.3},
+{label:"创业板指",data:[0,-0.019302447604729878,0.28953671407094816],borderColor:"#3498DB",backgroundColor:"transparent",borderWidth:2,borderDash:[5,3],pointRadius:3,tension:0.3},
+{label:"恒生指数",data:[0,0.7673450602496246,1.2505576191125911],borderColor:"#9B59B6",backgroundColor:"transparent",borderWidth:2,borderDash:[5,3],pointRadius:3,tension:0.3},
+{label:"标普500ETF",data:[0,-0.04235493434986415,0.3811944091486552],borderColor:"#2ECC71",backgroundColor:"transparent",borderWidth:2,borderDash:[5,3],pointRadius:3,tension:0.3},
+]},options:{responsive:true,plugins:{legend:{labels:{color:"#ccc",font:{size:13}},position:"bottom"},
+tooltip:{callbacks:{label:function(c){return c.dataset.label+": "+c.parsed.y.toFixed(2)+"%"}}}},
+scales:{x:{grid:{color:"#333"},ticks:{color:"#888"}},y:{grid:{color:"#333"},ticks:{color:"#888",callback:function(v){return v.toFixed(1)+"%"}}}}}});
+</script></body></html>

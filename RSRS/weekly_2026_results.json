@@ -1,0 +1,218 @@
+{
+  "pool": [
+    "510300",
+    "510050",
+    "159902",
+    "159949",
+    "512100",
+    "159928",
+    "512800",
+    "512400",
+    "512200",
+    "510160",
+    "518880",
+    "159905",
+    "510810"
+  ],
+  "params": {
+    "N": 18,
+    "M": 900,
+    "buy": 0.7,
+    "sell": -1.0,
+    "top": 1,
+    "rb": 42
+  },
+  "weekly": [
+    {
+      "week": "2026-W02",
+      "from": "2026-01-05",
+      "to": "2026-01-09",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 5
+    },
+    {
+      "week": "2026-W03",
+      "from": "2026-01-12",
+      "to": "2026-01-16",
+      "return_pct": 1.59,
+      "holding": true,
+      "days": 5
+    },
+    {
+      "week": "2026-W04",
+      "from": "2026-01-19",
+      "to": "2026-01-23",
+      "return_pct": 5.43,
+      "holding": true,
+      "days": 5
+    },
+    {
+      "week": "2026-W05",
+      "from": "2026-01-26",
+      "to": "2026-01-30",
+      "return_pct": 2.01,
+      "holding": true,
+      "days": 5
+    },
+    {
+      "week": "2026-W06",
+      "from": "2026-02-02",
+      "to": "2026-02-06",
+      "return_pct": -7.95,
+      "holding": true,
+      "days": 5
+    },
+    {
+      "week": "2026-W07",
+      "from": "2026-02-09",
+      "to": "2026-02-13",
+      "return_pct": 4.78,
+      "holding": true,
+      "days": 5
+    },
+    {
+      "week": "2026-W09",
+      "from": "2026-02-24",
+      "to": "2026-02-27",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 4
+    },
+    {
+      "week": "2026-W10",
+      "from": "2026-03-02",
+      "to": "2026-03-06",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 5
+    },
+    {
+      "week": "2026-W11",
+      "from": "2026-03-09",
+      "to": "2026-03-13",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 5
+    },
+    {
+      "week": "2026-W12",
+      "from": "2026-03-16",
+      "to": "2026-03-20",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 5
+    },
+    {
+      "week": "2026-W13",
+      "from": "2026-03-23",
+      "to": "2026-03-27",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 5
+    },
+    {
+      "week": "2026-W14",
+      "from": "2026-03-30",
+      "to": "2026-04-03",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 5
+    },
+    {
+      "week": "2026-W15",
+      "from": "2026-04-07",
+      "to": "2026-04-10",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 4
+    },
+    {
+      "week": "2026-W16",
+      "from": "2026-04-13",
+      "to": "2026-04-17",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 5
+    },
+    {
+      "week": "2026-W17",
+      "from": "2026-04-20",
+      "to": "2026-04-24",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 5
+    },
+    {
+      "week": "2026-W18",
+      "from": "2026-04-27",
+      "to": "2026-04-30",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 4
+    },
+    {
+      "week": "2026-W19",
+      "from": "2026-05-06",
+      "to": "2026-05-08",
+      "return_pct": 0.0,
+      "holding": false,
+      "days": 3
+    },
+    {
+      "week": "2026-W20",
+      "from": "2026-05-11",
+      "to": "2026-05-15",
+      "return_pct": 0.24,
+      "holding": true,
+      "days": 5
+    },
+    {
+      "week": "2026-W21",
+      "from": "2026-05-18",
+      "to": "2026-05-22",
+      "return_pct": 0.19,
+      "holding": true,
+      "days": 5
+    },
+    {
+      "week": "2026-W22",
+      "from": "2026-05-25",
+      "to": "2026-05-29",
+      "return_pct": 3.46,
+      "holding": true,
+      "days": 5
+    },
+    {
+      "week": "2026-W23",
+      "from": "2026-06-01",
+      "to": "2026-06-05",
+      "return_pct": -1.83,
+      "holding": true,
+      "days": 5
+    },
+    {
+      "week": "2026-W24",
+      "from": "2026-06-08",
+      "to": "2026-06-12",
+      "return_pct": -3.52,
+      "holding": true,
+      "days": 5
+    },
+    {
+      "week": "2026-W25",
+      "from": "2026-06-15",
+      "to": "2026-06-16",
+      "return_pct": 6.36,
+      "holding": true,
+      "days": 2
+    }
+  ],
+  "summary": {
+    "period": "2026-01-05 00:00:00 ~ 2026-06-16 00:00:00",
+    "total_return_pct": 10.3,
+    "annualized_pct": 25.9,
+    "sharpe": 0.84,
+    "max_drawdown_pct": -18.9
+  }
+}

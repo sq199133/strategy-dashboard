@@ -1,0 +1,16 @@
+{
+  "factor_name": "量能趋势12-3m",
+  "param_label": "12-3m",
+  "top_k": 10,
+  "total_return_pct": -12.9,
+  "annual_return_pct": -2.5,
+  "sharpe": -0.782,
+  "max_drawdown_pct": -19.3,
+  "calmar": -0.13,
+  "win_rate_pct": 45.3,
+  "total_trades": 225,
+  "avg_holding_days": 90.0,
+  "n_months": 67,
+  "start_date": "2021-01-04",
+  "end_date": "2026-07-13"
+}

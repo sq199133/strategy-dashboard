@@ -1,0 +1,144 @@
+{
+  "old": {
+    "label": "旧池(13只)",
+    "n_etfs": 13,
+    "cagr": 21.7,
+    "sharpe": 1.16,
+    "mdd": -26.8,
+    "win_rate": 28.3,
+    "annual": [
+      {
+        "year": 2017,
+        "return": 81.0,
+        "sharpe": 2.41,
+        "mdd": -11.4
+      },
+      {
+        "year": 2018,
+        "return": -2.2,
+        "sharpe": -0.11,
+        "mdd": -15.9
+      },
+      {
+        "year": 2019,
+        "return": 32.7,
+        "sharpe": 1.75,
+        "mdd": -7.4
+      },
+      {
+        "year": 2020,
+        "return": 50.6,
+        "sharpe": 2.7,
+        "mdd": -6.8
+      },
+      {
+        "year": 2021,
+        "return": 7.4,
+        "sharpe": 0.42,
+        "mdd": -18.3
+      },
+      {
+        "year": 2022,
+        "return": -11.8,
+        "sharpe": -0.95,
+        "mdd": -18.4
+      },
+      {
+        "year": 2023,
+        "return": 4.2,
+        "sharpe": 0.68,
+        "mdd": -3.6
+      },
+      {
+        "year": 2024,
+        "return": 34.5,
+        "sharpe": 1.56,
+        "mdd": -8.8
+      },
+      {
+        "year": 2025,
+        "return": 64.7,
+        "sharpe": 2.67,
+        "mdd": -6.9
+      },
+      {
+        "year": 2026,
+        "return": 25.9,
+        "sharpe": 0.84,
+        "mdd": -18.9
+      }
+    ],
+    "total_days": 2105
+  },
+  "new": {
+    "label": "新池(21只)",
+    "n_etfs": 21,
+    "cagr": 11.4,
+    "sharpe": 0.65,
+    "mdd": -26.8,
+    "win_rate": 27.3,
+    "annual": [
+      {
+        "year": 2017,
+        "return": 81.0,
+        "sharpe": 2.41,
+        "mdd": -11.4
+      },
+      {
+        "year": 2018,
+        "return": -14.2,
+        "sharpe": -1.12,
+        "mdd": -22.0
+      },
+      {
+        "year": 2019,
+        "return": 17.3,
+        "sharpe": 0.93,
+        "mdd": -12.6
+      },
+      {
+        "year": 2020,
+        "return": 42.8,
+        "sharpe": 2.37,
+        "mdd": -6.8
+      },
+      {
+        "year": 2021,
+        "return": 8.4,
+        "sharpe": 0.45,
+        "mdd": -18.3
+      },
+      {
+        "year": 2022,
+        "return": -12.7,
+        "sharpe": -1.01,
+        "mdd": -19.1
+      },
+      {
+        "year": 2023,
+        "return": 13.6,
+        "sharpe": 1.1,
+        "mdd": -6.9
+      },
+      {
+        "year": 2024,
+        "return": 34.6,
+        "sharpe": 1.35,
+        "mdd": -17.1
+      },
+      {
+        "year": 2025,
+        "return": -5.5,
+        "sharpe": -0.28,
+        "mdd": -17.4
+      },
+      {
+        "year": 2026,
+        "return": 25.9,
+        "sharpe": 0.84,
+        "mdd": -18.9
+      }
+    ],
+    "total_days": 2098
+  }
+}

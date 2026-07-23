@@ -1,0 +1,80 @@
+[
+  {
+    "filter": "A: 无过滤（基准）",
+    "total_ret": 343.83792833140313,
+    "ann_ret": 27.115092844626254,
+    "max_dd": 25.35747581917779,
+    "sharpe": 1.0806661449945802,
+    "calmar": 1.0693135640937566,
+    "win_rate": 53.72670807453416,
+    "n_buys": 737,
+    "n_sells": 735,
+    "empty_pct": 0.0,
+    "n_weeks": 323
+  },
+  {
+    "filter": "B: 创业板指3周动量 > 0%",
+    "total_ret": 0.0,
+    "ann_ret": 0.0,
+    "max_dd": 0,
+    "sharpe": 0,
+    "calmar": 0,
+    "win_rate": 0.0,
+    "n_buys": 0,
+    "n_sells": 0,
+    "empty_pct": 100.0,
+    "n_weeks": 323
+  },
+  {
+    "filter": "C: 创业板指3周动量 > -3%",
+    "total_ret": 0.0,
+    "ann_ret": 0.0,
+    "max_dd": 0,
+    "sharpe": 0,
+    "calmar": 0,
+    "win_rate": 0.0,
+    "n_buys": 0,
+    "n_sells": 0,
+    "empty_pct": 100.0,
+    "n_weeks": 323
+  },
+  {
+    "filter": "D: 创业板指3周动量 > -5%",
+    "total_ret": 0.0,
+    "ann_ret": 0.0,
+    "max_dd": 0,
+    "sharpe": 0,
+    "calmar": 0,
+    "win_rate": 0.0,
+    "n_buys": 0,
+    "n_sells": 0,
+    "empty_pct": 100.0,
+    "n_weeks": 323
+  },
+  {
+    "filter": "E: 沪深300 3周动量 > 0%",
+    "total_ret": 0.0,
+    "ann_ret": 0.0,
+    "max_dd": 0,
+    "sharpe": 0,
+    "calmar": 0,
+    "win_rate": 0.0,
+    "n_buys": 0,
+    "n_sells": 0,
+    "empty_pct": 100.0,
+    "n_weeks": 323
+  },
+  {
+    "filter": "F: 创业板+沪深300 同时 > -3%",
+    "total_ret": 0.0,
+    "ann_ret": 0.0,
+    "max_dd": 0,
+    "sharpe": 0,
+    "calmar": 0,
+    "win_rate": 0.0,
+    "n_buys": 0,
+    "n_sells": 0,
+    "empty_pct": 100.0,
+    "n_weeks": 323
+  }
+]

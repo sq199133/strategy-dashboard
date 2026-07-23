@@ -1,0 +1,25 @@
+{
+  "label": "MA5/21 LB3 D10 H2 [Holiday-Aware]",
+  "args": {
+    "max_dev": 10.0,
+    "top_n": 2,
+    "lb": 3,
+    "ma_s": 5,
+    "ma_l": 21,
+    "capital": 1.0,
+    "start": "2010-W01",
+    "end": "2026-W24"
+  },
+  "total_ret": 67.49,
+  "ann_ret": 3.25,
+  "max_dd": -41.94,
+  "sharpe": 0.156,
+  "calmar": 0.08,
+  "win_rate": 43.6,
+  "n_buys": 919,
+  "n_sells": 917,
+  "n_weeks": 838,
+  "years": 16.1,
+  "n_etfs": 193,
+  "avg_holiday_per_etf": 8.8
+}

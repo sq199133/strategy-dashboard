@@ -1,0 +1,18 @@
+{
+  "factor_name": "价格均线比MA120",
+  "param_label": "MA120",
+  "top_k": 5,
+  "total_return_pct": 10.3,
+  "annual_return_pct": 0.9,
+  "sharpe": 0.636,
+  "max_drawdown_pct": -44.1,
+  "calmar": 0.02,
+  "win_rate_pct": 46.9,
+  "total_trades": 356,
+  "avg_holding_days": 58.8,
+  "n_months": 139,
+  "start_date": "2015-02-02",
+  "end_date": "2026-07-14",
+  "avg_candidates_2015_2017": 0,
+  "avg_candidates_2018_2026": 0
+}

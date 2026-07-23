@@ -1,0 +1,6 @@
+Keys: records
+obj.info: undefined
+obj.records type: object
+obj.records length: 3307
+First record: {"date":"2025-12-31","open":4.654,"close":4.63,"high":4.666,"low":4.619,"vol":6668292,"amount":0,"chg":0}
+Last record: {"date":"2012-05-28","open":1.671,"close":1.724,"high":1.727,"low":1.664,"vol":12775187,"amount":0,"chg":0}

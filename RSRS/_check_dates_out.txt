@@ -1,0 +1,12 @@
+Code      Name  Last Date     Rows
+510050    SH50  NOT FOUND        0
+510300    HS300 NOT FOUND        0
+510500    ZZ500 NOT FOUND        0
+512100    ZZ1000NOT FOUND        0
+159915    CYB   NOT FOUND        0
+588000    KC50  NOT FOUND        0
+513500    SP500 NOT FOUND        0
+513100    NSDQ  NOT FOUND        0
+518880    GOLD  NOT FOUND        0
+162411    OIL   NOT FOUND        0
+515080    ZSHL  NOT FOUND        0

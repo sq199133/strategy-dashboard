@@ -1,0 +1,17 @@
+{
+  "factor_name": "Multi_动量+低波",
+  "param_label": "动量+低波",
+  "top_k": 10,
+  "total_return_pct": 150.8,
+  "annual_return_pct": 8.4,
+  "sharpe": 3.727,
+  "max_drawdown_pct": -25.3,
+  "calmar": 0.33,
+  "win_rate_pct": 54.2,
+  "total_trades": 275,
+  "avg_holding_days": 152.5,
+  "start_date": "2015-02-02",
+  "end_date": "2026-07-14",
+  "avg_candidates_2015_2017": 0,
+  "avg_candidates_2018_2026": 0
+}

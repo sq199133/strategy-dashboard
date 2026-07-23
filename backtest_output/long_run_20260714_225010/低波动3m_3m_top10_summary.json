@@ -1,0 +1,18 @@
+{
+  "factor_name": "低波动3m",
+  "param_label": "3m",
+  "top_k": 10,
+  "total_return_pct": 166.3,
+  "annual_return_pct": 8.9,
+  "sharpe": 4.097,
+  "max_drawdown_pct": -15.3,
+  "calmar": 0.58,
+  "win_rate_pct": 63.8,
+  "total_trades": 315,
+  "avg_holding_days": 133.0,
+  "n_months": 139,
+  "start_date": "2015-02-02",
+  "end_date": "2026-07-14",
+  "avg_candidates_2015_2017": 0,
+  "avg_candidates_2018_2026": 0
+}

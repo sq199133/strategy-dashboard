@@ -1,0 +1,192 @@
+[
+  {
+    "label": "MA20基准(无成本)",
+    "combo": {
+      "ma": 20,
+      "cost": 0,
+      "sharpeF": false,
+      "sl": 0,
+      "label": "MA20基准(无成本)"
+    },
+    "count": 47,
+    "avgSharpe": 1.5654366125764507,
+    "avgReturn": 0.5406623401384173,
+    "avgDD": 0.28378497645057305,
+    "avgTrades": 200.53191489361703,
+    "sharpeGte1": 46,
+    "sharpeGte05": 47,
+    "beatBH": 47,
+    "avgExcess": 0.4972859352259709
+  },
+  {
+    "label": "MA20+0.1%成本",
+    "combo": {
+      "ma": 20,
+      "cost": 0.001,
+      "sharpeF": false,
+      "sl": 0,
+      "label": "MA20+0.1%成本"
+    },
+    "count": 47,
+    "avgSharpe": 1.520213436077587,
+    "avgReturn": 0.5199763160987377,
+    "avgDD": 0.2946673920680808,
+    "avgTrades": 200.53191489361703,
+    "sharpeGte1": 46,
+    "sharpeGte05": 47,
+    "beatBH": 47,
+    "avgExcess": 0.47659991118629125
+  },
+  {
+    "label": "MA20+0.2%成本",
+    "combo": {
+      "ma": 20,
+      "cost": 0.002,
+      "sharpeF": false,
+      "sl": 0,
+      "label": "MA20+0.2%成本"
+    },
+    "count": 47,
+    "avgSharpe": 1.4746942012278847,
+    "avgReturn": 0.4995492414903616,
+    "avgDD": 0.30670588264163573,
+    "avgTrades": 200.53191489361703,
+    "sharpeGte1": 46,
+    "sharpeGte05": 47,
+    "beatBH": 47,
+    "avgExcess": 0.45617283657791524
+  },
+  {
+    "label": "MA20+0.3%成本",
+    "combo": {
+      "ma": 20,
+      "cost": 0.003,
+      "sharpeF": false,
+      "sl": 0,
+      "label": "MA20+0.3%成本"
+    },
+    "count": 47,
+    "avgSharpe": 1.4289001712913527,
+    "avgReturn": 0.4793781092596356,
+    "avgDD": 0.3193770291088579,
+    "avgTrades": 200.53191489361703,
+    "sharpeGte1": 45,
+    "sharpeGte05": 47,
+    "beatBH": 47,
+    "avgExcess": 0.436001704347189
+  },
+  {
+    "label": "MA20+夏普+0.1%成本",
+    "combo": {
+      "ma": 20,
+      "cost": 0.001,
+      "sharpeF": true,
+      "sl": 0,
+      "label": "MA20+夏普+0.1%成本"
+    },
+    "count": 47,
+    "avgSharpe": 1.1757484923153214,
+    "avgReturn": 0.2731327791824709,
+    "avgDD": 0.25682120802239083,
+    "avgTrades": 113.80851063829788,
+    "sharpeGte1": 34,
+    "sharpeGte05": 46,
+    "beatBH": 47,
+    "avgExcess": 0.22975637427002452
+  },
+  {
+    "label": "MA20+夏普+5%止损+0.1%成本",
+    "combo": {
+      "ma": 20,
+      "cost": 0.001,
+      "sharpeF": true,
+      "sl": 0.05,
+      "label": "MA20+夏普+5%止损+0.1%成本"
+    },
+    "count": 47,
+    "avgSharpe": 1.1778410260655916,
+    "avgReturn": 0.2736658962179576,
+    "avgDD": 0.2568212080223909,
+    "avgTrades": 113.80851063829788,
+    "sharpeGte1": 34,
+    "sharpeGte05": 46,
+    "beatBH": 47,
+    "avgExcess": 0.23028949130551124
+  },
+  {
+    "label": "MA25+夏普+5%止损+0.1%成本",
+    "combo": {
+      "ma": 25,
+      "cost": 0.001,
+      "sharpeF": true,
+      "sl": 0.05,
+      "label": "MA25+夏普+5%止损+0.1%成本"
+    },
+    "count": 47,
+    "avgSharpe": 1.0572571427800055,
+    "avgReturn": 0.24850703510729374,
+    "avgDD": 0.25410083889999474,
+    "avgTrades": 99.74468085106383,
+    "sharpeGte1": 30,
+    "sharpeGte05": 46,
+    "beatBH": 47,
+    "avgExcess": 0.20513063019484737
+  },
+  {
+    "label": "MA30+夏普+5%止损+0.1%成本",
+    "combo": {
+      "ma": 30,
+      "cost": 0.001,
+      "sharpeF": true,
+      "sl": 0.05,
+      "label": "MA30+夏普+5%止损+0.1%成本"
+    },
+    "count": 47,
+    "avgSharpe": 0.9697869845132342,
+    "avgReturn": 0.2311291207475032,
+    "avgDD": 0.24369981789678657,
+    "avgTrades": 90.31914893617021,
+    "sharpeGte1": 26,
+    "sharpeGte05": 41,
+    "beatBH": 47,
+    "avgExcess": 0.1877527158350567
+  },
+  {
+    "label": "MA15+夏普+5%止损+0.1%成本",
+    "combo": {
+      "ma": 15,
+      "cost": 0.001,
+      "sharpeF": true,
+      "sl": 0.05,
+      "label": "MA15+夏普+5%止损+0.1%成本"
+    },
+    "count": 47,
+    "avgSharpe": 1.3149768031204885,
+    "avgReturn": 0.2950991458720486,
+    "avgDD": 0.23248519628343425,
+    "avgTrades": 132.31914893617022,
+    "sharpeGte1": 39,
+    "sharpeGte05": 46,
+    "beatBH": 47,
+    "avgExcess": 0.2517227409596022
+  },
+  {
+    "label": "MA10+夏普+5%止损+0.1%成本",
+    "combo": {
+      "ma": 10,
+      "cost": 0.001,
+      "sharpeF": true,
+      "sl": 0.05,
+      "label": "MA10+夏普+5%止损+0.1%成本"
+    },
+    "count": 47,
+    "avgSharpe": 1.5158270479042117,
+    "avgReturn": 0.33051398173517316,
+    "avgDD": 0.20796752874038218,
+    "avgTrades": 171.91489361702128,
+    "sharpeGte1": 40,
+    "sharpeGte05": 47,
+    "beatBH": 47,
+    "avgExcess": 0.2871375768227268
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "version": "v1.0",
+  "date": "2026-04-19",
+  "summary": {
+    "totalDays": 94420,
+    "ruleA_buy": 1492,
+    "ruleA_buyPct": "1.58%",
+    "ruleB_buy": 976,
+    "ruleB_buyPct": "1.03%",
+    "signalLoss": 516,
+    "lossRate": "34.58%",
+    "hs300pos_days": 56451,
+    "hs300pos_Abuy": 1061,
+    "hs300pos_Bbuy": 976,
+    "hs300neg_days": 37969,
+    "hs300neg_Abuy": 431,
+    "hs300neg_Bbuy": 0
+  },
+  "brackets": {
+    ">5%": {
+      "days": 13272,
+      "A_buy": 267,
+      "B_buy": 267
+    },
+    "2~5%": {
+      "days": 17950,
+      "A_buy": 431,
+      "B_buy": 431
+    },
+    "0~2%": {
+      "days": 14522,
+      "A_buy": 278,
+      "B_buy": 278
+    },
+    "-2~0%": {
+      "days": 17782,
+      "A_buy": 212,
+      "B_buy": 0
+    },
+    "-5~-2%": {
+      "days": 20187,
+      "A_buy": 219,
+      "B_buy": 0
+    },
+    "<-5%": {
+      "days": 10707,
+      "A_buy": 85,
+      "B_buy": 0
+    }
+  }
+}

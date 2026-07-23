@@ -1,0 +1,18 @@
+{
+  "factor_name": "动量6-1m",
+  "param_label": "6m",
+  "top_k": 10,
+  "total_return_pct": 39.2,
+  "annual_return_pct": 2.9,
+  "sharpe": 1.171,
+  "max_drawdown_pct": -33.2,
+  "calmar": 0.09,
+  "win_rate_pct": 53.2,
+  "total_trades": 427,
+  "avg_holding_days": 98.0,
+  "n_months": 139,
+  "start_date": "2015-02-02",
+  "end_date": "2026-07-14",
+  "avg_candidates_2015_2017": 0,
+  "avg_candidates_2018_2026": 0
+}

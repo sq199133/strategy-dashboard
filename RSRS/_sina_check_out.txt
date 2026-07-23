@@ -1,0 +1,15 @@
+Sina file check for stale ETFs:
+Code    SinaFile        Exists  SinaDate      HistDate      
+510050  sh510050        False   N/A           2026-07-09    
+159915  sz159915        False   N/A           2026-07-09    
+513500  sh513500        False   N/A           2026-07-09    
+513100  sh513100        False   N/A           2026-07-09    
+515080  sh515080        False   N/A           2026-07-09    
+
+
+Cache quote files:
+  CACHE quote_sh510050.json: keys=['name', 'market', 'price', 'prev_close', 'chg']
+  CACHE quote_sz159915.json: keys=['name', 'market', 'price', 'prev_close', 'chg']
+  CACHE quote_sh513500.json: NOT FOUND
+  CACHE quote_sh513100.json: NOT FOUND
+  CACHE quote_sh515080.json: NOT FOUND

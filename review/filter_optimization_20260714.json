@@ -1,0 +1,218 @@
+{
+  "configurations": [
+    {
+      "name": "v4.7基准",
+      "params": {
+        "name": "v4.7基准",
+        "max_dev": 20,
+        "max_atr": null,
+        "sector_limit": null,
+        "dynamic_pos": false
+      },
+      "stats": {
+        "ann": 56.54719262103589,
+        "max_dd": -12.48094366954967,
+        "sharpe": 1.8355500189614713,
+        "final": 423538.16586626886
+      },
+      "trades": 133,
+      "rejected": {
+        "atr": 0,
+        "dev": 100,
+        "vr": 341
+      }
+    },
+    {
+      "name": "优化A_紧偏离",
+      "params": {
+        "name": "优化A_紧偏离",
+        "max_dev": 15,
+        "max_atr": null,
+        "sector_limit": null,
+        "dynamic_pos": false
+      },
+      "stats": {
+        "ann": 54.51715157147605,
+        "max_dd": -16.616823254561865,
+        "sharpe": 1.820942969008754,
+        "final": 406253.08089529275
+      },
+      "trades": 132,
+      "rejected": {
+        "atr": 0,
+        "dev": 232,
+        "vr": 300
+      }
+    },
+    {
+      "name": "优化B_宽偏离",
+      "params": {
+        "name": "优化B_宽偏离",
+        "max_dev": 25,
+        "max_atr": null,
+        "sector_limit": null,
+        "dynamic_pos": false
+      },
+      "stats": {
+        "ann": 64.97576296039671,
+        "max_dd": -16.676845952284815,
+        "sharpe": 1.9973975639460253,
+        "final": 500722.28210674867
+      },
+      "trades": 130,
+      "rejected": {
+        "atr": 0,
+        "dev": 54,
+        "vr": 360
+      }
+    },
+    {
+      "name": "优化C_波动过滤",
+      "params": {
+        "name": "优化C_波动过滤",
+        "max_dev": 20,
+        "max_atr": 1.5,
+        "sector_limit": null,
+        "dynamic_pos": false
+      },
+      "stats": {
+        "ann": 56.54719262103589,
+        "max_dd": -12.48094366954967,
+        "sharpe": 1.8355500189614713,
+        "final": 423538.16586626886
+      },
+      "trades": 133,
+      "rejected": {
+        "atr": 0,
+        "dev": 100,
+        "vr": 341
+      }
+    },
+    {
+      "name": "优化D_强波动过滤",
+      "params": {
+        "name": "优化D_强波动过滤",
+        "max_dev": 20,
+        "max_atr": 1.3,
+        "sector_limit": null,
+        "dynamic_pos": false
+      },
+      "stats": {
+        "ann": 57.360444743141926,
+        "max_dd": -12.48094366954966,
+        "sharpe": 1.8488034825807356,
+        "final": 430602.1277507815
+      },
+      "trades": 133,
+      "rejected": {
+        "atr": 54,
+        "dev": 100,
+        "vr": 325
+      }
+    },
+    {
+      "name": "优化E_板块分散",
+      "params": {
+        "name": "优化E_板块分散",
+        "max_dev": 20,
+        "max_atr": null,
+        "sector_limit": 1,
+        "dynamic_pos": false
+      },
+      "stats": {
+        "ann": 56.54719262103589,
+        "max_dd": -12.48094366954967,
+        "sharpe": 1.8355500189614713,
+        "final": 423538.16586626886
+      },
+      "trades": 133,
+      "rejected": {
+        "atr": 0,
+        "dev": 100,
+        "vr": 341
+      }
+    },
+    {
+      "name": "优化F_动态仓位",
+      "params": {
+        "name": "优化F_动态仓位",
+        "max_dev": 20,
+        "max_atr": null,
+        "sector_limit": null,
+        "dynamic_pos": true
+      },
+      "stats": {
+        "ann": 56.54719262103589,
+        "max_dd": -12.48094366954967,
+        "sharpe": 1.8355500189614713,
+        "final": 423538.16586626886
+      },
+      "trades": 133,
+      "rejected": {
+        "atr": 0,
+        "dev": 100,
+        "vr": 341
+      }
+    },
+    {
+      "name": "优化G_综合保守",
+      "params": {
+        "name": "优化G_综合保守",
+        "max_dev": 15,
+        "max_atr": 1.5,
+        "sector_limit": 1,
+        "dynamic_pos": false
+      },
+      "stats": {
+        "ann": 54.51715157147605,
+        "max_dd": -16.616823254561865,
+        "sharpe": 1.820942969008754,
+        "final": 406253.08089529275
+      },
+      "trades": 132,
+      "rejected": {
+        "atr": 0,
+        "dev": 232,
+        "vr": 300
+      }
+    },
+    {
+      "name": "优化H_综合激进",
+      "params": {
+        "name": "优化H_综合激进",
+        "max_dev": 25,
+        "max_atr": 1.8,
+        "sector_limit": null,
+        "dynamic_pos": true
+      },
+      "stats": {
+        "ann": 64.97576296039671,
+        "max_dd": -16.676845952284815,
+        "sharpe": 1.9973975639460253,
+        "final": 500722.28210674867
+      },
+      "trades": 130,
+      "rejected": {
+        "atr": 0,
+        "dev": 54,
+        "vr": 360
+      }
+    }
+  ],
+  "best": {
+    "name": "优化B_宽偏离",
+    "params": {
+      "name": "优化B_宽偏离",
+      "max_dev": 25,
+      "max_atr": null,
+      "sector_limit": null,
+      "dynamic_pos": false
+    },
+    "stats": {
+      "ann": 64.97576296039671,
+      "max_dd": -16.676845952284815,
+      "sharpe": 1.9973975639460253,
+      "final": 500722.28210674867
+    }
+  }
+}

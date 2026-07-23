@@ -1,0 +1,16 @@
+{
+  "factor_name": "价格均线比MA120",
+  "param_label": "MA120",
+  "top_k": 20,
+  "total_return_pct": -8.1,
+  "annual_return_pct": -1.5,
+  "sharpe": -0.089,
+  "max_drawdown_pct": -35.6,
+  "calmar": -0.04,
+  "win_rate_pct": 42.5,
+  "total_trades": 637,
+  "avg_holding_days": 63.4,
+  "n_months": 67,
+  "start_date": "2021-01-04",
+  "end_date": "2026-07-13"
+}
