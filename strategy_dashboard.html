@@ -15,6 +15,7 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI','PingFang SC','Micr
 .tag{display:inline-block;padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600}
 .tag-warn{background:rgba(248,81,73,0.15);color:#f85149}
 .tag-chg{background:rgba(239,163,71,0.15);color:#efa347}
+.tag-sell{background:rgba(139,148,158,0.15);color:#8b949e}
 .g{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:20px}
 .c{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px}
 .c h3{font-size:11px;color:#8b949e;font-weight:500;margin-bottom:6px;text-transform:uppercase}
@@ -40,6 +41,7 @@ body{background:#0d1117;color:#c9d1d9;font-family:'Segoe UI','PingFang SC','Micr
 .status-full{background:rgba(248,81,73,0.15);color:#f85149}
 .status-light{background:rgba(163,113,247,0.15);color:#a371f7}
 .status-chg{background:rgba(239,163,71,0.15);color:#efa347}
+.status-sell{background:rgba(139,148,158,0.15);color:#8b949e}
 .panel-meta{display:flex;gap:16px;margin-bottom:10px;font-size:12px;color:#8b949e;flex-wrap:wrap}
 .panel-meta span{color:#f0f6fc;font-weight:600}
 .table-wrap{overflow-x:auto}
@@ -51,6 +53,7 @@ tr:last-child td{border-bottom:none}
 .badge-red{background:rgba(248,81,73,0.15);color:#f85149}
 .badge-green{background:rgba(63,185,80,0.15);color:#3fb950}
 .badge-orange{background:rgba(239,163,71,0.15);color:#efa347}
+.badge-gray{background:rgba(139,148,158,0.15);color:#8b949e}
 .pnl-row{display:flex;justify-content:space-between;margin-top:10px;padding-top:10px;border-top:1px solid #21262d;font-size:12px}
 .pnl-label{color:#8b949e}
 .pnl-value{font-weight:600}
@@ -67,22 +70,22 @@ tr:last-child td{border-bottom:none}
 </head>
 <body>
 <div class="h">
-  <div><h1>量化策略综合看板</h1><div class="d">2026-07-23 (周四) · 来源: 各策略每日复盘</div></div>
-  <div class="tags"><span class="tag tag-warn">RSRS观望</span><span class="tag tag-chg">ADX换仓</span></div>
+  <div><h1>量化策略综合看板</h1><div class="d">2026-07-24 (周五) · 来源: 各策略每日复盘</div></div>
+  <div class="tags"><span class="tag tag-warn">RSRS观望</span><span class="tag tag-sell">周线轮动</span><span class="tag tag-chg">ADX反转</span></div>
 </div>
 <div class="g">
   <div class="c"><h3>账户初始资金</h3><div class="v">220,000</div><div class="s">2026-06-24 启动</div></div>
-  <div class="c"><h3>账户总估算资产</h3><div class="v down">~216,254.12</div><div class="s down">-3,746 (-1.70%)</div></div>
-  <div class="c"><h3>今日整体收益</h3><div class="v down">-2,323</div><div class="s down">-1.06%</div></div>
-  <div class="c"><h3>累计账户收益</h3><div class="v down">-3,746</div><div class="s down">-1.70%</div></div>
-  <div class="c"><h3>账户净值</h3><div class="v fl">0.9830</div><div class="s fl">初始=1.000</div></div>
+  <div class="c"><h3>账户总估算资产</h3><div class="v down">~212,834.32</div><div class="s down">-7,166 (-3.26%)</div></div>
+  <div class="c"><h3>今日整体收益</h3><div class="v down">-3,420</div><div class="s down">-1.58%</div></div>
+  <div class="c"><h3>累计账户收益</h3><div class="v down">-7,166</div><div class="s down">-3.26%</div></div>
+  <div class="c"><h3>账户净值</h3><div class="v fl">0.9674</div><div class="s fl">初始=1.000</div></div>
 </div>
 <div class="g" style="grid-template-columns:repeat(5,1fr);margin-bottom:16px">
-  <div class="c"><h3>RSRS择时</h3><div class="v down">-1,581</div><div class="s down">科创50 -3.43% · 锁仓75%</div></div>
-  <div class="c"><h3>周线动量</h3><div class="v down">-480</div><div class="s down">中药ETF -0.80% · 79%仓</div></div>
-  <div class="c"><h3>跨境动量</h3><div class="v down">-128</div><div class="s">→ 卖520500, 买159518</div></div>
-  <div class="c"><h3>财神爷</h3><div class="v down">-133</div><div class="s down">酒ETF -1.16% · 7.5%</div></div>
-  <div class="c"><h3>当日合计</h3><div class="v down">-2,323</div><div class="s">含现金部分</div></div>
+  <div class="c"><h3>RSRS择时</h3><div class="v down">-71</div><div class="s down">科创50 -0.16% · 锁仓74%</div></div>
+  <div class="c"><h3>周线动量</h3><div class="v down">-1,740</div><div class="s down">中药ETF -2.92% · 跌破MA21</div></div>
+  <div class="c"><h3>跨境动量</h3><div class="v down">-1,370</div><div class="s down">520500 -2.24% · TOP1反转</div></div>
+  <div class="c"><h3>财神爷</h3><div class="v down">-239</div><div class="s down">酒ETF -2.12% · 7.4%仓</div></div>
+  <div class="c"><h3>当日合计</h3><div class="v down">-3,420</div><div class="s">冰点日，全市场跌</div></div>
 </div>
 <div class="w">
   <h2>策略净值走势 (初始=1.000)</h2>
@@ -92,102 +95,103 @@ tr:last-child td{border-bottom:none}
 <div class="panels">
   <div class="panel">
     <div class="panel-header"><div class="panel-title rsrs">RSRS择时专家</div><span class="panel-status status-wait">观望</span></div>
-    <div class="panel-meta"><div>RSRS Z: <span>-0.565</span></div><div>C63: <span>+25.5%</span></div><div>C21: <span class="down">-9.9%</span></div><div>仓位: <span>75%</span></div></div>
+    <div class="panel-meta"><div>RSRS Z: <span>-0.506</span></div><div>C63: <span>+23.3%</span></div><div>C21: <span class="down">-13.5%</span></div><div>仓位: <span>74%</span></div></div>
     <div class="table-wrap"><table><tr><th>标的</th><th>建仓日</th><th>成本</th><th>现价</th><th>盈亏</th><th>仓位</th><th>持仓额</th></tr>
-      <tr><td><strong>588000</strong> 科创50</td><td>06-24</td><td>2.010</td><td>1.888</td><td><span class="badge badge-green">-6.07%</span></td><td>75%</td><td>¥44,557</td></tr>
+      <tr><td><strong>588000</strong> 科创50</td><td>06-24</td><td>2.010</td><td>1.885</td><td><span class="badge badge-green">-6.22%</span></td><td>74%</td><td>¥44,486</td></tr>
     </table></div>
-    <div class="pnl-row"><div><div class="pnl-label">今日持仓变动</div><div class="pnl-value down">-1,581</div><div class="pnl-formula">23600×(1.888-1.955)</div></div><div style="text-align:right"><div class="pnl-label">累计浮亏</div><div class="pnl-value down">-4.61%</div><div class="pnl-formula">锁仓至08-05 (剩12天)</div></div></div>
+    <div class="pnl-row"><div><div class="pnl-label">今日持仓变动</div><div class="pnl-value down">-71</div><div class="pnl-formula">23600×(1.885-1.888)</div></div><div style="text-align:right"><div class="pnl-label">累计浮亏</div><div class="pnl-value down">-4.70%</div><div class="pnl-formula">锁仓至08-05 (剩11天)</div></div></div>
     <div class="advice">
-      <strong>信号：</strong>RSRS Z=-0.565灰色观望。C63 KC50 +25.5%仍居第1，但C21=-9.9%持续恶化。中证红利C21+5.6%显示防御轮动。锁仓剩12天。<br>
+      <strong>信号：</strong>RSRS Z=-0.506灰色观望。C63 KC50 +23.3%仍居第1但连续3日回落，C21=-13.5%短动恶化。<br>
       <strong>08-05决策点：</strong>若RSRS≥0.7→继续多Top1；若RSRS≤-1.0或KC50 C63被超越→轮动/清仓。
     </div>
   </div>
   <div class="panel">
-    <div class="panel-header"><div class="panel-title zx">周线动量 v4.8</div><span class="panel-status status-buy">持有</span></div>
-    <div class="panel-meta"><div>仓位: <span>79%</span></div><div>现金: <span>¥3,766(6%)</span></div><div>止损: <span>0.909</span></div></div>
-    <div class="table-wrap"><table><tr><th>标的</th><th>建仓日</th><th>成本</th><th>现价</th><th>盈亏</th><th>持仓额</th></tr>
-      <tr><td><strong>560080</strong> 中药ETF</td><td>07-20</td><td>0.988</td><td>0.993</td><td><span class="badge badge-red">+0.51% (+¥300)</span></td><td>¥59,580</td></tr>
-    </table></div>
-    <div class="pnl-row"><div><div class="pnl-label">今日持仓变动</div><div class="pnl-value down">-480</div><div class="pnl-formula">60000×(0.993-1.001)</div></div><div style="text-align:right"><div class="pnl-label">累计收益(含历史)</div><div class="pnl-value down">-2.54%</div><div class="pnl-formula">含前期亏损</div></div></div>
-    <div class="advice">
-      <strong>信号：</strong>无操作。中药ETF连续回调(1.005→0.993)，+0.51%浮盈。<br>
-      <strong>防御悖论：</strong>大盘涨+0.46%时中药跌-0.80%，低β属性。止损0.909安全距离8.5%。周末运行weekly_scan复查信号。
-    </div>
-  </div>
-  <div class="panel">
-    <div class="panel-header"><div class="panel-title adx">跨境动量先锋</div><span class="panel-status status-chg">换仓信号</span></div>
-    <div class="panel-meta"><div>ADX: <span>19.1</span></div><div>操作: <span class="up">卖520500</span> → <span class="down">买159518</span></div></div>
+    <div class="panel-header"><div class="panel-title zx">周线动量 v4.8</div><span class="panel-status status-sell">轮动卖出</span></div>
+    <div class="panel-meta"><div>MA21: <span>¥1.0340</span></div><div>现价: <span class="down">¥0.964</span></div><div>偏离: <span class="down">-6.8%</span></div><div>新TOP1: <span>513190 港股通金融</span></div></div>
     <div class="table-wrap"><table><tr><th>操作</th><th>标的</th><th>代码</th><th>成本→现价</th><th>盈亏</th><th>理由</th></tr>
-      <tr><td><span class="badge badge-green">卖出</span></td><td>恒生创新药ETF</td><td>520500</td><td>1.400→1.431</td><td><span class="badge badge-red">+2.21%</span></td><td>动量排名降至第2</td></tr>
-      <tr><td><span class="badge badge-red">买入</span></td><td>标普油气ETF</td><td>159518</td><td>→1.227</td><td>—</td><td>动量+21.25% TOP1, ADX=19.1</td></tr>
+      <tr><td><span class="badge badge-green">卖出</span></td><td>中药ETF</td><td>560080</td><td>0.988→0.964</td><td><span class="badge badge-green">-2.43% (-¥1,440)</span></td><td>跌破MA21轮动</td></tr>
+      <tr><td><span class="badge badge-red">买入</span></td><td>港股通金融ETF</td><td>513190</td><td>→1.774</td><td>—</td><td>新TOP1, 偏离+2.4%</td></tr>
     </table></div>
-    <div class="pnl-row"><div><div class="pnl-label">今日持仓变动</div><div class="pnl-value down">-128</div><div class="pnl-formula">42800×(1.431-1.434)</div></div><div style="text-align:right"><div class="pnl-label">持仓浮盈</div><div class="pnl-value up">+2.21%</div><div class="pnl-formula">策略建议止盈</div></div></div>
+    <div class="pnl-row"><div><div class="pnl-label">今日持仓变动</div><div class="pnl-value down">-1,740</div><div class="pnl-formula">60000×(0.964-0.993)</div></div><div style="text-align:right"><div class="pnl-label">累计收益(含历史)</div><div class="pnl-value down">-5.22%</div><div class="pnl-formula">连续两笔亏损</div></div></div>
     <div class="advice">
-      <strong>换仓理由：</strong>520500动量衰减→159518动量+21.25%新TOP1。ADX 19.1强趋势(前日20.5→下降中)。<br>
-      <strong>买入信息：</strong>159518收1.227(+2.34%)，成交9.62亿，止损1.155(-5.9%)。换仓决策由你根据实际情况决定，策略仅输出信号。
+      <strong>轮动信号触发：</strong>560080收0.964跌破周线MA21(1.0340)，按v4.8规则轮动卖出。止损0.909未触发(距6.1%)，这次是<strong>趋势信号主动止盈/止亏</strong>，非止损。<br>
+      <strong>新标的：</strong>513190港股通金融ETF，偏离+2.4%，1周动量+4.5%，3周+9.0%，唯一有效候选。
     </div>
   </div>
   <div class="panel">
-    <div class="panel-header"><div class="panel-title cs">财神爷·煜楠</div><span class="panel-status status-light">轻仓观望</span></div>
-    <div class="panel-meta"><div>仓位: <span>7.5%</span></div><div>现金: <span>~¥13.7万</span></div><div>止损: <span>0.394</span></div></div>
-    <div class="table-wrap"><table><tr><th>标的</th><th>建仓日</th><th>成本</th><th>昨收</th><th>今收</th><th>浮盈</th></tr>
-      <tr><td><strong>512690</strong> 酒ETF</td><td>07-22</td><td>0.420</td><td>0.430</td><td>0.425</td><td><span class="badge badge-red">+1.19%</span></td></tr>
+    <div class="panel-header"><div class="panel-title adx">跨境动量先锋</div><span class="panel-status status-chg">TOP1反转</span></div>
+    <div class="panel-meta"><div>TOP1: <span>520500</span></div><div>动量: <span>+18.96%</span></div><div>ADX: <span>20.6</span></div><div>反转: <span class="down">3天2次</span></div></div>
+    <div class="table-wrap"><table><tr><th>日期</th><th>TOP1</th><th>动量</th><th>ADX</th></tr>
+      <tr><td>07/21</td><td>520500</td><td>+20.31%</td><td>20.5</td></tr>
+      <tr><td>07/22</td><td>520500</td><td>+18.02%</td><td>20.4</td></tr>
+      <tr><td>07/23</td><td><span class="badge badge-orange">159518</span></td><td>+21.25%</td><td>19.1</td></tr>
+      <tr><td><strong>07/24</strong></td><td><span class="badge badge-red"><strong>520500 ←</strong></span></td><td>+18.96%</td><td>20.6</td></tr>
     </table></div>
-    <div class="pnl-row"><div><div class="pnl-label">今日(昨收→今收)</div><div class="pnl-value down">-133</div><div class="pnl-formula">26600×(0.425-0.430)</div></div><div style="text-align:right"><div class="pnl-label">建仓浮盈(成本)</div><div class="pnl-value up">+¥133</div><div class="pnl-formula">距离止损+8.4%</div></div></div>
+    <div class="pnl-row"><div><div class="pnl-label">今日持仓变动</div><div class="pnl-value down">-1,370</div><div class="pnl-formula">42800×(1.399-1.431)</div></div><div style="text-align:right"><div class="pnl-label">持仓浮盈</div><div class="pnl-value down">-0.07%</div><div class="pnl-formula">若07/21买入未换仓</div></div></div>
     <div class="advice">
-      <strong>情绪定位：分歧日。</strong>全市场116只涨停(前日46只)但缩量-4590亿(-17%)。电网29只涨停明日大概率分歧。<br>
-      <strong>煜楠纪律：</strong>不追电网高潮，不加仓酒ETF。科创50 -3.78%是机构调仓信号。<br>
-      <strong>明日计划：</strong>竞价关注科创50是否止跌、电网分歧幅度、新题材(>5只首板)。
+      <strong>3天2次反转：</strong>520500→159518→520500，信号稳定性偏弱。严格按策略规则：每日按最新TOP1执行换仓。你也可以自行判断是否等信号稳定后再操作。<br>
+      <strong>场景：</strong>若07/23换仓买入159518，今日浮亏-1.22%，建议卖回520500；若未换仓，520500浮盈收窄至-0.07%。
+    </div>
+  </div>
+  <div class="panel">
+    <div class="panel-header"><div class="panel-title cs">财神爷·煜楠</div><span class="panel-status status-light">冰点空仓</span></div>
+    <div class="panel-meta"><div>仓位: <span>7.4%</span></div><div>现金: <span>~¥13.88万</span></div><div>止损: <span>0.394</span></div></div>
+    <div class="table-wrap"><table><tr><th>标的</th><th>建仓日</th><th>成本</th><th>昨收</th><th>今收</th><th>浮亏</th></tr>
+      <tr><td><strong>512690</strong> 酒ETF</td><td>07-22</td><td>0.420</td><td>0.425</td><td>0.416</td><td><span class="badge badge-green">-0.95% (-¥106)</span></td></tr>
+    </table></div>
+    <div class="pnl-row"><div><div class="pnl-label">今日(昨收→今收)</div><div class="pnl-value down">-239</div><div class="pnl-formula">26600×(0.416-0.425)</div></div><div style="text-align:right"><div class="pnl-label">持仓浮亏</div><div class="pnl-value down">-¥106</div><div class="pnl-formula">止损0.394未触发</div></div></div>
+    <div class="advice">
+      <strong>冰点日完美空仓：</strong>涨停42只(昨日116只)，跌停25只，成交1.93万亿(三个月新低)，4900+个股下跌。煜楠7/23预判全部验证：电网分歧(29→5只)、连板断层、科技顶部。<br>
+      <strong>煜楠纪律：</strong>不追电网高潮，不追加酒ETF，13.88万现金在场外。酒ETF止损0.394未触发(距+5.3%)。
     </div>
   </div>
 </div>
 <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:20px">
   <div class="panel">
-    <div class="panel-header"><div class="panel-title rsrs" style="font-size:13px">RSRS C63动量排名 · 07-23</div></div>
+    <div class="panel-header"><div class="panel-title rsrs" style="font-size:13px">RSRS C63动量排名 · 07-24</div></div>
     <div class="rank-table"><table>
       <tr><th>#</th><th>ETF</th><th>C63</th><th>C21</th></tr>
-      <tr><td>🥇</td><td>588000 科创50</td><td class="up">+25.5%</td><td class="down">-9.9% ←恶化</td></tr>
-      <tr><td>🥈</td><td>513100 纳斯达克</td><td class="up">+12.6%</td><td class="down">-2.6%</td></tr>
-      <tr><td>🥉</td><td>513500 标普500</td><td class="up">+6.5%</td><td>+0.0%</td></tr>
-      <tr><td>4</td><td>510050 上证50</td><td class="up">+2.6%</td><td class="up">+2.0%</td></tr>
-      <tr><td>5</td><td>510300 沪深300</td><td>+0.2%</td><td class="down">-3.6%</td></tr>
-      <tr><td>—</td><td>515080 中证红利</td><td class="down">-3.3%</td><td class="up">+5.6%</td></tr>
+      <tr><td>🥇</td><td>588000 科创50</td><td class="up">+23.3%</td><td class="down">-13.5% ←恶化</td></tr>
+      <tr><td>🥈</td><td>513100 纳斯达克</td><td class="up">+11.0%</td><td class="down">-4.7%</td></tr>
+      <tr><td>🥉</td><td>513500 标普500</td><td class="up">+5.6%</td><td class="down">-0.5%</td></tr>
+      <tr><td>4</td><td>510050 上证50</td><td class="up">+1.5%</td><td class="down">-0.3%</td></tr>
+      <tr><td>5</td><td>510300 沪深300</td><td class="down">-2.3%</td><td class="down">-6.9%</td></tr>
     </table></div>
-    <div class="advice"><strong>C63趋势(KC50):</strong> 07-09峰值+73.5% → 07-15+40.1% → 07-16+31.5% → 07-17+21.9% → 07-20+21.2% → 07-21+34.5% → 07-22+28.0% → <strong>07-23+25.5%</strong>。<br>C21=-9.9%短动持续恶化。中证红利C21+5.6%全池最强——防御轮动苗头。</div>
+    <div class="advice"><strong>C63趋势(KC50):</strong> 07-09峰值+73.5% → 07-21+34.5% → 07-22+28.0% → 07-23+25.5% → <strong>07-24+23.3%</strong>。<br>C21=-13.5%短动持续恶化，连续3日回落。</div>
   </div>
   <div class="panel">
-    <div class="panel-header"><div class="panel-title" style="font-size:13px">大盘指标 · 07-23</div></div>
+    <div class="panel-header"><div class="panel-title" style="font-size:13px">大盘指标 · 07-24</div></div>
     <div class="rank-table"><table>
       <tr><th>指数</th><th>收盘</th><th>涨跌幅</th></tr>
-      <tr><td>上证指数</td><td>3,876.78</td><td class="up">+0.25%</td></tr>
-      <tr><td>深证成指</td><td>14,123.31</td><td class="up">+0.44%</td></tr>
-      <tr><td>创业板指</td><td>3,575.52</td><td class="up">+0.25%</td></tr>
-      <tr><td>科创50</td><td>1,789.69</td><td class="down"><strong>-3.78%</strong></td></tr>
-      <tr><td>恒生指数</td><td>25,211</td><td class="up">+1.28%</td></tr>
-      <tr><td>全市场成交</td><td>2.21万亿</td><td class="down">-4590亿(-17%)⚠️</td></tr>
-      <tr><td>涨跌家数</td><td>4600↑ : 116涨停</td><td>封板率82%</td></tr>
+      <tr><td>上证指数</td><td>~3,814</td><td class="down"><strong>-1.61%</strong></td></tr>
+      <tr><td>深证成指</td><td>~13,800</td><td class="down">-2%+</td></tr>
+      <tr><td>创业板指</td><td>~3,495</td><td class="down">-2%+</td></tr>
+      <tr><td>科创50</td><td>1,885</td><td class="down">-0.16%</td></tr>
+      <tr><td>恒生指数</td><td>24,963</td><td class="down">-0.98%</td></tr>
+      <tr><td>全市场成交</td><td>1.93万亿</td><td class="down">-2642亿(-12%)⚠️</td></tr>
+      <tr><td>涨跌家数</td><td>4900+下跌</td><td>涨停42:跌停25</td></tr>
     </table></div>
-    <div class="advice"><strong>市场特征：</strong>分歧偏多。科创50 -3.78%是机构调仓信号(华虹宏力-12%)。电网29只涨停高潮→明日大概率分歧。有色+3.96%/芯片-4.92%分化。</div>
+    <div class="advice"><strong>市场特征：</strong>冰点日——涨停骤降74只，跌停25只，成交跌破2万亿创三个月新低。A股普跌，HS300-1.80%，医药/消费全线走弱。</div>
   </div>
 </div>
 <div class="note">
-<strong>2026-07-23 综合观察（来自4份每日复盘）：</strong><br>
-(1) <strong>RSRS：</strong>Z=-0.565灰色观望。KC50 +25.5%但短动C21=-9.9%持续恶化，锁仓至08-05。<br>
-(2) <strong>周线动能：</strong>无操作。中药ETF +0.51%浮盈(¥300)，防御悖论(大盘涨中药跌)。周末复查信号。<br>
-(3) <strong>ADX跨境：</strong>首次换仓信号——卖520500(浮盈+2.21%)买159518(动量+21.25%)。港股反弹+1.28%。<br>
-(4) <strong>财神爷：</strong>分歧日，不追高潮。酒ETF 0.425浮盈+1.19%。科创50 -3.78%机构调仓。缩量-4590亿是隐患。<br>
-(5) 所有净值曲线统一从2026-05-06开始。点击图例切换展示/隐藏各策略。<br>
+<strong>2026-07-24 综合观察（来自4份每日复盘）：</strong><br>
+(1) <strong>RSRS：</strong>Z=-0.506灰色观望。KC50 +23.3%但C21=-13.5%恶化，锁仓剩11天。<br>
+(2) <strong>周线动能：</strong>⚠️ 轮动信号触发——560080跌破MA21(0.964 vs 1.0340)，卖出亏损-2.43%(-¥1,440)。新TOP1=513190港股通金融ETF。<br>
+(3) <strong>ADX跨境：</strong>3天2次反转(520500→159518→520500)，信号稳定性偏弱。520500重回TOP1，动量+18.96%，ADX=20.6。<br>
+(4) <strong>财神爷：</strong>冰点日完美空仓。7/23预判全中(电网分歧/连板断层/科技顶部)。酒ETF浮亏-106元(-0.95%)，止损未触发。<br>
+(5) <strong>大盘：</strong>冰点日——成交1.93万亿创三个月新低，4900+个股下跌，涨停42只(昨日116只)。<br>
 📁 数据来源：D:\qclaw_workspace\看板相关\ 各策略每日复盘 · 推送至 sq199133.github.io/strategy-dashboard/
 </div>
 <script>
 (function(){
-const labels=["05/06","05/07","05/08","05/11","05/12","05/13","05/14","05/15","05/18","05/19","05/20","05/21","05/22","05/25","05/26","05/27","05/28","05/29","06/01","06/02","06/03","06/04","06/05","06/08","06/09","06/10","06/11","06/12","06/15","06/16","06/17","06/18","06/22","06/23","06/24","06/25","06/26","06/29","06/30","07/01","07/02","07/03","07/06","07/07","07/08","07/09","07/10","07/13","07/14","07/15","07/16","07/17","07/20","07/21","07/22","07/23"];
+const labels=["05/06","05/07","05/08","05/11","05/12","05/13","05/14","05/15","05/18","05/19","05/20","05/21","05/22","05/25","05/26","05/27","05/28","05/29","06/01","06/02","06/03","06/04","06/05","06/08","06/09","06/10","06/11","06/12","06/15","06/16","06/17","06/18","06/22","06/23","06/24","06/25","06/26","06/29","06/30","07/01","07/02","07/03","07/06","07/07","07/08","07/09","07/10","07/13","07/14","07/15","07/16","07/17","07/20","07/21","07/22","07/23","07/24"];
 const datasets=[
-  {label:'账户总净值',data:[1,1,1,1.008,1.008,1.008,1.008,1.008,1.0053,1.0053,1.0053,1.0053,1.0053,1.011,1.011,1.011,1.011,1.0079,1.0129,1.0129,1.0099,1.0099,1.0099,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0104,1.0179,1.0138,1.0276,1.0379,1.0321,1.0138,1.0119,1.0227,1.0238,1.0258,1.0371,1.0244,1.0063,1.0089,0.9985,0.9896,0.9748,0.9672,0.9918,0.9935,0.983],borderColor:'#58a6ff',backgroundColor:'rgba(88,166,255,0.06)',fill:true,tension:0.15,pointRadius:0,pointHoverRadius:4,borderWidth:2},
-  {label:'RSRS择时',data:[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.0223,1.0436,1.0319,1.0642,1.0937,1.0771,1.0247,1.0195,1.0238,1.0269,1.0327,1.0888,1.0523,1.0189,1.0266,0.9968,0.9714,0.9291,0.9315,0.9931,0.9744,0.9539],borderColor:'#f0883e',borderDash:[5,3],tension:0.15,pointRadius:0,borderWidth:1.5},
-  {label:'周线动能',data:[1,1,1,1.0271,1.0271,1.0271,1.0271,1.0271,1.0178,1.0178,1.0178,1.0178,1.0178,1.0372,1.0372,1.0372,1.0372,1.0267,1.0436,1.0436,1.0335,1.0335,1.0335,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0173,1.0173,1.0173,1.0173,1.0173,1.0488,1.0488,1.0488,1.0206,1.0206,0.9988,0.9988,0.9988,0.9988,0.9988,0.97,0.97,0.9819,0.9746],borderColor:'#f85149',borderDash:[3,3],tension:0.15,pointRadius:0,borderWidth:1.5},
-  {label:'跨境动量',data:[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.0135,1.0287,1.0262],borderColor:'#3fb950',borderDash:[1,2],tension:0.15,pointRadius:0,borderWidth:1.5},
-  {label:'财神爷',data:[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.0173,1.0086],borderColor:'#a371f7',borderDash:[4,2,1,2],tension:0.15,pointRadius:0,borderWidth:1.5}
+  {label:'账户总净值',data:[1,1,1,1.008,1.008,1.008,1.008,1.008,1.0053,1.0053,1.0053,1.0053,1.0053,1.011,1.011,1.011,1.011,1.0079,1.0129,1.0129,1.0099,1.0099,1.0099,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0026,1.0104,1.0179,1.0138,1.0276,1.0379,1.0321,1.0138,1.0119,1.0227,1.0238,1.0258,1.0371,1.0244,1.0063,1.0089,0.9985,0.9896,0.9748,0.9672,0.9918,0.9935,0.983,0.9674],borderColor:'#58a6ff',backgroundColor:'rgba(88,166,255,0.06)',fill:true,tension:0.15,pointRadius:0,pointHoverRadius:4,borderWidth:2},
+  {label:'RSRS择时',data:[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.0223,1.0436,1.0319,1.0642,1.0937,1.0771,1.0247,1.0195,1.0238,1.0269,1.0327,1.0888,1.0523,1.0189,1.0266,0.9968,0.9714,0.9291,0.9315,0.9931,0.9744,0.9539,0.953],borderColor:'#f0883e',borderDash:[5,3],tension:0.15,pointRadius:0,borderWidth:1.5},
+  {label:'周线动能',data:[1,1,1,1.0271,1.0271,1.0271,1.0271,1.0271,1.0178,1.0178,1.0178,1.0178,1.0178,1.0372,1.0372,1.0372,1.0372,1.0267,1.0436,1.0436,1.0335,1.0335,1.0335,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0089,1.0173,1.0173,1.0173,1.0173,1.0173,1.0488,1.0488,1.0488,1.0206,1.0206,0.9988,0.9988,0.9988,0.9988,0.9988,0.97,0.97,0.9819,0.9746,0.9478],borderColor:'#f85149',borderDash:[3,3],tension:0.15,pointRadius:0,borderWidth:1.5},
+  {label:'跨境动量',data:[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.0135,1.0287,1.0262,0.9991],borderColor:'#3fb950',borderDash:[1,2],tension:0.15,pointRadius:0,borderWidth:1.5},
+  {label:'财神爷',data:[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.0173,1.0086,0.9931],borderColor:'#a371f7',borderDash:[4,2,1,2],tension:0.15,pointRadius:0,borderWidth:1.5}
 ];
 new Chart(document.getElementById('nc'),{
   type:'line',data:{labels,datasets},

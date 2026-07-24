@@ -475,7 +475,7 @@ def cmd_sync_weekly(quiet=False):
     errors = 0
     
     if not quiet:
-        print(f"📊 从日线同步周线 ({total}只)...")
+        print(f"从日线同步周线 ({total}只)...")
     
     for i, e in enumerate(pool):
         code = e["code"]

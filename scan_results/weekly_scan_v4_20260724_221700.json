@@ -1,0 +1,72 @@
+{
+  "scan_time": "2026-07-24 22:17:00",
+  "data_source": "history_long_v2 (周线) + 腾讯实时价格",
+  "data_end_week": "2026-W30 (2026-07-24)",
+  "config": {"w1": 0.5, "w3": 0.5, "w8": 0.0, "max_dev": 30.0, "top_n": 1, "atr_ratio": 0.85, "vr_thresh": 1.5},
+  "pool_size": 219,
+  "valid_scanned": 219,
+  "candidates": 5,
+  "top": [
+    {
+      "rank": 1,
+      "code": "513190",
+      "name": "港股通金融ETF华夏",
+      "price": 1.774,
+      "ma21": 1.7321,
+      "dev": 2.4,
+      "mom1": 4.5,
+      "mom3": 9.0,
+      "vr": 5.0,
+      "score": 6.7554,
+      "hard_stop": 1.632,
+      "high_stop": 1.597
+    },
+    {
+      "rank": 2,
+      "code": "513310",
+      "name": "中韩半导体ETF华泰柏瑞",
+      "price": 5.070,
+      "ma21": null,
+      "dev": 5.5,
+      "mom1": 9.4,
+      "mom3": -17.3,
+      "vr": 5.0,
+      "score": -3.965
+    },
+    {
+      "rank": 3,
+      "code": "513880",
+      "name": "港股创新药ETF景顺",
+      "price": 2.038,
+      "ma21": null,
+      "dev": 3.6,
+      "mom1": 1.5,
+      "mom3": -9.9,
+      "vr": 4.7,
+      "score": -4.184
+    },
+    {
+      "rank": 4,
+      "code": "513290",
+      "name": "纳指生物科技ETF汇添富",
+      "price": 1.595,
+      "ma21": null,
+      "dev": 5.7,
+      "mom1": 0.7,
+      "mom3": -11.1,
+      "vr": 5.0,
+      "score": -5.224
+    },
+    {
+      "rank": 5,
+      "code": "159502",
+      "name": "标普生物科技ETF嘉实",
+      "price": 1.516,
+      "ma21": null,
+      "dev": 10.0,
+      "mom3": -12.3,
+      "vr": 5.0,
+      "score": -5.761
+    }
+  ]
+}

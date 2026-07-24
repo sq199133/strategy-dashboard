@@ -82,6 +82,6 @@ python daily_review.py
 - 完整策略文档 → `策略说明书_合并版.md`
 - 稳健性验证 → `RSRS稳健性验证_20260710.md`
 - OKR 考核 → `OKR.md`
-- 最新复盘 → `daily_review_20260723.md`
+- 最新复盘 → `daily_review_20260724.md`
 - 旧文档归档 → `../docs/`
 - 旧复盘归档 → `../review/`
